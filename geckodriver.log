@@ -4098,3 +4098,37 @@ JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtoo
 1543270227449	Marionette	TRACE	0 <- [1,182,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4d7756fe-bb10-e146-9883-5199df399e7a"}}]
 1543270242332	Marionette	TRACE	0 -> [0,183,"WebDriver:GetElementText",{"id":"4d7756fe-bb10-e146-9883-5199df399e7a"}]
 1543270242706	Marionette	TRACE	0 <- [1,183,null,{"value":"Ask for a recommendation\nRecommend Chris\nRecommendations\nReceived (13)\nGiven (10)\nKeith Aubin\nSr. ... und us.\nChris showed enormous integrity and leadership throughout the time I worked with him, and I highly recommend him."}]
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1543275795291	Marionette	DEBUG	Closed connection 0
+JavaScript error: resource://gre/modules/WebProgressChild.jsm, line 58: TypeError: this.mm.content is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1543275795540	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1543275795540	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1543275795541	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1543275795541	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1543275795541	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1543275795541	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1543275795541	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1543275795542	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1543275795542	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1543275795542	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1543275795543	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1543275795543	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1543275795543	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1543275795544	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1543275795544	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1543275795544	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1543275795544	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1543275795544	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1543275795544	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1543275795545	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1543275795545	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1543275795545	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1543275795545	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1543275795545	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1543275795545	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1543275795545	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1543275795546	Marionette	INFO	Stopped listening on port 49620
+1543275795546	Marionette	DEBUG	Remote service is inactive
