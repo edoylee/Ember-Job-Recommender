@@ -3757,3 +3757,344 @@ JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtoo
 1543265576721	Marionette	TRACE	0 <- [1,76,null,[]]
 1543265579327	Marionette	TRACE	0 -> [0,77,"WebDriver:FindElements",{"using":"link text","value":"aria-controls"}]
 1543265580122	Marionette	TRACE	0 <- [1,77,null,[]]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265846453	Marionette	TRACE	0 -> [0,78,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543265846459	Marionette	TRACE	0 <- [1,78,null,[{"element-6066-11e4-a52e-4f735466cecf":"8bb25585-ded4-9540-99a1-2942bf1b8e81"},{"element-6066-11e4-a52e-4f735466cecf":"f20b332d-3d66-9848-8134-934435612958"},{"element-6066-11e4-a52e-4f735466cecf":"ab2ba47c-f6c6-c140-8b15-5128c39a5b93"}]]
+1543265860001	Marionette	TRACE	0 -> [0,79,"WebDriver:ElementClick",{"id":"8bb25585-ded4-9540-99a1-2942bf1b8e81"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265860282	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543265860283	Marionette	TRACE	0 <- [1,79,null,{"value":null}]
+1543265878849	Marionette	TRACE	0 -> [0,80,"WebDriver:ElementClick",{"id":"f20b332d-3d66-9848-8134-934435612958"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265879582	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543265879583	Marionette	TRACE	0 <- [1,80,null,{"value":null}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265897447	Marionette	TRACE	0 -> [0,81,"WebDriver:ElementClick",{"id":"ab2ba47c-f6c6-c140-8b15-5128c39a5b93"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265897803	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543265897805	Marionette	TRACE	0 <- [1,81,null,{"value":null}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265971987	Marionette	TRACE	0 -> [0,82,"WebDriver:ElementClick",{"id":"ab2ba47c-f6c6-c140-8b15-5128c39a5b93"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543265972553	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543265972590	Marionette	TRACE	0 <- [1,82,null,{"value":null}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543266115501	Marionette	TRACE	0 -> [0,83,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543266115512	Marionette	TRACE	0 <- [1,83,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bd6d4637-e08f-d34f-92c0-a44da7f71cea"}}]
+1543266157321	Marionette	TRACE	0 -> [0,84,"WebDriver:ElementClick",{"id":"bd6d4637-e08f-d34f-92c0-a44da7f71cea"}]
+1543266157333	Marionette	TRACE	0 <- [1,84,{"error":"element click intercepted","message":"Element <button class=\"pv-profile-section__see-more-inline pv-profile- ... avigate@chrome://marionette/content/listener.js:407:13\nclickElement@chrome://marionette/content/listener.js:1207:5\n"},null]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543266261133	Marionette	TRACE	0 -> [0,85,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__toggle-detail-icon"}]
+1543266261138	Marionette	TRACE	0 <- [1,85,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"dce47164-a6cd-da41-938a-c6c05e09aff0"}}]
+1543266264292	Marionette	TRACE	0 -> [0,86,"WebDriver:ElementClick",{"id":"dce47164-a6cd-da41-938a-c6c05e09aff0"}]
+1543266264305	Marionette	TRACE	0 <- [1,86,{"error":"element click intercepted","message":"Element <button class=\"pv-profile-section__see-more-inline pv-profile- ... avigate@chrome://marionette/content/listener.js:407:13\nclickElement@chrome://marionette/content/listener.js:1207:5\n"},null]
+1543266429430	Marionette	TRACE	0 -> [0,87,"WebDriver:ElementClick",{"id":"8bb25585-ded4-9540-99a1-2942bf1b8e81"}]
+1543266429449	Marionette	TRACE	0 <- [1,87,{"error":"stale element reference","message":"The element reference of <button class=\"pv-top-card-section__summary-tog ... :5\nget@chrome://marionette/content/element.js:240:13\nclickElement@chrome://marionette/content/listener.js:1198:14\n"},null]
+1543266445659	Marionette	TRACE	0 -> [0,88,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543266445671	Marionette	TRACE	0 <- [1,88,null,[{"element-6066-11e4-a52e-4f735466cecf":"a19d9c08-a08b-fd42-accf-6f0d56843b69"}]]
+console.error: "Task cancelled"
+1543266491013	Marionette	TRACE	0 -> [0,89,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543266491026	Marionette	TRACE	0 <- [1,89,null,[{"element-6066-11e4-a52e-4f735466cecf":"a42e64a1-fa4f-1440-8ed1-e221455f8ccc"},{"element-6066-11e4-a52e-4f735466cecf":"aabbaa94-9248-a24e-925a-d2740ef25707"},{"element-6066-11e4-a52e-4f735466cecf":"70cfee4f-8717-a64a-bbe0-e18dcab27816"}]]
+1543266511144	Marionette	TRACE	0 -> [0,90,"WebDriver:ElementClick",{"id":"a42e64a1-fa4f-1440-8ed1-e221455f8ccc"}]
+1543266511409	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266511420	Marionette	TRACE	0 <- [1,90,null,{"value":null}]
+1543266529433	Marionette	TRACE	0 -> [0,91,"WebDriver:ElementClick",{"id":"aabbaa94-9248-a24e-925a-d2740ef25707"}]
+1543266530167	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266530168	Marionette	TRACE	0 <- [1,91,null,{"value":null}]
+1543266546795	Marionette	TRACE	0 -> [0,92,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543266548068	Marionette	TRACE	0 <- [1,92,null,[{"element-6066-11e4-a52e-4f735466cecf":"99afd96b-5336-e640-98c2-78127e161e7a"},{"element-6066-11e4-a52e-4f735466c ... ecf":"60b21427-7c68-5449-9d6a-43aeae584307"},{"element-6066-11e4-a52e-4f735466cecf":"3beaf53b-d17c-3746-8729-3be1c62d8f30"}]]
+1543266564936	Marionette	TRACE	0 -> [0,93,"WebDriver:ElementClick",{"id":"99afd96b-5336-e640-98c2-78127e161e7a"}]
+1543266564947	Marionette	TRACE	0 <- [1,93,{"error":"element click intercepted","message":"Element <a class=\"lt-line-clamp__more\" href=\"#\"> is not clickable a ... avigate@chrome://marionette/content/listener.js:407:13\nclickElement@chrome://marionette/content/listener.js:1207:5\n"},null]
+1543266591793	Marionette	TRACE	0 -> [0,94,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543266593085	Marionette	TRACE	0 <- [1,94,null,[{"element-6066-11e4-a52e-4f735466cecf":"99afd96b-5336-e640-98c2-78127e161e7a"},{"element-6066-11e4-a52e-4f735466c ... ecf":"60b21427-7c68-5449-9d6a-43aeae584307"},{"element-6066-11e4-a52e-4f735466cecf":"3beaf53b-d17c-3746-8729-3be1c62d8f30"}]]
+1543266619138	Marionette	TRACE	0 -> [0,95,"WebDriver:ElementClick",{"id":"99afd96b-5336-e640-98c2-78127e161e7a"}]
+1543266619149	Marionette	TRACE	0 <- [1,95,{"error":"element click intercepted","message":"Element <a class=\"lt-line-clamp__more\" href=\"#\"> is not clickable a ... avigate@chrome://marionette/content/listener.js:407:13\nclickElement@chrome://marionette/content/listener.js:1207:5\n"},null]
+console.error: "Task cancelled"
+1543266702694	Marionette	TRACE	0 -> [0,96,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543266703398	Marionette	TRACE	0 <- [1,96,null,[{"element-6066-11e4-a52e-4f735466cecf":"bc24df7a-d44d-e541-99ff-72154260aafc"},{"element-6066-11e4-a52e-4f735466c ... ecf":"658b4d6d-a15f-0944-b74e-f94eb7128592"},{"element-6066-11e4-a52e-4f735466cecf":"8d2a89ae-5209-4f4f-a80c-04daa4077845"}]]
+1543266709695	Marionette	TRACE	0 -> [0,97,"WebDriver:ElementClick",{"id":"aabbbf2c-bb10-404f-87aa-2c97206b87be"}]
+1543266709988	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266709989	Marionette	TRACE	0 <- [1,97,null,{"value":null}]
+console.error: "Task cancelled"
+1543266746466	Marionette	TRACE	0 -> [0,98,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543266747493	Marionette	TRACE	0 <- [1,98,null,[{"element-6066-11e4-a52e-4f735466cecf":"fd173e0e-49e8-3148-93e1-bc41e59676e4"},{"element-6066-11e4-a52e-4f735466c ... ecf":"e89184c2-0dec-ae40-a719-fa4a373e413c"},{"element-6066-11e4-a52e-4f735466cecf":"d00efcaf-b8b4-8a4a-940e-919bdc70c932"}]]
+1543266766979	Marionette	TRACE	0 -> [0,99,"WebDriver:ElementClick",{"id":"fd173e0e-49e8-3148-93e1-bc41e59676e4"}]
+1543266767252	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266767253	Marionette	TRACE	0 <- [1,99,null,{"value":null}]
+1543266783266	Marionette	TRACE	0 -> [0,100,"WebDriver:ElementClick",{"id":"0cb79d7b-18eb-7143-9883-f35c4040324b"}]
+1543266783504	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266783506	Marionette	TRACE	0 <- [1,100,null,{"value":null}]
+1543266807522	Marionette	TRACE	0 -> [0,101,"WebDriver:ElementClick",{"id":"304a8fde-ff6e-a143-b656-c937b24b4bdb"}]
+1543266807769	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266807771	Marionette	TRACE	0 <- [1,101,null,{"value":null}]
+1543266822782	Marionette	TRACE	0 -> [0,102,"WebDriver:ElementClick",{"id":"80b8c94f-33a4-504d-bf09-64d4f4305e22"}]
+1543266823040	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266823041	Marionette	TRACE	0 <- [1,102,null,{"value":null}]
+1543266843053	Marionette	TRACE	0 -> [0,103,"WebDriver:ElementClick",{"id":"e89184c2-0dec-ae40-a719-fa4a373e413c"}]
+1543266843282	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266843294	Marionette	TRACE	0 <- [1,103,null,{"value":null}]
+1543266855303	Marionette	TRACE	0 -> [0,104,"WebDriver:ElementClick",{"id":"d00efcaf-b8b4-8a4a-940e-919bdc70c932"}]
+1543266855527	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266855529	Marionette	TRACE	0 <- [1,104,null,{"value":null}]
+1543266883082	Marionette	TRACE	0 -> [0,105,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543266883089	Marionette	TRACE	0 <- [1,105,null,[{"element-6066-11e4-a52e-4f735466cecf":"34acade2-15ea-c647-a1d7-59e8d1be3b35"},{"element-6066-11e4-a52e-4f735466cecf":"e3eed327-a913-4e4c-aa73-f4f03c190eb1"}]]
+1543266911468	Marionette	TRACE	0 -> [0,106,"WebDriver:ElementClick",{"id":"34acade2-15ea-c647-a1d7-59e8d1be3b35"}]
+1543266911695	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543266911696	Marionette	TRACE	0 <- [1,106,null,{"value":null}]
+1543266973202	Marionette	TRACE	0 -> [0,107,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543266973485	Marionette	TRACE	0 <- [1,107,null,[{"element-6066-11e4-a52e-4f735466cecf":"117f2bcc-3e07-4646-af15-f32df2bbec58"}]]
+1543267013024	Marionette	TRACE	0 -> [0,108,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543267013131	Marionette	TRACE	0 <- [1,108,null,[{"element-6066-11e4-a52e-4f735466cecf":"be37d8d4-1bd4-6e48-9a31-f770f90dd5b5"}]]
+1543267036365	Marionette	TRACE	0 -> [0,109,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543267036720	Marionette	TRACE	0 <- [1,109,null,[{"element-6066-11e4-a52e-4f735466cecf":"be37d8d4-1bd4-6e48-9a31-f770f90dd5b5"},{"element-6066-11e4-a52e-4f735466 ... ecf":"3f9c48d4-37f4-a946-a3fa-b48f3d752c25"},{"element-6066-11e4-a52e-4f735466cecf":"1346306a-7034-c84b-b0fd-6882327e9d7d"}]]
+1543267111248	Marionette	TRACE	0 -> [0,110,"WebDriver:ElementClick",{"id":"be37d8d4-1bd4-6e48-9a31-f770f90dd5b5"}]
+1543267111531	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267111532	Marionette	TRACE	0 <- [1,110,null,{"value":null}]
+1543267128538	Marionette	TRACE	0 -> [0,111,"WebDriver:ElementClick",{"id":"3f9c48d4-37f4-a946-a3fa-b48f3d752c25"}]
+1543267129256	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267129257	Marionette	TRACE	0 <- [1,111,null,{"value":null}]
+1543267156272	Marionette	TRACE	0 -> [0,112,"WebDriver:ElementClick",{"id":"1346306a-7034-c84b-b0fd-6882327e9d7d"}]
+1543267156588	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267156590	Marionette	TRACE	0 <- [1,112,null,{"value":null}]
+1543267164700	Marionette	TRACE	0 -> [0,113,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543267166952	Marionette	TRACE	0 <- [1,113,null,[]]
+1543267568776	Marionette	TRACE	0 -> [0,114,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543267570202	Marionette	TRACE	0 <- [1,114,null,[{"element-6066-11e4-a52e-4f735466cecf":"5091a1e1-a4d2-594d-8158-511c3851be6e"},{"element-6066-11e4-a52e-4f735466 ... ecf":"670bf0a5-1b86-0741-b56c-6c4f7c1fc89a"},{"element-6066-11e4-a52e-4f735466cecf":"bc23eaa9-0f9d-c44e-806a-9a182d266296"}]]
+1543267585663	Marionette	TRACE	0 -> [0,115,"WebDriver:ElementClick",{"id":"5091a1e1-a4d2-594d-8158-511c3851be6e"}]
+1543267585902	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267585904	Marionette	TRACE	0 <- [1,115,null,{"value":null}]
+1543267608915	Marionette	TRACE	0 -> [0,116,"WebDriver:ElementClick",{"id":"b9a8a94e-d8b1-cf4a-b2dc-f6b99b247d4e"}]
+1543267609145	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267609146	Marionette	TRACE	0 <- [1,116,null,{"value":null}]
+1543267633164	Marionette	TRACE	0 -> [0,117,"WebDriver:ElementClick",{"id":"fdc55927-8c6e-ac4e-b4fb-fb1cf6e00270"}]
+1543267633394	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267633395	Marionette	TRACE	0 <- [1,117,null,{"value":null}]
+1543267653402	Marionette	TRACE	0 -> [0,118,"WebDriver:ElementClick",{"id":"e7a46e07-187d-0049-b7d6-f4b2add61367"}]
+1543267653639	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267653641	Marionette	TRACE	0 <- [1,118,null,{"value":null}]
+1543267675655	Marionette	TRACE	0 -> [0,119,"WebDriver:ElementClick",{"id":"670bf0a5-1b86-0741-b56c-6c4f7c1fc89a"}]
+1543267675884	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267675886	Marionette	TRACE	0 <- [1,119,null,{"value":null}]
+1543267686895	Marionette	TRACE	0 -> [0,120,"WebDriver:ElementClick",{"id":"bc23eaa9-0f9d-c44e-806a-9a182d266296"}]
+1543267687126	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267687127	Marionette	TRACE	0 <- [1,120,null,{"value":null}]
+1543267755548	Marionette	TRACE	0 -> [0,121,"WebDriver:FindElement",{"using":"css selector","value":"#ember455 > button:nth-child(1)"}]
+1543267755559	Marionette	TRACE	0 <- [1,121,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}}]
+1543267763886	Marionette	TRACE	0 -> [0,122,"WebDriver:FindElement",{"using":"css selector","value":"#ember455 > button:nth-child(1)"}]
+1543267763888	Marionette	TRACE	0 <- [1,122,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}}]
+1543267769807	Marionette	TRACE	0 -> [0,123,"WebDriver:ElementClick",{"id":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}]
+1543267770206	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267770227	Marionette	TRACE	0 <- [1,123,null,{"value":null}]
+1543267828901	Marionette	TRACE	0 -> [0,124,"WebDriver:FindElement",{"using":"css selector","value":"#ember455 > button:nth-child(1)"}]
+1543267828904	Marionette	TRACE	0 <- [1,124,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}}]
+1543267831021	Marionette	TRACE	0 -> [0,125,"WebDriver:ElementClick",{"id":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}]
+1543267831366	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267831387	Marionette	TRACE	0 <- [1,125,null,{"value":null}]
+1543267857724	Marionette	TRACE	0 -> [0,126,"WebDriver:FindElement",{"using":"css selector","value":"#ember455 > button:nth-child(1)"}]
+1543267857727	Marionette	TRACE	0 <- [1,126,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}}]
+1543267859519	Marionette	TRACE	0 -> [0,127,"WebDriver:ElementClick",{"id":"6acbe980-cb35-3b4b-8d4f-ce9e1ddca5c5"}]
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543267859811	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543267859830	Marionette	TRACE	0 <- [1,127,null,{"value":null}]
+1543267998709	Marionette	TRACE	0 -> [0,128,"WebDriver:FindElement",{"using":"css selector","value":".pv-top-card-section__summary-text"}]
+1543267998719	Marionette	TRACE	0 <- [1,128,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"16d0daa4-dbdd-4a4e-892d-d28a40d1230c"}}]
+1543268009647	Marionette	TRACE	0 -> [0,129,"WebDriver:GetElementText",{"id":"16d0daa4-dbdd-4a4e-892d-d28a40d1230c"}]
+1543268009665	Marionette	TRACE	0 <- [1,129,null,{"value":"At any level, in any company, my motivation is always the same.\n\nMelville said it best: \"I am tormen ...  I might be something different. Change is hard, but it keeps us alive and young. I can't think of anything more enticing."}]
+1543268031314	Marionette	TRACE	0 -> [0,130,"WebDriver:FindElement",{"using":"css selector","value":".pv-top-card-section__summary-text"}]
+1543268031322	Marionette	TRACE	0 <- [1,130,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"16d0daa4-dbdd-4a4e-892d-d28a40d1230c"}}]
+1543268050361	Marionette	TRACE	0 -> [0,131,"WebDriver:GetElementText",{"id":"16d0daa4-dbdd-4a4e-892d-d28a40d1230c"}]
+1543268050371	Marionette	TRACE	0 <- [1,131,null,{"value":"At any level, in any company, my motivation is always the same.\n\nMelville said it best: \"I am tormen ...  I might be something different. Change is hard, but it keeps us alive and young. I can't think of anything more enticing."}]
+1543268275207	Marionette	TRACE	0 -> [0,132,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"oc-background-section\"]"}]
+1543268275218	Marionette	TRACE	0 <- [1,132,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4cc0595c-fe2b-de4e-9b6e-1e45b8b354f3"}}]
+1543268303965	Marionette	TRACE	0 -> [0,133,"WebDriver:GetElementText",{"id":"4cc0595c-fe2b-de4e-9b6e-1e45b8b354f3"}]
+1543268304349	Marionette	TRACE	0 <- [1,133,null,{"value":"Experience\nCompany Name\nE Source\nTotal Duration\n4 yrs 5 mos\nTitle\nChief Operating Officer\nDates  ...  updates, and planning for future work.\n Developed online tools with PHP/MySQL/Linux.\nSee less\nShow 2 more experiences"}]
+1543268461281	Marionette	TRACE	0 -> [0,134,"WebDriver:FindElement",{"using":"css selector","value":"#ember182 > button:nth-child(1)"}]
+1543268461286	Marionette	TRACE	0 <- [1,134,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2ac9a200-de4e-4342-94db-0b6bb40317b0"}}]
+1543268472523	Marionette	TRACE	0 -> [0,135,"WebDriver:ElementClick",{"id":"2ac9a200-de4e-4342-94db-0b6bb40317b0"}]
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543268472851	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543268472859	Marionette	TRACE	0 <- [1,135,null,{"value":null}]
+JavaScript warning: https://static.licdn.com/sc/h/br/7mhpvia11217sewhysdpot4vt, line 5749: unreachable code after return statement
+1543268561881	Marionette	TRACE	0 -> [0,136,"WebDriver:FindElement",{"using":"css selector","value":"#ember182 > button:nth-child(1)"}]
+1543268561887	Marionette	TRACE	0 <- [1,136,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"afb071db-c244-a64f-8056-3f8c9353845f"}}]
+1543268563233	Marionette	TRACE	0 -> [0,137,"WebDriver:ElementClick",{"id":"afb071db-c244-a64f-8056-3f8c9353845f"}]
+1543268563829	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543268563832	Marionette	TRACE	0 <- [1,137,null,{"value":null}]
+1543268633096	Marionette	TRACE	0 -> [0,138,"WebDriver:FindElement",{"using":"css selector","value":"#ember1126 > button:nth-child(1)"}]
+1543268633099	Marionette	TRACE	0 <- [1,138,{"error":"no such element","message":"Unable to locate element: #ember1126 > button:nth-child(1)","stacktrace":"WebDri ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1543268705480	Marionette	TRACE	0 -> [0,139,"WebDriver:FindElement",{"using":"css selector","value":"#ember682 > button:nth-child(1)"}]
+1543268705494	Marionette	TRACE	0 <- [1,139,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3f9964f7-15af-464f-b732-f70b23131176"}}]
+1543268713225	Marionette	TRACE	0 -> [0,140,"WebDriver:ElementClick",{"id":"3f9964f7-15af-464f-b732-f70b23131176"}]
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543268713565	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543268713626	Marionette	TRACE	0 <- [1,140,null,{"value":null}]
+1543268742845	Marionette	TRACE	0 -> [0,141,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543268743760	Marionette	TRACE	0 <- [1,141,null,[{"element-6066-11e4-a52e-4f735466cecf":"38b576cf-f865-1c45-a1f6-215d94889485"},{"element-6066-11e4-a52e-4f735466 ... ecf":"0a9be25f-335d-c449-badd-6bebd5c5b928"},{"element-6066-11e4-a52e-4f735466cecf":"38be3672-5785-ab4b-8b79-0d33f18eb09e"}]]
+1543268766896	Marionette	TRACE	0 -> [0,142,"WebDriver:ElementClick",{"id":"38b576cf-f865-1c45-a1f6-215d94889485"}]
+1543268766906	Marionette	TRACE	0 <- [1,142,{"error":"element click intercepted","message":"Element <a class=\"lt-line-clamp__more\" href=\"#\"> is not clickable  ... avigate@chrome://marionette/content/listener.js:407:13\nclickElement@chrome://marionette/content/listener.js:1207:5\n"},null]
+JavaScript warning: https://static.licdn.com/sc/h/br/7mhpvia11217sewhysdpot4vt, line 5749: unreachable code after return statement
+1543268830363	Marionette	TRACE	0 -> [0,143,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543268830376	Marionette	TRACE	0 <- [1,143,null,[{"element-6066-11e4-a52e-4f735466cecf":"4d1b3e6a-c31d-4c4d-a24d-5b814cdfcfec"},{"element-6066-11e4-a52e-4f735466 ... ecf":"5e7c2232-e8ed-ef49-a8d0-3551917d8c43"},{"element-6066-11e4-a52e-4f735466cecf":"13d19346-cee7-e248-9fa8-302e32d64b51"}]]
+1543268871975	Marionette	TRACE	0 -> [0,144,"WebDriver:ElementClick",{"id":"4d1b3e6a-c31d-4c4d-a24d-5b814cdfcfec"}]
+1543268872212	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543268872213	Marionette	TRACE	0 <- [1,144,null,{"value":null}]
+1543268900224	Marionette	TRACE	0 -> [0,145,"WebDriver:ElementClick",{"id":"5e7c2232-e8ed-ef49-a8d0-3551917d8c43"}]
+1543268900883	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543268900885	Marionette	TRACE	0 <- [1,145,null,{"value":null}]
+1543269016636	Marionette	TRACE	0 -> [0,146,"WebDriver:FindElement",{"using":"css selector","value":"#ember182 > button:nth-child(1)"}]
+1543269016640	Marionette	TRACE	0 <- [1,146,{"error":"no such element","message":"Unable to locate element: #ember182 > button:nth-child(1)","stacktrace":"WebDriv ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1543269150688	Marionette	TRACE	0 -> [0,147,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269150702	Marionette	TRACE	0 <- [1,147,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d90694bb-f5cf-7745-9862-389574b9abbf"}}]
+1543269158324	Marionette	TRACE	0 -> [0,148,"WebDriver:ElementClick",{"id":"d90694bb-f5cf-7745-9862-389574b9abbf"}]
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543269158685	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269158935	Marionette	TRACE	0 <- [1,148,null,{"value":null}]
+1543269185312	Marionette	TRACE	0 -> [0,149,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269185324	Marionette	TRACE	0 <- [1,149,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"5bbebfaa-b307-4c4c-9c93-aeb25b65de6a"}}]
+1543269193935	Marionette	TRACE	0 -> [0,150,"WebDriver:ElementClick",{"id":"5bbebfaa-b307-4c4c-9c93-aeb25b65de6a"}]
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543269194247	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269194298	Marionette	TRACE	0 <- [1,150,null,{"value":null}]
+JavaScript warning: https://static.licdn.com/sc/h/br/7mhpvia11217sewhysdpot4vt, line 5749: unreachable code after return statement
+1543269339918	Marionette	TRACE	0 -> [0,151,"WebDriver:FindElements",{"using":"css selector","value":".pv-profile-section__card-action-bar"}]
+1543269340101	Marionette	TRACE	0 <- [1,151,null,[{"element-6066-11e4-a52e-4f735466cecf":"600fb2d9-8e0c-314e-ab83-daf62d91a109"},{"element-6066-11e4-a52e-4f735466 ... ecf":"ae41113f-3b8a-6d44-8d61-ff8b06b10a2f"},{"element-6066-11e4-a52e-4f735466cecf":"3afae97d-e010-cf4a-8434-2311fd7519c1"}]]
+1543269381909	Marionette	TRACE	0 -> [0,152,"WebDriver:ElementClick",{"id":"600fb2d9-8e0c-314e-ab83-daf62d91a109"}]
+1543269382142	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269382143	Marionette	TRACE	0 <- [1,152,null,{"value":null}]
+1543269397153	Marionette	TRACE	0 -> [0,153,"WebDriver:ElementClick",{"id":"ae41113f-3b8a-6d44-8d61-ff8b06b10a2f"}]
+1543269397871	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269397873	Marionette	TRACE	0 <- [1,153,null,{"value":null}]
+1543269462637	Marionette	TRACE	0 -> [0,154,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269462742	Marionette	TRACE	0 <- [1,154,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"abe1111c-3274-fd42-92a8-4672545a1809"}}]
+1543269462744	Marionette	TRACE	0 -> [0,155,"WebDriver:ElementClick",{"id":"abe1111c-3274-fd42-92a8-4672545a1809"}]
+1543269463245	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269463247	Marionette	TRACE	0 <- [1,155,null,{"value":null}]
+1543269481903	Marionette	TRACE	0 -> [0,156,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269481907	Marionette	TRACE	0 <- [1,156,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c3577138-9b5e-7040-91ef-60223d2b1c2c"}}]
+1543269481910	Marionette	TRACE	0 -> [0,157,"WebDriver:ElementClick",{"id":"c3577138-9b5e-7040-91ef-60223d2b1c2c"}]
+1543269482170	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269482172	Marionette	TRACE	0 <- [1,157,null,{"value":null}]
+1543269517696	Marionette	TRACE	0 -> [0,158,"WebDriver:FindElements",{"using":"link text","value":"See more"}]
+1543269518976	Marionette	TRACE	0 <- [1,158,null,[{"element-6066-11e4-a52e-4f735466cecf":"c5496c04-8da7-ce46-b421-e6473bec4eca"},{"element-6066-11e4-a52e-4f735466 ... ecf":"4ced07c1-9d8d-d346-94e7-e712cff0be86"},{"element-6066-11e4-a52e-4f735466cecf":"bccfe652-1a51-614c-a14d-ccabd368708b"}]]
+1543269541462	Marionette	TRACE	0 -> [0,159,"WebDriver:ElementClick",{"id":"c5496c04-8da7-ce46-b421-e6473bec4eca"}]
+1543269541688	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269541689	Marionette	TRACE	0 <- [1,159,null,{"value":null}]
+1543269563699	Marionette	TRACE	0 -> [0,160,"WebDriver:ElementClick",{"id":"265a9140-178c-ba41-8e6a-64546f16aa80"}]
+1543269563920	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269563921	Marionette	TRACE	0 <- [1,160,null,{"value":null}]
+1543269583932	Marionette	TRACE	0 -> [0,161,"WebDriver:ElementClick",{"id":"b968b89e-7092-f240-ab5b-8a6af7a4a378"}]
+1543269584153	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269584154	Marionette	TRACE	0 <- [1,161,null,{"value":null}]
+1543269603160	Marionette	TRACE	0 -> [0,162,"WebDriver:ElementClick",{"id":"d247c55a-bed9-484d-8c42-141b2558cddd"}]
+1543269603383	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269603386	Marionette	TRACE	0 <- [1,162,null,{"value":null}]
+1543269627400	Marionette	TRACE	0 -> [0,163,"WebDriver:ElementClick",{"id":"6514572c-d9d8-ed48-ae6c-12123b1dcde0"}]
+1543269627623	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269627624	Marionette	TRACE	0 <- [1,163,null,{"value":null}]
+1543269652634	Marionette	TRACE	0 -> [0,164,"WebDriver:ElementClick",{"id":"7ff67d52-9dac-534f-8e8f-5e834321295e"}]
+1543269652855	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269652856	Marionette	TRACE	0 <- [1,164,null,{"value":null}]
+1543269668867	Marionette	TRACE	0 -> [0,165,"WebDriver:ElementClick",{"id":"bf569e29-fc48-724f-8668-480483d8e7a6"}]
+1543269669095	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269669097	Marionette	TRACE	0 <- [1,165,null,{"value":null}]
+1543269680106	Marionette	TRACE	0 -> [0,166,"WebDriver:ElementClick",{"id":"1b61ef12-f741-734a-8128-96fde56bff15"}]
+1543269680327	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269680328	Marionette	TRACE	0 <- [1,166,null,{"value":null}]
+1543269704340	Marionette	TRACE	0 -> [0,167,"WebDriver:ElementClick",{"id":"4ced07c1-9d8d-d346-94e7-e712cff0be86"}]
+1543269704562	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269704562	Marionette	TRACE	0 <- [1,167,null,{"value":null}]
+1543269717571	Marionette	TRACE	0 -> [0,168,"WebDriver:ElementClick",{"id":"bccfe652-1a51-614c-a14d-ccabd368708b"}]
+1543269717792	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269717793	Marionette	TRACE	0 <- [1,168,null,{"value":null}]
+1543269789224	Marionette	TRACE	0 -> [0,169,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269789229	Marionette	TRACE	0 <- [1,169,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9ebb4739-a66c-6d47-bafa-e675ad8d4442"}}]
+1543269791767	Marionette	TRACE	0 -> [0,170,"WebDriver:ElementClick",{"id":"9ebb4739-a66c-6d47-bafa-e675ad8d4442"}]
+1543269792081	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269792122	Marionette	TRACE	0 <- [1,170,null,{"value":null}]
+1543269830882	Marionette	TRACE	0 -> [0,171,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269830887	Marionette	TRACE	0 <- [1,171,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9ebb4739-a66c-6d47-bafa-e675ad8d4442"}}]
+1543269830890	Marionette	TRACE	0 -> [0,172,"WebDriver:ElementClick",{"id":"9ebb4739-a66c-6d47-bafa-e675ad8d4442"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543269831189	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269831256	Marionette	TRACE	0 <- [1,172,null,{"value":null}]
+1543269854509	Marionette	TRACE	0 -> [0,173,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__see-more-inline"}]
+1543269854513	Marionette	TRACE	0 <- [1,173,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9ebb4739-a66c-6d47-bafa-e675ad8d4442"}}]
+1543269854516	Marionette	TRACE	0 -> [0,174,"WebDriver:ElementClick",{"id":"9ebb4739-a66c-6d47-bafa-e675ad8d4442"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543269854843	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543269854854	Marionette	TRACE	0 <- [1,174,null,{"value":null}]
+1543269889194	Marionette	TRACE	0 -> [0,175,"WebDriver:FindElement",{"using":"css selector","value":".pv-top-card-section__summary-text"}]
+1543269889198	Marionette	TRACE	0 <- [1,175,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"bdca2f45-a85f-cc48-857e-2a194551a63c"}}]
+1543269890240	Marionette	TRACE	0 -> [0,176,"WebDriver:GetElementText",{"id":"bdca2f45-a85f-cc48-857e-2a194551a63c"}]
+1543269890248	Marionette	TRACE	0 <- [1,176,null,{"value":"At any level, in any company, my motivation is always the same.\n\nMelville said it best: \"I am tormen ...  I might be something different. Change is hard, but it keeps us alive and young. I can't think of anything more enticing."}]
+1543269915905	Marionette	TRACE	0 -> [0,177,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"oc-background-section\"]"}]
+1543269915908	Marionette	TRACE	0 <- [1,177,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c7dae77f-eaa8-9c40-b295-1a6d702d6ba6"}}]
+1543269921244	Marionette	TRACE	0 -> [0,178,"WebDriver:GetElementText",{"id":"c7dae77f-eaa8-9c40-b295-1a6d702d6ba6"}]
+1543269921856	Marionette	TRACE	0 <- [1,178,null,{"value":"Experience\nCompany Name\nE Source\nTotal Duration\n4 yrs 5 mos\nTitle\nChief Operating Officer\nDates  ... ucts.\n Designed and developed installation and maintenance software.\nSee less\nShow fewer roles\nShow fewer experiences"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543270074089	Marionette	TRACE	0 -> [0,179,"WebDriver:FindElement",{"using":"css selector","value":".pv-skill-categorie-section"}]
+1543270074094	Marionette	TRACE	0 <- [1,179,{"error":"no such element","message":"Unable to locate element: .pv-skill-categorie-section","stacktrace":"WebDriverEr ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1543270080392	Marionette	TRACE	0 -> [0,180,"WebDriver:FindElement",{"using":"css selector","value":".pv-skill-categories-section"}]
+1543270080396	Marionette	TRACE	0 <- [1,180,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d2fbad22-0eb6-9d45-8502-6c544463e700"}}]
+1543270102232	Marionette	TRACE	0 -> [0,181,"WebDriver:GetElementText",{"id":"d2fbad22-0eb6-9d45-8502-6c544463e700"}]
+1543270103823	Marionette	TRACE	0 <- [1,181,null,{"value":"Skills & Endorsements\nProject Management\nSee 47 endorsements for Project Management\n47\nEndorsed by  ... tegory?\nNetworking\nSee 7 endorsements for Networking\n7\nCoffeeScript\nHAML\nShow less\nShow only Chris’ featured skills"}]
+1543270227444	Marionette	TRACE	0 -> [0,182,"WebDriver:FindElement",{"using":"css selector","value":".pv-recommendations-section"}]
+1543270227449	Marionette	TRACE	0 <- [1,182,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"4d7756fe-bb10-e146-9883-5199df399e7a"}}]
+1543270242332	Marionette	TRACE	0 -> [0,183,"WebDriver:GetElementText",{"id":"4d7756fe-bb10-e146-9883-5199df399e7a"}]
+1543270242706	Marionette	TRACE	0 <- [1,183,null,{"value":"Ask for a recommendation\nRecommend Chris\nRecommendations\nReceived (13)\nGiven (10)\nKeith Aubin\nSr. ... und us.\nChris showed enormous integrity and leadership throughout the time I worked with him, and I highly recommend him."}]
