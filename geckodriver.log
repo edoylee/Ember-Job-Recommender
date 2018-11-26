@@ -3063,3 +3063,244 @@ JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtoo
 1543181472219	Marionette	TRACE	0 <- [1,36,null,{"value":"<html class=\"artdeco osx\" lang=\"en\"><head>\n    <script async=\"\" src=\"https://platform.linkedin.c ... allow-scripts\" style=\"display:none;\" src=\"//radar.cedexis.com/1/11326/radar.html\">\n  </iframe>\n</div></body></html>"}]
 console.error: "Error while calling actor 'domnode's method 'getImageData'" ""
 console.error: "imageToImageData@resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/inspector/utils.js:234:5\n"
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1543254313382	Marionette	DEBUG	Closed connection 0
+1543254313478	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1543254313479	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1543254313479	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1543254313480	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1543254313480	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1543254313480	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1543254313481	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1543254313481	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1543254313481	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1543254313482	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1543254313482	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1543254313482	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1543254313482	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1543254313483	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1543254313483	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1543254313483	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1543254313483	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1543254313483	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1543254313483	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1543254313483	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1543254313483	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1543254313483	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1543254313484	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1543254313484	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1543254313484	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1543254313484	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1543254313484	Marionette	INFO	Stopped listening on port 64684
+1543254313484	Marionette	DEBUG	Remote service is inactive
+1543254317817	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m8/n3y22b7d6wb2_j481xc_cf3c0000gn/T/rust_mozprofile.zMm6Yl04flaa"
+1543254318803	Marionette	DEBUG	Received observer notification profile-after-change
+1543254319019	Marionette	DEBUG	Received observer notification command-line-startup
+1543254319019	Marionette	DEBUG	Received observer notification nsPref:changed
+1543254319019	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1543254319315	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1543254320384	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1543254320384	Marionette	DEBUG	Waiting for delayed startup...
+1543254320563	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1543254320563	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1543254320563	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1543254320564	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1543254320565	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1543254320565	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1543254320565	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1543254320565	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1543254320565	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1543254320566	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1543254320566	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1543254320566	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1543254320566	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1543254320567	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1543254320567	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1543254320567	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1543254320567	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1543254320567	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1543254320567	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1543254320567	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1543254320567	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1543254320568	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1543254320568	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1543254320568	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1543254320568	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1543254320622	Marionette	INFO	Listening on port 49620
+1543254320622	Marionette	DEBUG	Remote service is active
+1543254320725	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49651
+1543254320727	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1543254320728	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543254320790	Marionette	DEBUG	[4294967297] Frame script loaded
+1543254320798	Marionette	DEBUG	[4294967297] Frame script registered
+1543254320809	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"17a9213b-2705-3744-8577-d356efb9bac6","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... 2_j481xc_cf3c0000gn/T/rust_mozprofile.zMm6Yl04flaa","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1543254333111	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.linkedin.com"}]
+1543254333119	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1543254333557	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1543254333803	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.linkedin.com/
+1543254333900	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.linkedin.com/
+1543254333902	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+JavaScript warning: https://static.licdn.com/sc/h/br/2l90621q27pkmg81z92pq4hbt, line 5747: unreachable code after return statement
+1543254366846	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"#ember41 > input:nth-child(1)"}]
+1543254366850	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d2700715-0ccd-304c-81ad-e6504e8d4ca7"}}]
+1543254367867	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"d2700715-0ccd-304c-81ad-e6504e8d4ca7"}]
+1543254368114	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543254368115	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1543254371029	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"d2700715-0ccd-304c-81ad-e6504e8d4ca7","text":"chris doyle","value":["c","h","r","i","s"," ","d","o","y","l","e"]}]
+1543254371199	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1543254375089	Marionette	TRACE	0 -> [0,6,"WebDriver:GetPageSource",{}]
+1543254375113	Marionette	TRACE	0 <- [1,6,null,{"value":"<html class=\"artdeco osx\" lang=\"en\"><head>\n    <script async=\"\" src=\"https://platform.linkedin.co ... allow-scripts\" style=\"display:none;\" src=\"//radar.cedexis.com/1/11326/radar.html\">\n  </iframe>\n</div></body></html>"}]
+console.error: "_refreshProcess of computed view cancelled"
+1543254502705	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":".search-typeahead-v2__button"}]
+1543254502708	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"edde74d2-4592-ca44-92b7-0a7582092cf7"}}]
+1543254511081	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"edde74d2-4592-ca44-92b7-0a7582092cf7"}]
+1543254511098	Marionette	TRACE	0 <- [1,8,{"error":"element click intercepted","message":"Element <button class=\"search-typeahead-v2__button typeahead-icon\"> is ... avigate@chrome://marionette/content/listener.js:407:13\nclickElement@chrome://marionette/content/listener.js:1207:5\n"},null]
+1543254541432	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElement",{"using":"css selector","value":"#ember41 > input:nth-child(1)"}]
+1543254541435	Marionette	TRACE	0 <- [1,9,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d2700715-0ccd-304c-81ad-e6504e8d4ca7"}}]
+1543254541989	Marionette	TRACE	0 -> [0,10,"WebDriver:ElementClick",{"id":"d2700715-0ccd-304c-81ad-e6504e8d4ca7"}]
+1543254542253	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543254542258	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1543254544440	Marionette	TRACE	0 -> [0,11,"WebDriver:ElementSendKeys",{"id":"d2700715-0ccd-304c-81ad-e6504e8d4ca7","text":"chris doyle","value":["c","h","r","i","s"," ","d","o","y","l","e"]}]
+1543254544524	Marionette	TRACE	0 <- [1,11,null,{"value":null}]
+1543254553030	Marionette	TRACE	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":".search-typeahead-v2__button"}]
+1543254553034	Marionette	TRACE	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"edde74d2-4592-ca44-92b7-0a7582092cf7"}}]
+1543254553387	Marionette	TRACE	0 -> [0,13,"WebDriver:ElementClick",{"id":"edde74d2-4592-ca44-92b7-0a7582092cf7"}]
+1543254554414	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543254554415	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543254554416	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543254554941	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543254554957	Marionette	TRACE	0 <- [1,13,null,{"value":null}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543254951826	Marionette	TRACE	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":".pv-top-card-section__summary-toggle-button"}]
+1543254951832	Marionette	TRACE	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"287675d0-3e51-5f4a-967c-68fdc1bd0f57"}}]
+1543254977004	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":".pv-top-card-section__summary-toggle-button"}]
+1543254977007	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"287675d0-3e51-5f4a-967c-68fdc1bd0f57"}}]
+1543254977010	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClick",{"id":"287675d0-3e51-5f4a-967c-68fdc1bd0f57"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+1543254977303	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543254977305	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+1543255195778	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":"#ember1447"}]
+1543255195788	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e03c3eb9-df84-af4d-849c-0d543ab9dcba"}}]
+1543255195791	Marionette	TRACE	0 -> [0,18,"WebDriver:GetElementText",{"id":"e03c3eb9-df84-af4d-849c-0d543ab9dcba"}]
+1543255195806	Marionette	TRACE	0 <- [1,18,null,{"value":"At any level, in any company, my motivation is always the same.\n\nMelville said it best: \"I am torment ...  I might be something different. Change is hard, but it keeps us alive and young. I can't think of anything more enticing."}]
+1543255293747	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElement",{"using":"css selector","value":"#ember1447"}]
+1543255293750	Marionette	TRACE	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e03c3eb9-df84-af4d-849c-0d543ab9dcba"}}]
+1543255293753	Marionette	TRACE	0 -> [0,20,"WebDriver:GetElementText",{"id":"e03c3eb9-df84-af4d-849c-0d543ab9dcba"}]
+1543255293760	Marionette	TRACE	0 <- [1,20,null,{"value":"At any level, in any company, my motivation is always the same.\n\nMelville said it best: \"I am torment ...  I might be something different. Change is hard, but it keeps us alive and young. I can't think of anything more enticing."}]
+1543255337845	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":"#ember1599 > button:nth-child(1)"}]
+1543255337848	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d53b2fee-0c90-5c48-87a4-a300fa177294"}}]
+1543255337852	Marionette	TRACE	0 -> [0,22,"WebDriver:ElementClick",{"id":"d53b2fee-0c90-5c48-87a4-a300fa177294"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+1543255338518	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543255338518	Marionette	TRACE	0 <- [1,22,null,{"value":null}]
+1543255380716	Marionette	TRACE	0 -> [0,23,"WebDriver:FindElement",{"using":"css selector","value":"button.pv-profile-section__card-action-bar:nth-child(1)"}]
+1543255380721	Marionette	TRACE	0 <- [1,23,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c6388d26-2b1a-2c4b-b71d-395d148d8932"}}]
+1543255380727	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementClick",{"id":"c6388d26-2b1a-2c4b-b71d-395d148d8932"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+1543255381460	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543255381462	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1543255404958	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"css selector","value":"#ember1714"}]
+1543255404961	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9f44771a-f1fd-4843-99f3-450e25bc05de"}}]
+1543255404964	Marionette	TRACE	0 -> [0,26,"WebDriver:ElementClick",{"id":"9f44771a-f1fd-4843-99f3-450e25bc05de"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+1543255405300	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543255405301	Marionette	TRACE	0 <- [1,26,null,{"value":null}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+1543255503167	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":"#ember1447"}]
+1543255503173	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e03c3eb9-df84-af4d-849c-0d543ab9dcba"}}]
+1543255503175	Marionette	TRACE	0 -> [0,28,"WebDriver:GetElementText",{"id":"e03c3eb9-df84-af4d-849c-0d543ab9dcba"}]
+1543255503182	Marionette	TRACE	0 <- [1,28,null,{"value":"At any level, in any company, my motivation is always the same.\n\nMelville said it best: \"I am torment ...  I might be something different. Change is hard, but it keeps us alive and young. I can't think of anything more enticing."}]
+1543255524217	Marionette	TRACE	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":".pv-profile-section__section-info--has-more"}]
+1543255524221	Marionette	TRACE	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"908543c2-5a5d-1c43-bcc6-4e06dcec949f"}}]
+1543255524224	Marionette	TRACE	0 -> [0,30,"WebDriver:GetElementText",{"id":"908543c2-5a5d-1c43-bcc6-4e06dcec949f"}]
+1543255524871	Marionette	TRACE	0 <- [1,30,null,{"value":"Company Name\nE Source\nTotal Duration\n4 yrs 5 mos\nTitle\nChief Operating Officer\nDates Employed\nApr ... stems.\n Managed initial connectivity to the Internet and implemented initial web interface... See more\nShow 1 more role"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+1543255812750	Marionette	TRACE	0 -> [0,31,"WebDriver:FindElement",{"using":"css selector","value":"#ember1798"}]
+1543255812755	Marionette	TRACE	0 <- [1,31,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9988a911-37e3-b948-8ba4-718479b8fcbf"}}]
+1543255812758	Marionette	TRACE	0 -> [0,32,"WebDriver:GetElementText",{"id":"9988a911-37e3-b948-8ba4-718479b8fcbf"}]
+1543255812811	Marionette	TRACE	0 <- [1,32,null,{"value":"Company Name\nE Source\nTotal Duration\n4 yrs 5 mos"}]
+1543255897500	Marionette	TRACE	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":"li.pv-entity__position-group-role-item:nth-child(1)"}]
+1543255897503	Marionette	TRACE	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fc761935-618b-994b-9adb-6c360a68dcc7"}}]
+1543255897505	Marionette	TRACE	0 -> [0,34,"WebDriver:GetElementText",{"id":"fc761935-618b-994b-9adb-6c360a68dcc7"}]
+1543255897606	Marionette	TRACE	0 <- [1,34,null,{"value":"Title\nChief Operating Officer\nDates Employed\nApr 2015 – Oct 2018\nEmployment Duration\n3 yrs 7 mos\nL ... chnology, and Facilities.\n Consistently built and nurtured highly successful teams across multiple disciplin... See more"}]
+1543255978354	Marionette	TRACE	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":"span.lt-line-clamp__line:nth-child(11) > span:nth-child(1) > a:nth-child(1)"}]
+1543255978357	Marionette	TRACE	0 <- [1,35,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d229f685-718b-b249-b695-87fc7e772a42"}}]
+1543255978360	Marionette	TRACE	0 -> [0,36,"WebDriver:ElementClick",{"id":"d229f685-718b-b249-b695-87fc7e772a42"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543255978629	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543255978697	Marionette	TRACE	0 <- [1,36,null,{"value":null}]
+1543255992154	Marionette	TRACE	0 -> [0,37,"WebDriver:FindElement",{"using":"css selector","value":"li.pv-entity__position-group-role-item:nth-child(1)"}]
+1543255992157	Marionette	TRACE	0 <- [1,37,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fc761935-618b-994b-9adb-6c360a68dcc7"}}]
+1543255992160	Marionette	TRACE	0 -> [0,38,"WebDriver:GetElementText",{"id":"fc761935-618b-994b-9adb-6c360a68dcc7"}]
+1543255992230	Marionette	TRACE	0 <- [1,38,null,{"value":"Title\nChief Operating Officer\nDates Employed\nApr 2015 – Oct 2018\nEmployment Duration\n3 yrs 7 mos\nL ... saw the cultural, professional, and collaborative growth of 93 full and part-time employees, ten of them remote.\nSee less"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: null has no properties
