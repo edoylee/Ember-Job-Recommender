@@ -1,0 +1,96 @@
+1543352973189	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m8/n3y22b7d6wb2_j481xc_cf3c0000gn/T/rust_mozprofile.gR3PiOjFJyZk"
+1543352974090	Marionette	DEBUG	Received observer notification profile-after-change
+1543352974229	Marionette	DEBUG	Received observer notification command-line-startup
+1543352974230	Marionette	DEBUG	Received observer notification nsPref:changed
+1543352974230	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1543352974403	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1543352975377	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1543352975377	Marionette	DEBUG	Waiting for delayed startup...
+1543352975460	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1543352975460	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1543352975460	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1543352975461	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1543352975462	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1543352975462	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1543352975462	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1543352975462	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1543352975462	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1543352975462	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1543352975463	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1543352975463	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1543352975463	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1543352975463	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1543352975463	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1543352975464	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1543352975464	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1543352975464	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1543352975464	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1543352975464	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1543352975464	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1543352975465	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1543352975465	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1543352975465	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1543352975465	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1543352975506	Marionette	INFO	Listening on port 53990
+1543352975506	Marionette	DEBUG	Remote service is active
+1543352975548	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54016
+1543352975560	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1543352975560	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543352975616	Marionette	DEBUG	[4294967297] Frame script loaded
+1543352975620	Marionette	DEBUG	[4294967297] Frame script registered
+1543352975633	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"98c8981e-0cd3-4b46-975b-ea02498b5b79","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... 2_j481xc_cf3c0000gn/T/rust_mozprofile.gR3PiOjFJyZk","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1543353004999	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.glassdoor.com/index.htm"}]
+1543353005009	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1543353005367	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1543353006540	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.glassdoor.com/index.htm
+1543353012537	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353012842	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.glassdoor.com/index.htm
+1543353012844	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1543353117118	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"KeywordSearch\"]"}]
+1543353117124	Marionette	TRACE	0 <- [1,3,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"740da348-4f51-3f47-9b88-bc86cc13cfb9"}}]
+1543353124222	Marionette	TRACE	0 -> [0,4,"WebDriver:ElementClick",{"id":"740da348-4f51-3f47-9b88-bc86cc13cfb9"}]
+1543353124496	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1543353124498	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1543353148136	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"740da348-4f51-3f47-9b88-bc86cc13cfb9","text":"Data Scientist","value":["D","a","t","a"," ","S","c","i","e","n","t","i","s","t"]}]
+1543353148180	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1543353187908	Marionette	TRACE	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"[id=\"HeroSearchButton\"]"}]
+1543353187912	Marionette	TRACE	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1f459c87-3f75-394c-8587-9ab50c124674"}}]
+1543353193346	Marionette	TRACE	0 -> [0,7,"WebDriver:ElementClick",{"id":"1f459c87-3f75-394c-8587-9ab50c124674"}]
+1543353193396	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.glassdoor.com/index.htm
+console.error: "TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11\nonMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7\n"
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:64:11
+onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:15
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:5
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:414:7
+
+1543353194691	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.glassdoor.com/index.htm
+1543353194695	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.glassdoor.com/index.htm
+1543353195432	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1543353195483	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353195483	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353195483	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353195484	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353195484	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353195485	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353201417	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+console.error: "_refreshProcess of computed view cancelled"
+1543353204483	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353205247	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353205750	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353205778	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353206562	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1543353206836	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1543353206839	Marionette	TRACE	0 <- [1,7,null,{"value":null}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1543353227144	Marionette	TRACE	0 -> [0,8,"WebDriver:GetPageSource",{}]
+1543353227161	Marionette	TRACE	0 <- [1,8,null,{"value":"<html xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns:og=\"http://opengraph.org/schema/\" class=\"fl ... google.com/o/oauth2/iframe#origin=https%3A%2F%2Fwww.glassdoor.com&amp;rpcToken=861880447.3387007\"></iframe></body></html>"}]
+1543353229612	Marionette	TRACE	0 -> [0,9,"WebDriver:GetPageSource",{}]
+1543353229626	Marionette	TRACE	0 <- [1,9,null,{"value":"<html xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns:og=\"http://opengraph.org/schema/\" class=\"fl ... google.com/o/oauth2/iframe#origin=https%3A%2F%2Fwww.glassdoor.com&amp;rpcToken=861880447.3387007\"></iframe></body></html>"}]
