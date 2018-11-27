@@ -94,3 +94,4 @@ console.error: BroadcastService:
 1543353227161	Marionette	TRACE	0 <- [1,8,null,{"value":"<html xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns:og=\"http://opengraph.org/schema/\" class=\"fl ... google.com/o/oauth2/iframe#origin=https%3A%2F%2Fwww.glassdoor.com&amp;rpcToken=861880447.3387007\"></iframe></body></html>"}]
 1543353229612	Marionette	TRACE	0 -> [0,9,"WebDriver:GetPageSource",{}]
 1543353229626	Marionette	TRACE	0 <- [1,9,null,{"value":"<html xmlns:fb=\"http://www.facebook.com/2008/fbml\" xmlns:og=\"http://opengraph.org/schema/\" class=\"fl ... google.com/o/oauth2/iframe#origin=https%3A%2F%2Fwww.glassdoor.com&amp;rpcToken=861880447.3387007\"></iframe></body></html>"}]
+1543356266895	Marionette	DEBUG	Closed connection 0
