@@ -14333,3 +14333,11 @@ JavaScript error: chrome://browser/content/browser.xul, line 1: TypeError: gCont
 1543340017187	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
 1543340035834	Marionette	TRACE	0 -> [0,13,"WebDriver:GetElementText",{"id":"856f48c7-11b0-0c49-9d98-6e601d7a5fda"}]
 1543340036084	Marionette	TRACE	0 <- [1,13,null,{"value":"Edit skills\nAdd a new skill\nSkills & Endorsements\nEconometrics\nSee 1 endorsement for Econometrics\n1 ... Other category?\nNumPy\nScikit-Learn\nSciPy\nMatplotlib\nApache Spark\nFlask\nShow less\nShow only Ethan’s featured skills"}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1543343709749	Marionette	TRACE	0 -> [0,14,"WebDriver:FindElements",{"using":"css selector","value":".pv-top-card-section__summary-text"}]
+1543343709762	Marionette	TRACE	0 <- [1,14,null,[{"element-6066-11e4-a52e-4f735466cecf":"61341b51-1789-1441-b9ee-1539e9eaeacf"}]]
+1543343717662	Marionette	TRACE	0 -> [0,15,"WebDriver:FindElement",{"using":"css selector","value":".pv-top-card-section__summary-text"}]
+1543343717666	Marionette	TRACE	0 <- [1,15,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"61341b51-1789-1441-b9ee-1539e9eaeacf"}}]
+1543343717672	Marionette	TRACE	0 -> [0,16,"WebDriver:GetElementText",{"id":"61341b51-1789-1441-b9ee-1539e9eaeacf"}]
+1543343717692	Marionette	TRACE	0 <- [1,16,null,{"value":"Data Scientist with an economics background from Colorado with experience in machine learning, data analysis, and regression analysis. Proven leader of small groups focused on efficiency and continuous improvement."}]
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
