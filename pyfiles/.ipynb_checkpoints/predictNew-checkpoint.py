@@ -48,7 +48,96 @@ custom_stop = [
     "oct", "nov", "dec"]
 vectorizer = TfidfVectorizer(stop_words=custom_stop)
 
+class linkedin_scraper():
+    
+    def __init__(self, param=None):
+        self.param = param
+    
+    def sleep(start=5, end=15):
+        return time.sleep(random.randint(5, 15))
+    
+    def find_profile(self, name):
+        search_bar = browser.find_element_by_css_selector('#ember41 > input:nth-child(1)')
+        search_bar.click()
+        self.sleep()
+        search_bar.send_keys(name)
+        search_button = browser.find_element_by_css_selector(
+            '.search-typeahead-v2__button > span:nth-child(1) > li-icon:nth-child(2) > svg:nth-child(1)'
+        )
+        search_button.click()
+        self.sleep()
+        search_results = browser.find_elements_by_class_name('name')
+        search_results[0].click()
+        
+    def scroll(self):
+        sections = browser.find_elements_by_class_name('pv-profile-section')
+        for section in sections:
+            section.location_once_scrolled_into_view
+            sleep()
+        
+    def expand_page(self):
+        rec = browser.find_elements_by_class_name('pv-profile-section__see-more-inline')
+        rec[1].location_once_scrolled_into_view
+        rec[1].click()
+        self.sleep()
+        summary_section = browser.find_element_by_class_name('pv-top-card-section__summary')
+        summary_section.location_once_scrolled_into_view
+        showmores = browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
+        showmores[0].click()
+        self.sleep()
+        skills_section = browser.find_element_by_class_name('pv-skill-categories-section')
+        skills_section.location_once_scrolled_into_view
+        showmores[1].click()
+        self.sleep()
+        experience_section = browser.find_element_by_class_name('experience-section')
+        experience_section.location_once_scrolled_into_view
+        experience_seemores = browser.find_elements_by_link_text('See more')
+        for seemore in experience_seemores:
+            seemore.click()
+            sleep()
+    
+    def scrape_page(self):
+        summary = []
+        find_summary = browser.find_element_by_class_name('pv-top-card-section__summary-text')
+        summary.append(find_summary.text)
+        experience = []
+        find_experience = browser.find_element_by_id('oc-background-section')
+        experience.append(find_experience.text)
+        skills = []
+        find_skills = browser.find_element_by_class_name('pv-skill-categories-section')
+        skills.append(find_skills.text)
+        recommendations = []
+        find_recommendations = browser.find_element_by_class_name('pv-recommendations-section')
+        recommendations.append(find_recommendations.text)
+        profile_df = pd.DataFrame({'summary': summary,
+                                   'experience': experience, 
+                                   'skills': skills, 
+                                   'recommendations': recommendations})
+        return profile_df
+    
+    def concat_strings(self, word_list):
+        total_cleaned = ''
+        for word in word_list:
+            total_cleaned += (word + ' ')
+        return total_cleaned
+    
+    def get_consolidated_profile(self, columns):
+        total_string = ''
+        for column in columns:
+            total_string += concat_strings(chris_profile_df[column])
+        return [total_string]
+    
+    def transform(self, name):
+        self.find_profile(name)
+        self.scroll()
+        self.expand_page()
+        profile_df = self.scrape_page()
+        consolidated_df = self.get_consolidated_profile(profile_df)
+        final_df = pd.DataFrame({'profile': consolidated_df})
+        return final_df
+
 class preprocess_data():
+    
     def __init__(self, param=None):
         self.param = param
     
@@ -92,6 +181,7 @@ class preprocess_data():
         return total_df
 
 class yes():
+    
     def __init__(self, df):
         self.df = df
     
