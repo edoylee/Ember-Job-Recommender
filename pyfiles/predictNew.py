@@ -3,7 +3,7 @@ import numpy as np
 from scipy import spatial
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-custom_stop = [
+CUSTOM_STOP = [
     "a", "about", "above", "across", "after", "afterwards", "again", "against",
     "all", "almost", "alone", "along", "already", "also", "although", "always",
     "am", "among", "amongst", "amoungst", "amount", "an", "and", "another",
@@ -46,9 +46,9 @@ custom_stop = [
     "within", "without", "would", "yet", "you", "your", "yours", "yourself",
     "yourselves", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep",
     "oct", "nov", "dec"]
-vectorizer = TfidfVectorizer(stop_words=custom_stop)
 
-class linkedin_scraper():
+
+class LinkedinScraper():
     
     def __init__(self, param=None):
         self.param = param
@@ -136,10 +136,12 @@ class linkedin_scraper():
         final_df = pd.DataFrame({'profile': consolidated_df})
         return final_df
 
-class preprocess_data():
+class PreprocessData():
     
     def __init__(self, param=None):
         self.param = param
+        self.vectorizer = TfidfVectorizer(stop_words=CUSTOM_STOP)
+        
     
     def bring_in_data(self, X, y):
         df = pd.read_csv(X, index_col=0)
@@ -148,9 +150,9 @@ class preprocess_data():
         full_df = y_vector['profile'].append(df['jobs'])
         return full_df
     
-    def get_tfidf(self, df, vectorizer):
-        vectorizer.fit(df)
-        transformed_model = vectorizer.transform(df)
+    def get_tfidf(self, df):
+        self.vectorizer.fit(df)
+        transformed_model = self.vectorizer.transform(df)
         tfidf_df = pd.DataFrame(transformed_model.toarray())
         return tfidf_df
     
@@ -173,14 +175,14 @@ class preprocess_data():
         total_df.iat[0,2] = 10.0
         return total_df
     
-    def transform(self, X, y, vectorizer):
+    def transform(self, X, y):
         full_df = self.bring_in_data(X, y)
-        tfidf_df = self.get_tfidf(full_df, vectorizer)
+        tfidf_df = self.get_tfidf(full_df)
         sorted_distances, indices = self.get_distances(tfidf_df)
         total_df = self.get_total_df(indices, full_df, sorted_distances, tfidf_df)
         return total_df
 
-class yes():
+class Predict():
     
     def __init__(self, df):
         self.df = df
@@ -233,4 +235,8 @@ class yes():
         remains['total_distance'] = total_distance
         next_best_index = remains.total_distance.idxmin()
         return self.find_next_best(remains, next_best_index)
-    
+
+
+if __name__ == '__main__':
+    pass
+
