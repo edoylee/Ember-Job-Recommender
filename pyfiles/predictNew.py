@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 from scipy import spatial
 from sklearn.feature_extraction.text import TfidfVectorizer
+from selenium.webdriver import Firefox
+import time
+import random
 
 CUSTOM_STOP = [
     "a", "about", "above", "across", "after", "afterwards", "again", "against",
@@ -135,6 +138,80 @@ class LinkedinScraper():
         consolidated_df = self.get_consolidated_profile(profile_df)
         final_df = pd.DataFrame({'profile': consolidated_df})
         return final_df
+
+class ScrapeGlass():
+    
+    def __init__(self, param=None):
+        self.browser = Firefox()
+        self.job_descriptions = []
+    
+    def click_wait(self):
+        listings = self.browser.find_elements_by_class_name('jl')
+        listings[1].click()
+        x_button = self.browser.find_element_by_class_name('xBtn')
+        x_button.click()
+    
+    def return_job_descriptions(self):
+        print(len(self.job_descriptions))
+        check_variable = input('\nProceed? (yes / no) ')
+        if check_variable == 'yes':
+            name = input('Enter name of data')
+            self.convert_to_csv(self.job_descriptions, ('../data/%s.csv' % name))
+        else:
+            return self.job_descriptions
+    
+    def sleep(start=5, end=15):
+        return time.sleep(random.randint(5, 15))
+        
+    def search(self, url, query):
+        self.browser.get(url)
+        self.sleep()
+        keyword_search = self.browser.find_element_by_css_selector('#KeywordSearch')
+        keyword_search.click()
+        keyword_search.send_keys(query)
+        start_search = self.browser.find_element_by_css_selector('#HeroSearchButton')
+        start_search.click()
+    
+    def loop_pages(self):
+        pages = self.browser.find_elements_by_class_name('page')
+        while len(pages) == 5:
+            self.get_job_postings()
+            next_button = self.browser.find_element_by_class_name('next')
+            next_button.click()
+            self.sleep()
+    
+    def get_job_postings(self):
+        job_listings = self.browser.find_elements_by_class_name('jl')
+        self.sleep()
+        for job in job_listings:
+            job.location_once_scrolled_into_view
+            job.click()
+            self.sleep()
+            content = self.browser.find_element_by_class_name('jobDescriptionContent')
+            self.job_descriptions.append(content.text)
+            choice = random.randint(1,3)
+            if choice == 2:
+                tabs = self.browser.find_elements_by_class_name('tabLabel')
+                try:    
+                    tabs[random.randint(1,2)].click()
+                except IndexError:
+                    pass
+            self.sleep()
+        return self.job_descriptions
+    
+    def convert_to_csv(self, final_content, name):
+        final_txdf = pd.DataFrame({'jobs': final_content})
+        final_txdf['labels'] = np.zeros(final_txdf.shape[0])
+        final_txdf.to_csv(name)
+    
+    def transform(self, url, query):
+        self.search(url, query)
+        self.click_wait()
+        try:
+            self.loop_pages()
+        except:
+            return self.return_job_descriptions()
+        self.return_job_descriptions()
 
 class PreprocessData():
     
