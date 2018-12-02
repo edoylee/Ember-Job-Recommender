@@ -140,18 +140,59 @@ class LinkedinScraper():
         return final_df
 
 class ScrapeGlass():
+    """ ScrapeGlass is used to scrape job postings from Glassdoor.
+    
+    Basic Process:
+    
+    • The search method will go to the url and search for the query.
+    
+    • The click_wait method will click the second job posting to
+      trigger the automatic pop-up window, then it will find the 
+      x-button in the corner and click it.
+      
+    • The loop_pages method will find the number of pages at the 
+      bottom of the screen use that number in a for loop to iterate 
+      through all of the pages for the given query.
+      
+    • The get_job_postings method is called in the loop_pages function
+      in order to iterate through every job listing on the page and scrape
+      the descriptions. The descriptions are then appended to a class variable.
+      
+    • Finally the return_job_descriptions method is called to prompt the user
+      to decide whether or not to save the scraped results to a csv file.
+    
+    All of this is being done through the transform method.
+    
+    example:
+    
+        url = 'www.glassdoor.com'
+        query = 'Data Scientist'
+    
+        test = ScrapeGlass()
+        jobs = test.transform(url, query)
+    
+    Final Notes:
+    
+        If the program is interupted for any reason the user will still be prompted
+        on whether or not to proceed with exporting to csv. 
+    
+    """
     
     def __init__(self, param=None):
         self.browser = Firefox()
         self.job_descriptions = []
     
     def click_wait(self):
+        """ This method triggers the automatic pop-up window and exits out of it."""
+        
         listings = self.browser.find_elements_by_class_name('jl')
         listings[1].click()
         x_button = self.browser.find_element_by_class_name('xBtn')
         x_button.click()
     
     def return_job_descriptions(self):
+        """ This method prompts the user whether or not to convert to csv"""
+        
         print(len(self.job_descriptions))
         check_variable = input('\nProceed? (yes / no) ')
         if check_variable == 'yes':
@@ -164,6 +205,8 @@ class ScrapeGlass():
         return time.sleep(random.randint(5, 15))
         
     def search(self, url, query):
+        """ This method goes to the url, and searchs for the query"""
+        
         self.browser.get(url)
         self.sleep()
         keyword_search = self.browser.find_element_by_css_selector('#KeywordSearch')
@@ -173,6 +216,8 @@ class ScrapeGlass():
         start_search.click()
     
     def loop_pages(self):
+        """ This method iterates through all available pages"""
+        
         pages = self.browser.find_elements_by_class_name('page')
         while len(pages) == 5:
             self.get_job_postings()
@@ -181,6 +226,9 @@ class ScrapeGlass():
             self.sleep()
     
     def get_job_postings(self):
+        """ This method iterates through all of the listings and appends 
+        them to the class variable self.job_descriptions"""
+        
         job_listings = self.browser.find_elements_by_class_name('jl')
         self.sleep()
         for job in job_listings:
@@ -200,11 +248,16 @@ class ScrapeGlass():
         return self.job_descriptions
     
     def convert_to_csv(self, final_content, name):
+        """ This method converts the list final_content into a pandas 
+        dataframe and adds a 'lables' column of zeros"""
+        
         final_txdf = pd.DataFrame({'jobs': final_content})
         final_txdf['labels'] = np.zeros(final_txdf.shape[0])
         final_txdf.to_csv(name)
     
     def transform(self, url, query):
+        """ This method takes the url, and query as inputs and outputs either
+        an exported csv file or a list of jobs"""
         self.search(url, query)
         self.click_wait()
         try:
