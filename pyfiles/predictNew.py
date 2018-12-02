@@ -80,39 +80,92 @@ class LinkedinScraper():
             self.sleep()
         
     def expand_page(self):
-        rec = self.browser.find_elements_by_class_name('pv-profile-section__see-more-inline')
-        rec[1].location_once_scrolled_into_view
-        rec[1].click()
+        try:
+            rec = self.browser.find_elements_by_class_name('pv-profile-section__see-more-inline')
+            rec[1].location_once_scrolled_into_view
+            rec[1].click()
+        except:
+            pass
         self.sleep()
+        try:
+            summary_section = self.browser.find_element_by_class_name('pv-top-card-section__summary')
+            summary_section.location_once_scrolled_into_view
+            showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
+            showmores[0].click()
+        except:
+            pass
+        self.sleep()
+        try:
+            skills_section = self.browser.find_element_by_class_name('pv-skill-categories-section')
+            skills_section.location_once_scrolled_into_view
+            showmores[1].click()
+        except:
+            pass
+        self.sleep()
+        try:
+            experience_section = self.browser.find_element_by_class_name('experience-section')
+            experience_section.location_once_scrolled_into_view
+            experience_seemores = self.browser.find_elements_by_link_text('See more')
+            for seemore in experience_seemores:
+                seemore.click()
+                sleep()
+        except:
+            pass
+    def second_expand_page(self):
         summary_section = self.browser.find_element_by_class_name('pv-top-card-section__summary')
         summary_section.location_once_scrolled_into_view
         showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
         showmores[0].click()
         self.sleep()
-        skills_section = self.browser.find_element_by_class_name('pv-skill-categories-section')
-        skills_section.location_once_scrolled_into_view
-        showmores[1].click()
-        self.sleep()
         experience_section = self.browser.find_element_by_class_name('experience-section')
         experience_section.location_once_scrolled_into_view
+        experience_listings = self.browser.find_elements_by_class_name('pv-profile-section__list-item')
+        self.sleep()
+        for listing in experience_listings:
+            listing.location_once_scrolled_into_view
+            self.sleep()
         experience_seemores = self.browser.find_elements_by_link_text('See more')
+        self.sleep()
         for seemore in experience_seemores:
             seemore.click()
-            sleep()
+            self.sleep()
+        skills_section = self.browser.find_element_by_class_name('pv-skill-categories-section')
+        skills_section.location_once_scrolled_into_view
+        self.sleep()
+        showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
+        showmores[1].click()
+        try:
+            self.sleep()
+            rec = self.browser.find_elements_by_class_name('pv-profile-section__see-more-inline')
+            rec[1].click()
+        except:
+            pass
     
     def scrape_page(self):
         summary = []
-        find_summary = self.browser.find_element_by_class_name('pv-top-card-section__summary-text')
-        summary.append(find_summary.text)
+        try:
+            find_summary = self.browser.find_element_by_class_name('pv-top-card-section__summary-text')
+            summary.append(find_summary.text)
+        except:
+            summary.append('')
         experience = []
-        find_experience = self.browser.find_element_by_id('oc-background-section')
-        experience.append(find_experience.text)
+        try:
+            find_experience = self.browser.find_element_by_id('oc-background-section')
+            experience.append(find_experience.text)
+        except:
+            experience.append('')
         skills = []
-        find_skills = self.browser.find_element_by_class_name('pv-skill-categories-section')
-        skills.append(find_skills.text)
+        try:
+            find_skills = self.browser.find_element_by_class_name('pv-skill-categories-section')
+            skills.append(find_skills.text)
+        except:
+            skills.append('')
         recommendations = []
-        find_recommendations = self.browser.find_element_by_class_name('pv-recommendations-section')
-        recommendations.append(find_recommendations.text)
+        try:
+            find_recommendations = self.browser.find_element_by_class_name('pv-recommendations-section')
+            recommendations.append(find_recommendations.text)
+        except:
+            recommendations.append('')
         profile_df = pd.DataFrame({'summary': summary,
                                    'experience': experience, 
                                    'skills': skills, 
@@ -125,18 +178,17 @@ class LinkedinScraper():
             total_cleaned += (word + ' ')
         return total_cleaned
     
-    def get_consolidated_profile(self, columns):
+    def get_consolidated_profile(self, df, columns):
         total_string = ''
         for column in columns:
-            total_string += concat_strings(chris_profile_df[column])
+            total_string += self.concat_strings(df[column])
         return [total_string]
     
     def transform(self, name):
         self.find_profile(name)
-        self.scroll()
-        self.expand_page()
+        self.second_expand_page()
         profile_df = self.scrape_page()
-        consolidated_df = self.get_consolidated_profile(profile_df)
+        consolidated_df = self.get_consolidated_profile(profile_df, profile_df.columns)
         final_df = pd.DataFrame({'profile': consolidated_df})
         return final_df
 
