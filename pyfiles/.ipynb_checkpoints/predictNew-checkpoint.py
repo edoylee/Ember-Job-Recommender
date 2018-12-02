@@ -48,11 +48,30 @@ CUSTOM_STOP = [
     "who", "whoever", "whole", "whom", "whose", "why", "will", "with",
     "within", "without", "would", "yet", "you", "your", "yours", "yourself",
     "yourselves", "jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep",
-    "oct", "nov", "dec"]
+    "oct", "nov", "dec", "endorse", "endorsement", "endorsements"]
 
 
 class LinkedinScraper():
+    """ The LinkedinScraper will scrape the linkedin profile of the given name.
     
+    Basic Process:
+    
+        • The find_profile method is used to navigate to the given profile
+        
+        • The expand_page method is used to find summary, experience, skills, and recommendations
+        sections and expand them to be scrapable
+        
+        • The scrape_page method is used to scrape the same four sections if they exist and return 
+        empty strings otherwise
+        
+        • The get_consolidated_profile method will take a dataframe of 4 columns and concatenate them
+        into one string to be ready for nlp.
+    
+    example:
+    
+        test = LinkedinScraper()
+        final_df = test.transform('NAME')
+        """
     def __init__(self, param=None):
         self.browser = Firefox()
         self.browser.get('https://www.linkedin.com')
