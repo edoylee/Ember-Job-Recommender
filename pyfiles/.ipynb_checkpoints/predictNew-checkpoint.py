@@ -371,9 +371,9 @@ class PreprocessData():
     def get_total_df(self, indices, full_df, sorted_distances, tfidf_df):
         indices_df = pd.DataFrame({'indices': indices})
         sorted_distances_df = pd.DataFrame({'distances': sorted_distances})
-        sorted_df = pd.DataFrame({'jobs': full_df.iloc[indices]}).set_index(np.arange(0,120))
-        sorted_df['labels'] = np.zeros(120)
-        sorted_tfidf = pd.DataFrame(tfidf_df.iloc[indices]).set_index(np.arange(0,120))
+        sorted_df = pd.DataFrame({'jobs': full_df.iloc[indices]}).set_index(np.arange(0,full_df.shape[0]))
+        sorted_df['labels'] = np.zeros(full_df.shape[0])
+        sorted_tfidf = pd.DataFrame(tfidf_df.iloc[indices]).set_index(np.arange(0,full_df.shape[0]))
         total_df = pd.concat([indices_df, sorted_df, sorted_distances_df, sorted_tfidf], axis=1)
         total_df.iat[0,2] = 10.0
         return total_df

@@ -1,0 +1,1691 @@
+,jobs,labels
+0,"Job Description
+
+The AWS Credential & Secrets Management team is responsible for managing and distributing credentials and secrets across millions of hosts deployed for internal Amazon use and AWS. This team owns the 'IAM Roles for EC2' feature and AWS Secrets Manager service. This team runs some of the highest scale, performant and available services in AWS. We are making innovative bets to improve customer experience in managing and protecting their credentials and secrets. As such, we are looking for a strong engineering leader to oversee design, development and operations of these tier-0 foundational systems.
+
+
+
+Key Responsibilities:
+
+
+
+Apply Now at Amazon",0.0
+1,"Job Description
+AWS Identity and Access Management (IAM) enables customers to secure their workloads in the cloud by providing authentication and authorization mechanisms. With the growth of AWS, the types of workloads and the access management frameworks needed to secure them keep evolving. We are looking for a senior engineering leader to build the next generation functionality in this area. Individuals interested in this position should have experience in software engineering leadership position, building high-performing, reliable systems in a complex, multi-tiered, and distributed environment in a fast paced environment.
+
+Key responsibilities include:
+
+As a leader of leaders, lead an organization that consists of SDMs, TPMs and software development engineers.
+
+Manage and develop the team, including hiring, retention, performance management, mentoring and capability/skill development.
+
+Lead architecture, design, implementation, and operational support of tools and services.
+
+Evaluate complex business and technical requirements, and communicate inherent risks and solutions to technical and non-technical business owners.
+
+Act as point of contact for communications dealing with project deliverables, setting the expectation, managing priorities, technologies, human factors and management issues.
+
+Establish high bar for processes and standards in the execution of all projects.
+Basic Qualifications
+Bachelor degree in Computer Science or related fields
+Experience in managing multiple software development teams
+Passionate about designing and developing simple solutions to complex, ambiguous problems
+Strong written and verbal communication skills
+Experience running and maintaining a 24x7 production environment
+Deep understanding of large distributed and online systems.
+Strong business and technical acumen
+Ability to define technical long term roadmap
+Preferred Qualifications
+Master's degree in Computer Science or related fields
+Experience with very large distributed systems such as large scale distributed database systems, storage farms, and/or horizontally scaled request processing fleets
+Development Expertise in OOP, Java, UNIX, Perl, C++, XML, Web services, and UNIX tools
+Experience with systems management or monitoring software
+Experience in systems and network administration is also ideal
+
+
+
+1. Meets/exceeds Amazon’s leadership principles requirements for this role
+2. Meets/exceeds Amazon’s functional/technical depth and complexity for this role
+
+**Amazon and its subsidiaries (""Amazon"") are equal opportunity employers, and do not discriminate on the basis of race, religion, creed, color, national origin, citizenship, marital status, sex, age, sexual orientation, gender identity, veteran status, political ideology, ancestry, the presence of any physical, sensory or mental disabilities, or other legally protected status.**
+
+
+
+Apply Now at Amazon",0.0
+2,"InVision is the digital product design platform used to make the world's best customer experiences. We provide design tools and educational resources for teams to navigate every stage of the product design process, from ideation to development. Today, more 4 million people use InVision to create a repeatable and streamlined design workflow; rapidly design and prototype products before writing code, and collaborate across their entire organization. That includes more than 80 percent of the Fortune 100, and organizations like Airbnb, Amazon, HBO, Netflix, Slack, Starbucks and Uber, who are now able to design better products, faster.
+
+Our team is in search of a Senior Associate of Corporate Development to help us change the way digital products are designed.
+
+About the Team:
+
+InVision's Corporate Development team works closely with senior leadership and product teams to guide company strategy; we identify, evaluate, and execute M&A transactions; we lead integration efforts; and we direct a fund that invests in the future of design. Reporting to the Head of Corporate Development, this position will support InVision's inorganic growth efforts throughout the entire M&A lifecycle. We expect this Corporate Development team member to be excited about cementing InVision as the operating system for digital product design.
+
+What you'll do:
+
+Internally:
+Work with Product, Engineering, and Design teams to identify areas in the roadmap that might be accelerated through M&A and develop build/partner/buy analysis
+Assist in all aspects of transactions, from developing the initial strategy to constructing business cases to get executive buy in, to deal negotiation, execution, and integration
+Plan and direct the work of other cross-functional professionals, including engineering, product design, infrastructure IT, security and privacy systems, and finance and accounting
+Recommend high-potential investments
+Externally:
+Build close relationships with leaders at emerging and established companies in the startup community as well as with investment banking and venture capital firms
+Source & assess potential acquisition or investment targets
+Monitor M&A landscape and key announcements to develop view on industry activities and overall market trends
+What you'll bring:
+A Bachelor's degree and 4 years experience; Must have completed a 2-year post-graduate investment banking analyst or consulting program and must have at least some experience working within or covering the Tech sector, specifically internet and/or software
+Strong analytical skills, fluency in performing rigorous financial, valuation, and broad quantitative analyses and familiarity with operations; ability to develop financial models including valuation models
+Clear written and spoken communication skills with the ability to interact with all functions of a company, including the executive level
+Demonstrated success of working cross-functionally and influencing others to drive long-term strategic initiatives and acquisitions
+Ability to context-switch quickly and balance multiple projects at once
+Curiosity to understand software and recognize areas of product integration, discuss product roadmaps, and engage with engineers and product managers
+About InVision:
+
+InVision offers an incredibly unique work environment. The company employs a diverse team all over the world. Each InVision team member is given the freedom and tools to do their best work from wherever they choose.
+
+The benefits we offer in the United States and Canada include competitive health plans and a retirement plans. Some InVision-wide benefits offered to all employees across the globe include a flexible vacation policy, monthly coffee shop stipends, annual allowances for books related to your profession, and home office setup & wellness reimbursements. InVision is an international employer so some benefit offerings will vary from country to country.
+
+InVision is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. If you have a disability or special need that requires accommodation, please let us know.",0.0
+3,"Job Description
+Come build the future of Linux at Amazon with the Amazon Linux Team!
+
+If you are an experienced Software Development Manager who is passionate about building the platform to support the world’s premier cloud computing environment, then this is the job for you.
+
+The Kernel and Operating Systems team, part of EC2 Foundational Technologies, is responsible for the design and maintenance of all of Amazon's core compute platforms, with a special focus on EC2, the Elastic Compute Cloud that is the basis for much of Amazon Web Services (AWS). We think broadly about the experiences our customers have running their services on EC2 and continually look for ways to improve performance, quality and reliability, and address new functional needs.
+
+We're also responsible for tools associated with the performance characterization, qualification, build and deployment of our Linux platforms.
+
+Software Development Managers work with technical leaders to refine technical direction, hire and develop the skills of the teams they lead, and own the delivery of the products and programs they're tasked with. They are equally comfortable leading small, focused project teams as well as making major direct contributions to the project. They deliver features, through their teams, with minimal direct oversight. They are also adept at recruiting and developing bar-raising talent.
+
+The baseline individual for this role will be entirely comfortable with the Linux operating system and understand how to develop in languages such as C, C++, Python, and Java in a Linux environment. Experience with Linux package management, version control systems, automated build processes, and software unit testing are a must. An understanding of and experience in contributing to open source projects is a plus. Specific in depth knowledge of the use, design, and development of Linux operating system internals, including the kernel and hypervisor is required for this role.
+
+This team creates the very core of the cloud, and is directly responsible for radically changing and improving the way that people use computers - come join us to have fun, and make history!
+Basic Qualifications
+At least two years managing through others (managers or team leads)
+5+ Years of demonstrated technical leadership experience.
+Knowledge of Linux packaging tools, processes, and distribution
+At least 5 years of industry experience focused on Linux. Proficiency in using the typical Linux toolbox of open source software and management tools.
+Demonstrated ability to plan and deliver complex, high quality, software products with minimal guidance
+Demonstrated ability to deliver results with cross-organizational dependencies
+BA/BS in Computer Science or related discipline, or equivalent work experience.
+Preferred Qualifications
+Experience using the typical Linux toolbox of open source software and management tools.
+Experience with Debian / Ubuntu packaging
+Experience with RPM packaging
+Skilled in at least two of C, shell, Python or Java.
+MS or PhD in Computer Science.
+A solid understanding of Linux networking.
+Experience working with the open source community.
+Experience with distributed systems architecture and related technologies.
+
+1) “Meets/exceeds Amazon’s leadership principles requirements for this role
+2) “Meets/exceeds Amazon’s functional/technical depth and complexity for this role
+
+Amazon is an Equal Opportunity-Affirmative Action Employer – Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation.
+
+
+Apply Now at Amazon",0.0
+4,"Job Description
+Do you want to fundamentally improve the everyday productivity of software developers using AWS? The AWS CodeBuild team is looking for a lead/senior engineer to transform the customer experience for developers using the entire Code suite of services to build out and model their development process. You and your team will own services that will enable customers to develop and customize their development process, along with easing their use of Continuous Integration techniques for their software. We need a leader that is experienced in delivering multi-region fault tolerant systems, is passionate about the developer tools space, is excited to have software developers as their customers, and is obsessed about creating compelling customer experiences.
+
+As the senior software development engineer of this team, you will play a pivotal role in shaping the definition, vision, design, roadmap and development of this set of CodeBuild product features from beginning to end. You will:
+Mentor and lead your team of developers
+Guide senior leadership to help drive business decisions
+Design, implement, test, deploy and maintain innovative software solutions to transform service performance, durability, cost, and security.
+Use software engineering best practices to ensure a high standard of quality for all of the team deliverables
+Write high quality distributed system software
+Work in an agile, startup-like development environment, where you are always working on the most important stuff.
+In this role you will lead a critical and highly-visible function within the AWS business. You will be given the opportunity to autonomously deliver the technical direction of the service, and the feature roadmap. You will work with extraordinary talent and have the opportunity to hire and shape the team to best execute on the product. If you’re excited to have a large impact on AWS and the cloud computing industry, you’ll find this role to be engaging, challenging, and full of opportunities to learn and grow.
+
+If this sounds interesting to you, come join us!
+Basic Qualifications
+Bachelor's degree or foreign equivalent in Computer Science, Engineering, Mathematics, or a related field.
+At least 5 years of experience in the job offered or as a Software Engineer, Software Developer, or a related occupation.
+At least 3 years of experience in the job offered or a related occupation must involve: designing and developing large-scale, distributed software applications, tools, systems and services using Java, Scala, Go, C#, or C++, and Object Oriented Design.
+Preferred Qualifications
+Experience taking a lead role developing complex software systems that have successfully been delivered to customers.
+Experience in communicating with users, other technical teams and senior management to collect requirements, describe software product features, technical designs and product strategy.
+Knowledge of professional software engineering practices & best practices for full software development life cycle, including coding standards, code reviews, source control management, continuous deployments, testing and operations
+Demonstrated ability to mentor junior software engineers in all aspects of their engineering skill-sets.
+
+Amazon is an Equal Opportunity-Affirmative Action Employer – Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation
+
+
+Apply Now at Amazon",0.0
+5,"Job Description
+We are inventing new and engaging ad experiences for customers on mobile. As a leader and engineer you will have the freedom, support and encouragement to experiment and invent on behalf of our customers. We trust you to come up with compelling new interactive mobile ad experiences. You will think big and turn vision into reality — not be constrained by resources available to you today or today’s market environments. You’ll straddle both the product perspective and engineering execution while holding the entire problem-space in your head. Paul Graham wrote an essay about the importance of this principle: http://paulgraham.com/head.html. We like to think that it’s more than the software that our engineers need to hold all at once in their heads — it’s also the customer experience, the design, and the product. This allows you to look around the corner, move efficiently, develop concrete plans, and take advantage of opportunities to solve problems with long-term thinking. We need a highly collaborative teammate, but also one-person wrecking crew — someone who gets a lot done with very little resources and lots of ambiguity.
+
+As a Development Manager, you'll build an elite team of Development Engineers to define, drive and execute on this vision. You will initiate processes that allow the team to collaborate with partner teams in Amazon with a high degree of efficiency. You'll develop your team of highly motivated and talented individuals who can collaborate with Program Managers, Product Managers and SDEs across the company on high impact initiatives. You will design, build and own beautiful new features and solutions that will delight our customers.
+
+
+Responsibilities
+• You'll lead the overall development life cycle of the solutions and manage complex projects with significant bottom line impact.
+• Work with our team's product managers to develop a strategy and road map to provide compelling customer experiences and capabilities.
+• Cooperate with our senior engineers to develop the best technical design and approach for new product development.
+• Assure that your team's designs meet requirements, and deliver high-quality work on tight schedules.
+• Project management - prioritize, plan projects and features, manage partners, and track external commitments.
+• Monitor operation of production services to ensure Operational Excellence.
+• Career management and fostering the development of your direct reports.
+Basic Qualifications
+A Bachelor’s degree in Computer Science or equivalent combination of technical education and work experience.
+7+ years of Software Development experience; 3+ years of experience in building and leading strong engineering teams.
+Solid software development background including design patterns, data structures, test driven development.
+Deep hands-on technical expertise in building web services and highly scalable applications.
+Excellent interpersonal and written communication skills.
+Experience leading a team of 7+ engineers.
+Preferred Qualifications
+Master’s degree in Computer Science, Computer Engineering or related technical discipline.
+Familiarity with professional software engineering practices & standard practices for the full software life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations.
+
+
+Apply Now at Amazon",0.0
+6,"Job Description
+Would you like to be one of the leaders of a team that is solving new business challenges through innovative technology?
+
+The Team: Amazon Books is a brick and mortar store that offers a curated selection of books and an array of Amazon devices. It is a magical experience that combines the best parts of a neighborhood bookstore with Amazon.com’s low prices and the expertise of passionate, knowledgeable staff who tailor their approach to the unique needs of each customer.
+
+We are building brand new products that will significantly enhance the customer experience in store with innovative solutions. This includes features like mobile experiences to help our customers search and discover great selections with ease. We are building both hardware and software products to drive creative in store experiences for customers and associates alike breaking the barriers between online and offline experience. We are optimizing inventory management and supply chain technologies that change how business operations work. And lastly we are doing all of this by integrating with Amazon services designed to massively scale for millions of customers.
+
+The Role: As a leader of the Customer-facing Device Management team you will investigate solutions to complex problems, design solutions and work closely with the technical team to implement them. You will play a leadership role by working closely with business teams, technical teams and operational teams alike. You'll need to work well cross functionally, have strong interpersonal and written communication skills, be able to operate successfully both strategically and tactically, and have a strong bias for action.
+You should be comfortable with a degree of ambiguity that’s higher than most projects and relish the idea of solving problems that, frankly, haven’t been solved at scale before - anywhere. You will encounter challenging, novel situations every day and given the size of this initiative, you’ll have the opportunity to work with multiple technical teams at Amazon in different locations. We’re looking for entrepreneurs who are passionate about innovating on behalf of customers, can demonstrate a high degree of ownership, and want to have fun while they make history and craft beautiful products.
+Basic Qualifications
+* Bachelor’s degree in Computer Science or related field.
+* 7+ years of technical program management experience
+* Understanding of Software Development Life Cycle (SDLC) and project planning/execution skills including estimating and scheduling.
+* Excellent analytical and interpersonal skills, with ability to work successfully across all engineering disciplines.
+* Maturity, judgment, and proven ability to lead and influence others.
+* Independently driven, resourceful, and able to deliver results with minimal direction.
+* Ability to communicate clearly and effectively with developers, business owners, and senior business leaders.
+* High sense of ownership, urgency, and drive.
+
+Preferred Qualifications
+* Master’s degree in Computer Science or related field
+* Experience driving multiple products through a complete product life cycle
+
+
+
+Apply Now at Amazon",0.0
+7,"Amazon Web Services (AWS) is the world leader in providing a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in hundreds of countries around the world.
+Come join a brand new team, EC2 Health Analytics, under EC2 Foundational Tech., to solve complex cutting-edge problems to power a faster, more robust and performant EC2 of tomorrow. The charter of our team is to improve customer experience on the EC2 fleet by analyzing hundreds of signals and driving next-generation detection and remediation tools across the cloud using Machine Learning and Data Analytics.
+
+As a Sr. Software Development Engineer in the EC2 Health Analytics team, you will join as a leader of an industry-leading engineering team solving challenging problems at massive scale.
+
+We are busy building our team from scratch (no legacy systems to own) and have multiple positions available.
+
+Responsibilities
+· Design, implement and deploy mission-critical systems that work at the scale of the EC2 fleet
+· Develop algorithms that analyze failures across different dimensions in EC2
+· Develop systems that improve the customer experience on EC2
+· Ensure the smooth and stable operation of the teams new services",0.0
+8,"You are a strong software development leader with a passion for building and innovating customer facing applications and systems at scale. As a Sr. Manager of Software Development in the Amazon Last Mile Technology team, you will recruit and lead a high quality, creative, visionary software development team to build and innovate the technology platform that powers the payments systems that support all delivery partners that support Amazon Logistics across multiple marketplaces. Your team will drive and own innovations for multiple international locales. You will closely work with international business and software development teams based in multiple America, Europe, and Asia locations. You will make a huge, measurable impact to the Amazon Last Mile, and build and innovate solutions that are simple and easy to maintain and scale. You are great at hiring, growing, and mentoring engineers, and cultivating leadership capabilities. Previous experience in collaborating with remote teams is a big plus.
+
+Amazon aims to exceed the expectations of our customers by ensuring that their orders, no matter how large or small, are delivered as quickly, accurately, and cost effectively as possible. To meet this goal, Amazon has invested in Amazon Logistics, a world class last mile operation. We are looking for a dynamic, resourceful, and organized Senior Manager that can develop the right team to drive innovation and execute new strategies across the key technology pieces that support the most critical components of this rapidly scaling operation.
+
+Amazon Last Mile Technology employs a wide range of technologies. From website and mobile apps based front-end to AWS based back-end, we provide great opportunities for talented software engineers to apply cutting edge technologies while solving challenging real world issues. If you are interested in big data analysis, machine learning, highly scalable services, Cloud based data storage, distributed system design, supply chain algorithm improvement, voice driven user interfaces or mobile user experience, Amazon Last Mile Technology has applications which impact millions of customers.",0.0
+9,"Job Description
+The video entertainment industry is at an exciting crossroads. Billions have been invested, market-leaders are emerging, and cutting-edge digital video services are delivering award-winning original programming. There’s never been a better time play a major role in this disruptive revolution. Prime Video would like to offer every film and TV show to every customer to watch instantly anywhere in the world. Would you like to join us to help shape a future where that's possible?
+
+The Prime Video Commerce Experience organization owns the Prime Video customer experience in purchasing and subscribing to video content, from surfacing the most relevant offers and ensuring transactions succeed to managing the lifecycle of everything they have bought. The projects that we deliver are some of the most important and impactful in the business and you will get the opportunity to provide innovative solutions to millions of Amazon customers worldwide.
+
+The Revenue And Payments team is seeking a Software Development Manager to build world-class bespoke financial and payment solutions to support our expanding global video business. As an Amazon Software Manager, you will be responsible for leading a team of software engineers responsible for the design, development, testing, and operations of Prime Video financial systems and services.
+A successful candidate will have an established background in developing full-stack n-tier systems, a strong technical ability, excellent project management skills, great communication skills, a motivation to achieve results in a fast-paced environment, high creativity, great analytical reasoning skills, and, of course, a passion for TV and film.
+
+An interest in how we account for and manage the financials for a multi-billion dollar business would also be beneficial.
+Basic Qualifications
+Degree in Computer Science or related field
+Experience managing a team of high caliber software engineers developing complex, world-class, scalable software systems
+A proven track record of software delivery through all phases of development and developing long-term development and business technology strategies
+Demonstrable knowledge of professional software engineering best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations
+Experience in recruiting, hiring, mentoring/coaching and managing teams of Software Engineers to improve their skills, and make them more effective, product software engineers
+Significant technical experience as a Software Engineer, developing distributed/scalable systems and high-volume transaction applications
+Experience in communicating with users, other technical teams, and senior management to collect requirements, describe software product features, technical designs, and product strategy
+Preferred Qualifications
+Experience developing financial or accounting software
+Experience influencing software engineering best practices within your team
+Hands-on expertise in many disparate technologies, typically ranging from front-end user interfaces through to back-end systems and all points in between
+Experience developing in at least one of Java, C, C++, or Perl
+
+
+Apply Now at Amazon",0.0
+10,"Who We Are
+
+Zume is on a quest to be the most powerful source of health and well-being on the planet. To achieve our objective, we must facilitate the provision of wholesome, affordable food on a global scale and in a sustainable manner. We are meeting this challenge by providing an end-to-end, scalable platform that reduces the time and distance between clean food sources and dense population centers, using cutting-edge automation and transportation logistics. By developing better tools and processes, we can feed people healthier, sustainably-grown food, delivered fresh and free from chemical stabilization.
+
+The Role
+
+Zume needs experienced technology leaders to help build, improve, and scale our products. You will own the delivery of major features that enable a complex logistics machine to run smoothly and flawlessly, to the delight of Zume's customers. Shipping these features will require good communication with all stakeholders and solid judgement about how to architect code to both ship quickly and handle changes in the future.
+You will help lead production processes and environments
+Develop, scale, and maintain our distributed systems
+Participate in the pizza production process
+Drive the development of service APIs used by system endpoints to communicate
+Implement customer facing features and integrate them with the Zume Platform
+Develop interfaces with IRL ""things"" to deliver good food to our customers
+Participate in on-call rotation
+The Stack
+
+The core technology is node.js, express, redis, pizza, rabbitmq, postgres on heroku. We also use distributed systems that communicate with our one of a kind Bake-On-The-Way food delivery platform, food prep robotics, and several other SaaS providers.
+
+Requirements
+
+Ideal candidates will need to be able to understand and work with architectures and code across the whole stack.
+Experience building service oriented infrastructure and API driven systems
+Experience with PaaS production deployments, but not afraid to get down to nuts and bolts of bare metal operations
+Experience with delivering applications on the web, distributed systems, databases, and networks
+Passionate about designing and delivering flexible and scalable components
+5-10 years experience as a professional software engineer
+A strong sense of ownership and team responsibility
+Authorized to work in the U.S.
+Bachelor's degree in Computer Science or related technical field or equivalent work experience
+Bonus Points
+Familiarity with our current stack
+Previous experience at a start-up
+Experience with delivery and logistics systems, particularly at scale
+What We Offer
+100% company-paid Medical, Dental, and Vision for you and 75% for your dependents
+Ownership via Stock Options
+Flexible Time Off
+Dog friendly office
+Daily catered lunch
+Free and discounted pizza!
+The opportunity to work with an incredibly supportive team of thinkers and innovators
+Zume provides equal employment opportunity to all individuals regardless of their race, color, creed, religion, gender, age, sexual orientation, national origin, disability, veteran status, or any other characteristic protected by state, federal, or local law. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",0.0
+11,"Are you an experienced software developer, a technical leader who wants to shape the future where billions of smart devices autonomously connect to AWS and its services? Do you want to architect, design and build client and back-end software that makes all this happen on a global scale? Come and join the AWS Internet of Things (IoT) team!
+IoT refers to a system of physical devices, from cars, light bulbs, sensor grids and more, that connect to the Internet. There will be 50 billion connected devices in 2020 if current trends continue, and any device that consumes electricity can become connected.
+
+The team:
+Amazons Internet of Things platform (AWS IoT) enables customers to easily connect devices to the AWS. Companies from all over the world can build their smart features and apps without having to worry about building a scalable infrastructure that grows with their millions of customers and devices because we do it for them. From simple sensors and actuators that barely have enough memory to run an OS and implement connectivity to full-blown industrial gateways, they all can benefit from AWS IoT to receive, store and process data to implement an ever growing set of features without ever having to touch the devices software itself.
+The IoT Devices Ecosystem team of AWS IoT will enable partners and customers to qualify their hardware to be used with AWS IoT services. Our industry partners include top CPU/MCU manufacturers and device OEMs. We work closely with other AWS IoT teams, particularly with Greengrass, Machine Learning @ Edge, Amazon FreeRTOS and IoT Core teams to build new ways of supporting new hardware and software requirements.
+
+You:
+We are seeking senior software developers with industry experience, technical innovation and solid engineering skills. All of our development is very customer and partner centric, and you should feel strongly not only about building and releasing good software, but about making that software highly reliable. Experience with web-services, embedded development, OS design and test frameworks will be helpful.
+You should be someone who enjoys working and having fun with some of the smartest software engineers in the industry, building complex system software to deliver significant impact for the AWS IoT business.
+
+Key responsibilities:
+· Architect, design, build and optimize the software to run a verification engine to qualify billions of devices to the AWS eco-system
+· Define intuitive web-service APIs and use AWSs cutting edge technologies to spin up new features quickly
+· Automate deployment and monitoring of your service to track down issues before our customers get affected
+· Help recruit, interview and hire software developers
+· Mentor and lead other software developers and grow their skills
+· Drive development process improvements and establish best practices to ensure highest quality software",0.0
+12,"Manage a team that designs, develops, troubleshoots and debugs software programs for databases, applications, tools, networks etc.
+
+As a director of the software engineering division, you will apply your extensive knowledge of software architecture to manage software development tasks associated with developing, debugging or designing software applications, operating systems and databases according to provided design specifications. Build enhancements within an existing software architecture and envision future improvements to the architecture.
+
+Assists in the development of short, medium, and long term plans to achieve strategic objectives. Regularly interacts across functional areas with senior management or executives to ensure unit objectives are met. Ability to influence thinking or gain acceptance of others in sensitive situations. Demonstrated leadership and people management skills. Strong communication skills, analytical skills, thorough understanding of product development. BS or MS degree or equivalent experience relevant to functional area. 7 years of software engineering or related experience.
+
+Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.
+Are you interested in building large-scale distributed infrastructure for the cloud? Oracle’s Cloud Infrastructure team is building new Infrastructure-as-a-Service technologies that operate at high scale in a broadly distributed multi-tenant cloud environment. Our customers run their businesses on our cloud, and our mission is to provide them with best in class, foundational cloud networking services.
+http://cloud.oracle.com/compute
+Our team builds distributed services that handle planning, provisioning, life cycle management and security of our network infrastructure. We are reimagining the traditional planning, provisioning and life cycle management of our network infrastructure to provide strong guarantees of security and availability with our new large scale distributed services. Our services expose highly available, software defined networking (SDN) capabilities for virtual network formation to our elastic compute customers.
+We’re looking for hands-on leader with strong management experience to come lead and build a team responsible for building in distributed systems, virtualized infrastructure, and highly available services. If this is you, at Oracle you can design and build innovative new systems from the ground up. These are exciting times in our space - we are growing fast, still at an early stage, and working on ambitious new initiatives. An engineer at any level can have significant technical and business impact.
+As a Director of Development you will own and manage a team of software engineers responsible for the software architecture and development for major components of Oracle’s Cloud Infrastructure. You should be comfortable with low level operating systems development, be able to architect broad systems interactions, while being very hands-on, able to dive deep into any part of the stack and higher level system interactions. You should value simplicity and scale, work comfortably in a collaborative, agile environment, and be excited to learn.
+Come build the state of the art IaaS network starting from the ground floor.
+
+Basic Qualifications:
+3-5 years of management experience in enterprise software
+- 7 years of experience with applications development with 2 years in large scale distributed applications / web services
+- Proficient at programming in Java, Python
+- Bachelors in computer science and Engineering or related engineering fields
+Preferred Qualifications:
+- 10 years of experience
+- Prior development experience with Network configuration management, skills with perl and ruby a plus
+- Masters / PhD degree in Computer Science or related engineering fields",0.0
+13,"At Remitly, we help immigrant communities around the world send over $6 billion a year to their loved ones. Sending money is faster, easier, and costs less with our all-digital money transfer platform. Our vision is to transform the lives of immigrants and their families by providing the most trusted financial service products on the planet. At Remitly, your work has a direct and positive impact on people around the globe. Your work matters, every day.
+
+Does leading a team of software engineers responsible for making an impact on customer's experience excite you? Would you like to be a technical thought leader and grow a team of passionate engineers? You can help us build experiences customers love, making our marketing team more effective and lead the engineers building those systems.
+
+On the Marketing Platform, you'll be focusing on building great experiences for our customers while improving and expanding acquisition and retention. You'll lead a passionate team of engineers and partner with marketers, designers, and engineers dedicated to understanding and building systems to scale our growth. Your team owns building the systems that enable marketers to execute campaigns, develop product marketing systems and integrate with third party advertising systems. The goal is to build systems that increase customer awareness, make it easier for customers to consider our product and increase its adoption. Our marketing platform will enable the marketing team to do this while targeting thousands of markets worldwide with economies of scale.
+
+As a Software Development Manager at Remitly, you are a builder and a leader, responsible for taking on complex technical and customer problems and creating great products backed by great systems. We use cutting-edge languages, tools, and frameworks to build applications and services on top of a scalable cloud architecture. Our startup work environment is fast-paced, mission-driven, and growing quickly.
+
+A successful Software Development Manager will use their experience and vision to hire and develop a diverse engineering team, coaching the team members to grow in their careers and have an impact on our customers. Examples of high impact results from this leadership will be simple and well-defined plans for both (a) our marketing platform architecture and (b) how we execute towards that vision.
+
+The Software Development Manager will be responsible for all aspects of software development for a broad set of services improve existing systems, and reduce technical debt. They will demonstrate a high level of partnership with Product Management, Senior Engineering Management, and other company stakeholders.
+
+You should possess:
+A degree in Computer Science, Engineering or a related field or equivalent experience
+5+ years of engineering experience with at least 1 year leading teams
+Experience defining and influencing technical designs and processes across a team spanning multiple disciples from web application development to data engineering and machine learning
+A deep understanding of software development practices, system design, software design patterns, and algorithms
+Expertise in one or more general-purpose languages like Java, JavaScript, Go, PHP, Python, or Ruby
+Strong ability to mentor and influence other engineers
+Excellent verbal and written communication skills
+Who We Are
+
+Remitly is an independent digital remittance company that transfers over $6 billion in annualized volume through its proprietary global money transfer network across Africa, Asia, Central, and South America. Its reliable and easy-to-use mobile app makes the process of sending money faster, easier, more transparent and less costly by eliminating the forms, codes, agents, extra time and fees typical of the traditional, century-old money transfer process. Remitly is backed by industry-leading investors, World Bank's International Finance Corporation (IFC), Naspers' PayU, Silicon Valley Bank, Stripes Group, DFJ, DN Capital, QED Investors, Trilogy Equity Partners, Bezos Expeditions, Founders' Co-Op, and TomorrowVentures. The company is headquartered in Seattle, with additional offices in London, the Philippines, and Nicaragua. For more information, visit remitly.com.
+
+Remitly is an Equal Opportunity Employer. Individuals seeking employment at Remitly are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, or sexual orientation.
+
+Remitly is an eVerify Employer.",0.0
+14,"Manage a team that designs, develops, troubleshoots and debugs software programs for databases, applications, tools, networks etc.
+
+As a director of the software engineering division, you will apply your extensive knowledge of software architecture to manage software development tasks associated with developing, debugging or designing software applications, operating systems and databases according to provided design specifications. Build enhancements within an existing software architecture and envision future improvements to the architecture.
+
+Assists in the development of short, medium, and long term plans to achieve strategic objectives. Regularly interacts across functional areas with senior management or executives to ensure unit objectives are met. Ability to influence thinking or gain acceptance of others in sensitive situations. Demonstrated leadership and people management skills. Strong communication skills, analytical skills, thorough understanding of product development. BS or MS degree or equivalent experience relevant to functional area. 7 years of software engineering or related experience.
+
+Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.
+
+Are you interested in building large-scale distributed infrastructure for the cloud? Oracle’s Cloud Infrastructure team is building new Infrastructure-as-a-Service technologies that operate at high scale in a broadly distributed multi-tenant cloud environment. Our customers run their businesses on our cloud, and our mission is to provide them with best in class, foundational cloud networking services.
+
+http://cloud.oracle.com/compute
+
+Our team builds distributed services that handle planning, provisioning, life cycle management and security of our network infrastructure. We are reimagining the traditional planning, provisioning and life cycle management of our network infrastructure to provide strong guarantees of security and availability with our new large scale distributed services. Our services expose highly available, software defined networking (SDN) capabilities for virtual network formation to our elastic compute customers.
+
+We’re looking for hands-on leader with strong management experience to come lead and build a team responsible for building in distributed systems, virtualized infrastructure, and highly available services. If this is you, at Oracle you can design and build innovative new systems from the ground up. These are exciting times in our space - we are growing fast, still at an early stage, and working on ambitious new initiatives. An engineer at any level can have significant technical and business impact.
+
+As a Director of Development you will own and manage a team of software engineers responsible for the software architecture and development for major components of Oracle’s Cloud Infrastructure. You should be comfortable with low level operating systems development, be able to architect broad systems interactions, while being very hands-on, able to dive deep into any part of the stack and higher level system interactions. You should value simplicity and scale, work comfortably in a collaborative, agile environment, and be excited to learn.
+
+Come build the state of the art IaaS network starting from the ground floor.
+
+Basic Qualifications:
+
+3-5 years of management experience in enterprise software
+
+- 7 years of experience with applications development with 2 years in large scale distributed applications / web services
+
+- Proficient at programming in Java, Python
+
+- Bachelors in computer science and Engineering or related engineering fields
+
+Preferred Qualifications:
+
+- 10 years of experience
+
+- Prior development experience with Network configuration management, skills with perl and ruby a plus
+
+- Masters / PhD degree in Computer Science or related engineering fields",0.0
+15,"Location: Bellevue
+Job type: Permanent
+Sector: IT & Communications
+Category: Office Jobs
+
+The Boeing Company is hiring for a Senior Manager position, Software Development Leader, in Bellevue Washington.
+
+In this role, you will work closely with key leaders within Analytics and Information Management Services (AIMS) organization and business and functional partner to envision new features, quantify their value to business, and prioritize them on your data and AI driven product roadmap. You will work closely with business engagement and customer success team, software development, data platform and data science teams to prioritize top opportunities to make customer experience better. You will be responsible for building and scaling a focused and high-skilled team of product managers and product designers. You will also track the key performance indicators of your product to showcase the value over its lifecycle for AIMS key customers. You will set the strategy & execution of Critical ecommerce applications suite.
+
+You Get To
+Set the strategy for your products and evangelize the vision with the organization
+Set the strategy and execution for enterprise scale ecommerce, responsive web portals with mission criticality.
+Set the Site Reliability Engineering framework to handle the performance, functional testing to scale the ecommerce framework applications.
+Understand the needs of our stakeholders, key users and customers when they engage with us: ranging from confirming their need for an analytics / machine learning solution, enabling self-service on the Boeing AnalytX platform
+Responsible for day to day execution of Boeing Management System (BMS) and management oversight.
+Understand creative and technological possibilities to create experiences that recognize our users every time and foster re-engagement and loyalty.
+Be the go-to person with key business partners - BCA, BDS, BGS and enterprise functions (Engineering, Supply Chain, Manufacturing, Sales & Marketing, Customer Support) collaborating with them around possibilities and keeping them engaged in the products' evolution
+Recruit, develop and coach high-impact product managers and product designers to deliver great experiences and be recognized as simply the best PM's for stakeholders, design and development to work with
+Promote thinking about the why and what of new capabilities, products, and features
+Facilitate trade-off decisions among investment, schedule and business benefit
+Envision, prioritize and partner with business engagement team and major Enterprise grade systems to deliver an ambitious and winning roadmap;
+Take ownership over risk mitigation and creatively solve problems as they arise
+Be comfortable in balancing among leadership, coaching and getting hands dirty in order to get things done
+Passion for data science, big data and product is a requirement, but, moreover, be deeply curious about the world, people and the product craft and profoundly persistent.
+About You
+
+You are a risk taker and a dreamer that delivers, doesn't take ""it's not possible"" for an answer, and has big ideas they can't wait to bring to life. You pride yourself on being the first of your friends and colleagues to have the pulse of what's happening in the world and staying in the know. You have a passion for working with data to deliver actionable foresight and drive business performance. Customer-centric mindset with sharp focus on building the best possible product. Highly analytical product leader with track record of making product decision based on data.
+
+Boeing is the world's largest aerospace company and leading manufacturer of commercial airplanes and defense, space and security systems. We are engineers and technicians. Skilled scientists and thinkers. Bold innovators and dreamers. Join us, and you can build something better for yourself, for our customers and for the world.
+
+Relocation Assistance Available for eligible candidates.
+
+Division
+
+CIO, Information & Analytics
+
+Relocation Assistance Available
+
+Yes. Available for eligible candidates, if authorized.
+
+Qualifications
+
+This position must meet Export Control compliance requirements, therefore a US Person as defined by 22 C.F.R. 120.15 is required. US Person includes US Citizen, lawful permanent resident, refugee, or asylee.
+
+Required Qualifications:
+Minimum 10 years of total work experience
+Minimum 3 years in a hands-on software development role
+Minimum 3 years in product management role
+Bachelors degree in Mathematics, Computer Science, Engineering, Economics, or other quantitative field
+Preferred Qualifications:
+Supply chain, Manufacturing experience
+Experience in Agile product development
+Masters in Computer Science, Engineering or MBA
+Experience Level
+
+Manager with Direct Reports
+
+Job Type
+
+Standard
+
+Travel
+
+Yes, 25 % of the Time
+
+Contingent Upon Program Award
+
+No
+
+Union
+
+No
+
+Job Code
+
+BAUYMM
+
+The Boeing Company is hiring for a Senior Manager position, Software Development Leader, in Bellevue Washington.
+
+In this role, you will work closely with key leaders within Analytics and Information Management Services (AIMS) organization and business and functional partner to envision new features, quantify their value to business, and prioritize them on your data and AI driven product roadmap. You will work closely with business engagement and customer success team, software development, data platform and data science teams to prioritize top opportunities to make customer experience better. You will be responsible for building and scaling a focused and high-skilled team of product managers and product designers. You will also track the key performance indicators of your product to showcase the value over its lifecycle for AIMS key customers. You will set the strategy & execution of Critical ecommerce applications suite.
+
+You Get To
+Set the strategy for your products and evangelize the vision with the organization
+Set the strategy and execution for enterprise scale ecommerce, responsive web portals with mission criticality.
+Set the Site Reliability Engineering framework to handle the performance, functional testing to scale the ecommerce framework applications.
+Understand the needs of our stakeholders, key users and customers when they engage with us: ranging from confirming their need for an analytics / machine learning solution, enabling self-service on the Boeing AnalytX platform
+Responsible for day to day execution of Boeing Management System (BMS) and management oversight.
+Understand creative and technological possibilities to create experiences that recognize our users every time and foster re-engagement and loyalty.
+Be the go-to person with key business partners - BCA, BDS, BGS and enterprise functions (Engineering, Supply Chain, Manufacturing, Sales & Marketing, Customer Support) collaborating with them around possibilities and keeping them engaged in the products' evolution
+Recruit, develop and coach high-impact product managers and product designers to deliver great experiences and be recognized as simply the best PM's for stakeholders, design and development to work with
+Promote thinking about the why and what of new capabilities, products, and features
+Facilitate trade-off decisions among investment, schedule and business benefit
+Envision, prioritize and partner with business engagement team and major Enterprise grade systems to deliver an ambitious and winning roadmap;
+Take ownership over risk mitigation and creatively solve problems as they arise
+Be comfortable in balancing among leadership, coaching and getting hands dirty in order to get things done
+Passion for data science, big data and product is a requirement, but, moreover, be deeply curious about the world, people and the product craft and profoundly persistent.
+About You
+
+You are a risk taker and a dreamer that delivers, doesn't take ""it's not possible"" for an answer, and has big ideas they can't wait to bring to life. You pride yourself on being the first of your friends and colleagues to have the pulse of what's happening in the world and staying in the know. You have a passion for working with data to deliver actionable foresight and drive business performance. Customer-centric mindset with sharp focus on building the best possible product. Highly analytical product leader with track record of making product decision based on data.
+
+Boeing is the world's largest aerospace company and leading manufacturer of commercial airplanes and defense, space and security systems. We are engineers and technicians. Skilled scientists and thinkers. Bold innovators and dreamers. Join us, and you can build something better for yourself, for our customers and for the world.
+
+Relocation Assistance Available for eligible candidates.
+
+Division
+
+CIO, Information & Analytics
+
+Relocation Assistance Available
+
+Yes. Available for eligible candidates, if authorized.
+
+Qualifications
+
+This position must meet Export Control compliance requirements, therefore a US Person as defined by 22 C.F.R. 120.15 is required. US Person includes US Citizen, lawful permanent resident, refugee, or asylee.
+
+Required Qualifications:
+Minimum 10 years of total work experience
+Minimum 3 years in a hands-on software development role
+Minimum 3 years in product management role
+Bachelors degree in Mathematics, Computer Science, Engineering, Economics, or other quantitative field
+Preferred Qualifications:
+Supply chain, Manufacturing experience
+Experience in Agile product development
+Masters in Computer Science, Engineering or MBA
+Experience Level
+
+Manager with Direct Reports
+
+Job Type
+
+Standard
+
+Travel
+
+Yes, 25 % of the Time
+
+Contingent Upon Program Award
+
+No
+
+Union
+
+No
+
+Job Code
+
+BAUYMM
+
+Email me newest jobs similar to this one",0.0
+16,"Job Description
+
+Are you ready to pursue some of the hardest scalability, performance, and distributed computing challenges in AWS? Our team's vision is to be the world's authoritative provider of AWS computing insight, where customers can understand, control and optimize usage of AWS products. Because we sit at the nexus of all AWS services and interact directly with end-customers, we build relationships with teams across AWS to ensure that we offer a secure and reliable customer experience. We take inputs from these services and merge them with the millions of events every second to produce actionable insight to our customers.
+
+This role requires ownership, autonomy, and an ability to deliver results. You should be a self-starter with a bias towards independent problem solving. Clear communication and prioritization will be important as you partner with Product Management to plan, design, and deliver experiences for millions of customers. Your passion for the potential of computing to improve people’s lives, and proven experience managing complex technology projects will help you make strong business judgments. Roll up your sleeves, build an engineering team second to none, and have fun while creating significant customer value!
+
+Your expertise is deep and broad; you start with the customer and work backwards to develop a coherent vision for services that support the flexibility and scale that customers expect from us. You have built and operated systems that support high-end business complexity and scale with simple and elegant solutions that are highly decoupled, yet operate in concert to produce customer experiences that are unique to Amazon. You will be responsible for a material piece of AWS Insights and join a select group of a people making history producing and selling infrastructure and software as a service. You will do this with an organization that is the acknowledged market leader and is regularly redefining the new normal for what is possible.
+
+We are looking for a leader like you to grow our talented team of dedicated professionals. As a software development leader you will...
+1. Lead a team of software development engineers in the design, development, test, deployment and operation of services that our customers depend on.
+2. Contribute directly to our growth by hiring smart and motivated engineers that can deliver swiftly and predictably, adjusting in an agile fashion to deliver what our customers need.
+3. Be responsible for ensuring sanity of architecture, operational excellence and quality, delivering results on time.
+4. Work closely with other AWS teams to deliver platform features that require cross-team leadership.
+5. Obsess over protecting customer information, maintaining single-digit millisecond latencies, and simplifying enterprise scale commerce complexity.
+6. Mentor a large group of people with a direct handle on the pulse of each employee on your team.
+7. Regularly dive into architecture, code, test plans, project plans, deployments and operations to drive excellence through your organization.
+8. Represent your business and operations to the highest level of leadership within AWS on a weekly basis.
+
+Basic Qualifications
+· 6+ years of experience building and leading development teams that design and deliver highly reliable and scalable systems
+· 3+ years of direct people leadership experience
+· Demonstrated experience in delivering software projects using Agile / Scrum methodologies
+· Bachelor degree in Computer Science or Engineering (or equivalent)
+· Demonstrated effective verbal and written communication skills
+Verified project management skills
+Preferred Qualifications
+· MBA or advanced degree
+· Certified Scrum Master, Agile Certified Practitioner or similar certification
+· Experience with large scale billing or e-commerce platforms including systems involving complex business logic
+· Extraordinary attention to detail and organizational skills
+· Experience delivering products, managing budgets and rationalizing resource needs to senior leaders and finance partners
+
+
+.",0.0
+17,"Do you enjoy watching the latest movies, television shows, or sporting events on your computer, tablet or smartphone? Do you hate waiting for your pages to load or your show to re-buffer? Good - us too.
+
+Amazon CloudFront is a web service for content delivery and one of the cornerstones of AWS. We bring the Internet closer to end users, speeding up the user experience. CloudFront integrates with other Amazon Web Services to give developers and businesses an easy way to distribute content (webpages, games, movies, live streams, etc.) to end users with low latency and high data transfer speeds. CloudFront uses a global network of edge locations to cache and route requests to the best possible location based on known latency, available capacity and many other factors. We build for massive scale and performance.
+
+We have no shortage of bright ideas but we need you help to turn them into reality.
+
+We are looking for experienced Software Development Managers to build and grow teams that will deliver and operate large scale cloud services and end-to-end solutions. Were looking for an ambitious self-starter with a passion for cloud computing and who can serve as a strong advocate for our customers. We needstrong technical candidates with proven analytical capabilities, strong persuasive writing skills, internet business experience, and the tenacity to develop ideas independently and thrive in a fast-paced start-up environment.
+
+Here are some reasons you should come work with us:
+· You will provide a service that is core to all modern Internet businesses.
+· You will be in charge of the complete software development lifecycle, defining, prioritizing, designing, building, and testing new features.
+· You will operate an AWS business with globally distributed servers and customers at a massive scale.
+· You will own one of the lowest latency and highest throughput services in all of AWS.
+· You will get the opportunity to work closely with a great team of software developers.
+· You will understand what it takes to grow and operate a global business at our scale.
+
+We
+· Are a group of technologists from diverse backgrounds.
+· Obsess over our customers needs and experience.
+· Are owners. We love building new innovative technologies, and improving our existing ones.
+· Wear multiple hats. We enjoy the prototyping and tinkering stages, as well as the rigor of making solutions production-ready.
+· Are fast-growing, agile and collaborative.
+
+You
+· Enjoy seeing the impact your work has on real customers.
+· Are comfortable in an agile environment and create order from ambiguity.
+· Build strong teams with others as passionate as you about this mission.
+· Take ownership and do what it takes to get the job done.
+· Want to create services at a massive scale used by millions of people.
+· Use data to make decisions and validate assumptions.
+· Learn from others and help grow those in your team to achieve their best.",0.0
+18,"Microsoft envisions a world where passionate innovators come to collaborate, envisioning what can be and taking their careers places they simply couldnt anywhere else. This is a world of more possibility, more innovation, more openness, and skys-the-limit thinking a cloud-enabled world. Our mission is to empower every person and every organization on the planet to achieve more. This mission is ambitious and at the core of what our customers and employees care deeply about and the Education Industry is at the cutting edge of manifesting our passion and mission. Microsoft aspires to help Education institutions achieve their own digital transformation, leveraging the power of Microsoft Cloud solutions and services. We are looking for a highly motivated individual with a solid understanding of Azure solutions for Applications, Infrastructures and Data workloads. The K12 industry leader will be tasked with partnering across our global sales team, engineering, marketing, channel and other industry teams to develop and evangelize Microsoft Cloud solutions in K12 Education. The successful candidate will help us develop industry thought leadership for Azure solutions. Responsibilities Qualifications 5+ years of experience implementing and deploying complex, business critical industry solutions, predictive maintenance, and/or experience in one or more industry functional areas to support broad engagement 5+ years of success in consultative/complex technical sales and deployment projects Deep technical experience in one or more of the following areas: Software design or development, Application Design, Systems Operations / Management, Database architecture, Virtualization, IP Networking, Storage, IT Security, Linux, HPC Culture Were working together to build strong communities inside and outside the workplace. Working knowledge of the following programming languages: .NET, C++, Java, JSON, PHP, Perl, Python, Ruby on Rails, Pig/Hive Proven track record of building deep technical relationships with senior executives and growing cloud consumption share in large or highly strategic accounts Exceptional presentation skills and storytelling capability to deliver keynotes with large audiences Demonstrable experience collaborating and influencing across multiple stakeholder groups. Ability to work successfully across a complex, highly-matrixed environment Benefits Microsoft sees the whole person and looks to support your well-being on every level. Excellent skills in all aspects of planning, communications, analytical capabilities and attention to detail. Passion and proven record for execution with measurable results. Outstanding interpersonal skills, innovation, and the ability to motivate, inspire, and lead cross group/functional teams with a high degree of independence and success Ability to deal with ambiguity, navigate uncertain situations, and drive for clarity Diversity and inclusion Demonstrated strong capability in verbal and written communications skills across a geographically dispersed audience We value individuality. The experiences that have shaped your world view can help us shape ours. Ability to build strong partnerships across organizational lines Education Industry Experience helpful, but not mandatory.
+
+Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request via the Accommodation request form.
+
+Benefits/perks listed below may vary depending on the nature of your employment with Microsoft and the country where you work.",0.0
+19,"Technology Group
+
+The Cloud Native Applications team is one of the leading innovation groups at VMware. Building and delivering cloud-native solutions for private, hybrid and public cloud, this VMware team brings extensive expertise in container networking, security, storage, operations and monitoring to our enterprise and service provider solutions. Our cloud-native solutions address a range of needs, from modernizing traditional applications to building next-generation microservices-based applications. VMware Kubernetes Engine (VKE) is an enterprise-grade Kubernetes-as-a-Service offering that provides an easy to use, ""secure by default"", and cost-effective Kubernetes runtime. VKE runs natively on AWS today in several regions, and will be expanded to additional clouds in the future.
+
+For more information view the following links.
+
+VKE Product Information
+
+Introduction to VKE video
+
+SVP/GM: Cloud Native Apps Blog
+
+Job Description and Scope of the Role
+
+As the SaaS engineering leader for VKE, the successful candidate will manage a team of 90+ Software Engineers, across 3 locations and including our rapidly expanding Bellevue, WA office. Supporting the SVP & GM of VMware's Cloud Native Apps business unit, this Engineering leader will execute on VMware's cloud native SaaS Kubernetes strategy focused on the VKE product to deliver multi-cloud SaaS solution on AWS, Azure and other public clouds. VKE offers Smart Cluster technology for resource optimization, global policy management, and an ecosystem supporting developer and IT tools across AWS, Kubernetes, and VMware.
+
+The successful candidate must have extensive experience in operating large scale, data driven cloud services, and extensive knowledge of cloud architectural patterns with deep knowledge of the leading cloud platforms.She/he will lead and participate in many critical SaaS and Kubernetes related projects at VMware, with the authority and scope to apply their leadership expertise in a fast paced technically driven environment. VMware is looking for an engineering leader who can help evangelize and demonstrate technical leadership for our Kubernetes solutions and contributions customers, partners and community members. A proven track record of leading senior technical resources in building new products for new markets is also required.
+
+The primary responsibilities of this role include:
+Directly lead and support engineering team responsible for VKE solution at VMware, and support the ongoing evolution, growth and transformation of the way VMware delivers all Cloud Native services.
+Ensure that the VKE engineering organization is meeting business, customer, community, partner and quality objectives.
+Develop, lead and inspire the engineering team. Be a magnet for technical talent and accelerate the hiring of engineers. Solidify succession plans and enhance management capabilities to meet strategic and operating objectives.
+Be a respected leader in the company and the industry. Establish a strong collaborative culture with peers and other functions within VMware. Promote a culture of success, pride, performance, discipline, and creativity.
+Be an effective spokesperson and champion for the VKE and Cloud Native engineering teams, both inside and outside of VMware
+Bring to bear comprehensive understanding, knowledge and decision making required to run a large software development and services organization (ex. making technology & architectural trade-offs, competitive analysis, life-cycle management).
+Work closely and engage with VMware executives and direct reports to establish an environment that is motivating and entrepreneurial in nature. Work especially closely with Product Management and Marketing teams to obtain prompt resolution to key business issues likely to impact product release schedules, product requirements, product quality, and business operations.
+Required Qualifications
+Extensive experience in leading and operating large scale, data driven cloud services as an engineering leader.
+Significant engineering management experience (minimum 5 years) in software ""as-a-service"" or cloud environments.
+Extensive knowledge of cloud architectural patterns with deep knowledge of the leading cloud platforms.
+A highly-driven leader that is known to deliver in high growth and highly dynamic environments.
+Successful experience in setting the vision, building, leading and motivating global engineering teams at scale.
+Demonstrated track record of implementing enhanced product development processes that shorten release cycles and improve ""time to market"" for new products.
+Trained in Agile software development, organization and leadership from an organization known and respected for world-class software development processes and practices.
+A team player, who works effectively in a team-based organization, collaborates multi-functional, and builds support and alignment around goals and objectives.
+Proven history of retaining, developing, motivating, and mentoring highly effective teams.
+Education
+
+BS in Computer Science or related degree. Advanced degree strongly desired.
+
+VMware is an Equal Opportunity Employer and Prohibits Discrimination and Harassment of Any Kind: VMware is committed to the principle of equal employment opportunity for all employees and to providing employees with a work environment free of discrimination and harassment. All employment decisions at VMware are based on business needs, job requirements and individual qualifications, without regard to race, color, religion or belief, national, social or ethnic origin, sex (including pregnancy), age, physical, mental or sensory disability, HIV Status, sexual orientation, gender identity and/or expression, marital, civil union or domestic partnership status, past or present military service, family medical history or genetic information, family or parental status, or any other status protected by the laws or regulations in the locations where we operate. VMware will not tolerate discrimination or harassment based on any of these characteristics. VMware supports applicants of all ages. VMware will provide reasonable accommodation to employees who have protected disabilities consistent with local law.
+
+SDL2017",0.0
+20,"The Corporate Development Integration team is seeking a motivated Technical Program Manager to drive faster and more efficient integration of Amazons acquisitions. The TPM will contribute to every stage of the integration process to achieve the acquisition deal rationale and build a strong community of technology leaders across Amazon and its subsidiaries.
+The role will implement scalable mechanisms that: i) provide coaching and cultural guidance to educate subsidiary engineering teams on how to succeed within Amazon, ii) enable communication and collaboration between subsidiaries and other Amazon teams, iii) reduce the amount of time and risk associated with the technical integration needs unique to each acquisition.
+The TPM’s responsibilities will include:
+· Working with Corporate Development and acquiring technical teams to accelerate definition and refinement of technical integration goals and projects.
+· Developing training programs to help subsidiaries understand how to work with Amazon tech teams, and surface the inherent challenges of coordinating work across Amazon teams.
+· Developing programs to help subsidiaries measure and improve their engineering practices in areas such as operational excellence, the software development life cycle, and security.
+· Developing mechanisms to help subsidiaries share technology.
+BASIC QUALIFICATIONS
+· 5+ years of Technical Program Management experience in a related industry.
+· Bachelors degree in Computer Science, Computer Engineering or related technical discipline from a leading university.
+· Strong technical background with solid foundation in software engineering principles.
+· Strong customer focus, excellent problem solving and analytical skills.
+· Strong proficiency in writing & communicating verbally across peer group and leadership teams.
+· Experience defining and leading large, cross-organizational programs.
+PREFERRED QUALIFICATIONS
+· Experience working in or with Amazon subsidiaries.
+· Track record for managing complex technology projects with aggressive schedules and scarce resources.
+· Familiarity with the AWS product suite.
+· Ability to operate with ambiguity in parallel across multiple projects and teams.
+Job details
+Seattle, Washington
+Corporate Development
+Project/Program/Product Management--Technical
+Share this job
+Related jobs
+Sr. Product Manager
+US, WA, Seattle
+Marketing Technology Manager
+US, WA, Seattle
+Sr. Technical Product Manager
+US, WA, Seattle
+Senior Technical Product Manger, Amazon Advertising
+US, WA, Seattle
+AWS Security Vulnerability Management Leader",0.0
+21,"Amazon Simple Storage Service (S3) is storage for the Internet. We are looking for a leader of leaders to manage a software area of strategic importance and significant impact. You will lead managers and SDEs on S3 Storage Management, leading teams for asynchronous data processing at scale including S3 Lifecycle, S3 Deletions and new Storage Management services.
+
+In this role you will:
+· Set the high-level vision and long-term direction for your teams.
+· Manage the software delivery for multiple teams owning goals and roadmap.
+· Meet with key customers to understand requirements.
+· Develop workflow pipelines for asynchronous data processing at scale.
+· Manage prioritization between customers features and operational experience.
+· Coach managers and employees, building a strong and self-sustaining organization.
+· Report on status of development, operations and system performance to leadership team.
+· Own new and highly visible customer services from conception through delivery.
+
+About the Service:
+
+Amazon S3 provides simple APIs that can be used to store and retrieve any amount of data, at any time, from anywhere on the web. S3 customers can easily organize their storage by applying custom tags to their objects, and create Storage Management policies that govern access, data movement and data lifespan based on their business requirements.",0.0
+22,"Manage a team that designs, develops, troubleshoots and debugs software programs for databases, applications, tools, networks etc.
+
+As a director of the software engineering division, you will apply your extensive knowledge of software architecture to manage software development tasks associated with developing, debugging or designing software applications, operating systems and databases according to provided design specifications. Build enhancements within an existing software architecture and envision future improvements to the architecture.
+
+Assists in the development of short, medium, and long term plans to achieve strategic objectives. Regularly interacts across functional areas with senior management or executives to ensure unit objectives are met. Ability to influence thinking or gain acceptance of others in sensitive situations. Demonstrated leadership and people management skills. Strong communication skills, analytical skills, thorough understanding of product development. BS or MS degree or equivalent experience relevant to functional area. 7 years of software engineering or related experience.
+
+Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.
+Are you interested in building large-scale distributed infrastructure for the cloud? Oracle’s Cloud Infrastructure team is building new Infrastructure-as-a-Service technologies that operate at high scale in a broadly distributed multi-tenant cloud environment. Our customers run their businesses on our cloud, and our mission is to provide them with best in class, foundational cloud networking services.
+http://cloud.oracle.com/compute
+Our team builds distributed services that handle planning, provisioning, life cycle management and security of our network infrastructure. We are reimagining the traditional planning, provisioning and life cycle management of our network infrastructure to provide strong guarantees of security and availability with our new large scale distributed services. Our services expose highly available, software defined networking (SDN) capabilities for virtual network formation to our elastic compute customers.
+We’re looking for hands-on leader with strong management experience to come lead and build a team responsible for building in distributed systems, virtualized infrastructure, and highly available services. If this is you, at Oracle you can design and build innovative new systems from the ground up. These are exciting times in our space - we are growing fast, still at an early stage, and working on ambitious new initiatives. An engineer at any level can have significant technical and business impact.
+As a Director of Development you will own and manage a team of software engineers responsible for the software architecture and development for major components of Oracle’s Cloud Infrastructure. You should be comfortable with low level operating systems development, be able to architect broad systems interactions, while being very hands-on, able to dive deep into any part of the stack and higher level system interactions. You should value simplicity and scale, work comfortably in a collaborative, agile environment, and be excited to learn.
+Come build the state of the art IaaS network starting from the ground floor.
+
+Basic Qualifications:
+3-5 years of management experience in enterprise software
+- 7 years of experience with applications development with 2 years in large scale distributed applications / web services
+- Proficient at programming in Java, Python
+- Bachelors in computer science and Engineering or related engineering fields
+Preferred Qualifications:
+- 10 years of experience
+- Prior development experience with Network configuration management, skills with perl and ruby a plus
+- Masters / PhD degree in Computer Science or related engineering fields",0.0
+23,"Description
+
+Manager, Software Development – Platform Team
+
+Position Summary:
+
+We are on a multi-year mission in the continual modernization of our tech stack with a move all of our systems to the cloud. You’ll fit right in if you’re at home in an agile environment and believe continual improvement is a way of life. Here, you’ll find a collaborative and empowered team and casual work environment in a great downtown location.
+
+As part of the Technology leadership team you will guide your team with a philosophy of continual improvement, applying lean principals to provide solutions for rich customer experiences on our websites. You’ll creatively and collaboratively develop and engage a team of high-performing engineers, empowering them in the process of solving challenging software problems. Your focus on collective achievement will enable successful outcomes by providing continual analysis, feedback and support for individuals and the team unit.
+
+Leveraging your personal technical depth as a former developer and architect, you will set the standard for software engineering excellence. Balancing strategic influence with tactical involvement, you will model both appropriate delegation and effective hands-on contributions, like writing and reviewing code along with your team. Equally important will be your ability to collaboratively partner with Product Owners, Product Managers and Senior Management to execute on the company mission.
+
+Responsibilities:
+This role will combine leadership and strategic thinking with hands-on contributions.
+Collaborate with technology and business stakeholders in gathering requirements and for delivery of projects through entire lifecycle
+Facilitate an environment where your team can experiment and iterate with few impediments
+Coach, mentor, develop and empower a team of high-performing engineers to successful outcomes
+Measure and report status on team and product progress indicators
+Conduct design, product, and code review meetings. Participate in team review meetings
+Provide technical vision and strategic direction related to core development
+Follow and define best practices
+Desired Skills and Experience:
+Curiosity, imagination, intuition and teamwork skills.
+Passionate and committed with strong sense of ownership and craftsmanship
+Experience interacting with both technical and non-technical personnel
+Sharp analytical abilities, proven design skills and a track record of delivery
+Leadership, critical thinking and excellent verbal and written communication skills
+Experience working in a lean/agile environment
+Experience developing and supporting software in a high load Linux environment including performance testing
+Experience operating and troubleshooting complex systems
+Languages / Frameworks
+Expert understanding (7+ years) of Object Oriented Programming concepts and design patterns
+Expert level experience (5+ years) with Java.
+5+ years of commercial web application development using Spring for IOC and web presentation
+Experience with design and development of RESTful API
+Expert in SQL and JDBC skills; experience with Postgres, Oracle or MySQL
+Test-driven development advocate using JUnit, Mockito, etc.
+Tools
+Experience with Eclipse or similar IDE
+Experience with build and deployment tools such as Git, Hudson, Bamboo etc
+Experience with system monitoring tools such as Zabbix, Dynatrace, CloudWatch, DataDog etc.
+More Successful Candidates will have experience with:
+Leading and owning large complex projects
+Experience managing a team of 3 or more individual contributors
+Ecommerce websites, subscription, order fulfillment and billing management
+Vetting and Technical integration with third party vendor software
+Experience with CI/CD, Containers, Kubernetes and AWS
+Experience with Kafka or similar messaging systems
+Education/Qualifications:
+8 + years Industry experience and expertise
+Bachelor's degree in Computer Science, Software Engineering, or related field or equivalent.
+About Us:
+
+We started as two companies with deep Seattle roots, both in the business of finding, and managing, information about people. These companies were brought together to revolutionize an industry that’s filled with dark corners and reactive strategy. Using the combined resources of Classmates’ one-of-a-kind social network, Intelius’ proprietary people profiles, and the merged talents and experience of our employees, we aim to shine a light in those dark corners and be the digital identity company that empowers consumers.
+
+Located in the heart of Downtown Seattle, we work in small empowered teams that create a big impact. We are agile and down-to-earth, collaborate toward common goals, and enjoy a balance between strategic and tactical as well as work and life. Our core values are deeply focused on balance, collaboration, continual improvement and empowerment.
+
+PeopleConnect, Inc. is an equal opportunity employer.
+
+Local area candidates are encouraged to apply, and please note we are not able to offer visa sponsorship, visa transfer, or corp-corp arrangements.
+
+Intelius
+
+Since 2003, Intelius has been an industry leader for the information of people. Our focus is to empower decision-making and deliver robust, and objective information brought together from across the internet. Delivering credible digital identities; including backgrounds, connections to people, places, and organizations - in a transparent way - we are pioneers in the information commerce industry, ranked among the top background search sites on the Internet. We offer products and services including people and property search, background checks, and reverse phone lookup. Beyond delivering reliable and accurate information - we augment, interpret, and present it based on your unique needs, creating valuable and trusted solutions for our millions of customers across lifestyles and industries because being informed matters.
+
+Classmates
+
+For over 20 years, Classmates has operated as the leading online social network service in the United States for bringing high school alumni together. Classmates serves over 70 million members and enables its users to find and reconnect with high school friends. In addition to facilitating connections with high school friends, Classmates also features the largest library of digitized yearbooks available anywhere on the Internet, to help members reconnect, reminisce, engage, and plan reunions with alumni.",0.0
+24,"Job Description
+The Corporate Development Integration team is seeking a motivated Technical Program Manager to drive faster and more efficient integration of Amazon's acquisitions. The TPM will contribute to every stage of the integration process in support of the acquisition deal rationale and build a strong community of technology leaders across Amazon and its subsidiaries.
+
+The role will implement scalable mechanisms that: i) reduce the amount of time and risk associated with the technical integration needs unique to each acquisition, ii) provide coaching and cultural guidance to educate subsidiary engineering teams on how to succeed within Amazon, iii) enable communication and collaboration between subsidiaries and other Amazon teams.
+
+The TPM’s responsibilities will include:
+Working with CorpDev and acquiring business and technology teams in i) supporting and leading technical due diligence of Amazon’s acquisitions, and ii) defining and enabling execution of technical integration goals and projects.
+Enabling acquired engineering team productivity by driving projects across various Amazon functions including InfoSec, CorpIT and legal.
+Developing and leading training programs to help subsidiaries understand how to work with Amazon tech teams.
+Defining and implementing programs at subsidiaries to improve their engineering practices in areas such as operational excellence, software development lifecycle, and security.
+Developing mechanisms to help subsidiaries share technology, expertise and learnings.
+Basic Qualifications
+5+ years of Technical Program Management experience in a related industry.
+Bachelor's degree in Computer Science, Computer Engineering or related technical discipline from a leading university.
+Strong technical background with solid foundation in software engineering principles.
+Strong customer focus, excellent problem solving and analytical skills.
+Strong proficiency in writing & communicating verbally across peer group and leadership teams.
+Experience defining and leading large, cross-organizational programs.
+Preferred Qualifications
+Experience working in or with Amazon subsidiaries.
+Track record for managing complex technology projects with aggressive schedules and scarce resources.
+Familiarity with the AWS product suite.
+Ability to operate with ambiguity in parallel across multiple projects and teams.
+
+
+Apply Now at Amazon",0.0
+25,"We’re looking for hands-on leader with strong management experience to come lead and build a team responsible for building in distributed systems, virtualized infrastructure, and highly available services. If this is you, at Company you can design and build innovative new systems from the ground up. These are exciting times in our space - we are growing fast, still at an early stage, and working on ambitious new initiatives. An engineer at any level can have significant technical and business impact.
+As a Director of Development you will own and manage a team of software engineers responsible for the software architecture and development for major components of Company’s Cloud Infrastructure. You should be comfortable with low level operating systems development, be able to architect broad systems interactions, while being very hands-on, able to dive deep into any part of the stack and higher level system interactions. You should value simplicity and scale, work comfortably in a collaborative, agile environment, and be excited to learn.
+Come build the state of the art IaaS network starting from the ground floor.
+Basic
+Qualifications
+:
+3-5+ years of management experience in enterprise software
+7+ years of experience with applications development with 2+ years in large scale distributed applications / web services
+Proficient at programming in Java, Python
+Bachelors in computer science and Engineering or related engineering fields
+Preferred
+Qualifications
+:
+10+ years of experience
+Prior development experience with Network configuration management, skills with perl and ruby a plus
+Masters / PhD degree in Computer Science or related engineering fields
+Detailed Description and Job Requirements
+Manage a team that designs, develops, troubleshoots and debugs software programs for databases, applications, tools, networks etc.
+As a director of the software engineering division, you will apply your extensive knowledge of software architecture to manage software development tasks associated with developing, debugging or designing software applications, operating systems and databases according to provided design specifications. Build enhancements within an existing software architecture and envision future improvements to the architecture.
+Assists in the development of short, medium, and long term plans to achieve strategic objectives. Regularly interacts across functional areas with senior management or executives to ensure unit objectives are met. Ability to influence thinking or gain acceptance of others in sensitive situations. Demonstrated leadership and people management skills. Strong communication skills, analytical skills, thorough understanding of product development. BS or MS degree or equivalent experience relevant to functional area. 7 years of software engineering or related experience.",0.0
+26,"Manage a team that designs, develops, troubleshoots and debugs software programs for databases, applications, tools, networks etc.
+
+As a director of the software engineering division, you will apply your extensive knowledge of software architecture to manage software development tasks associated with developing, debugging or designing software applications, operating systems and databases according to provided design specifications. Build enhancements within an existing software architecture and envision future improvements to the architecture.
+
+Assists in the development of short, medium, and long term plans to achieve strategic objectives. Regularly interacts across functional areas with senior management or executives to ensure unit objectives are met. Ability to influence thinking or gain acceptance of others in sensitive situations. Demonstrated leadership and people management skills. Strong communication skills, analytical skills, thorough understanding of product development. BS or MS degree or equivalent experience relevant to functional area. 7 years of software engineering or related experience.
+
+Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.
+
+Are you someone with a passion for taking on big challenges? Are you interested in large-scale, highly distributed systems? If so, then Oracle's Cloud Infrastructure team is for you. We're looking for strong technical leaders with backgrounds in distributed systems and storage to help build a highly distributed multi-tenant cloud environment on a massive scale.
+
+You will never be bored in this job. We need people with a passion towards customer satisfaction and expertise in distributed systems, storage, and highly available services. How will we build this? It could be up to you but we apply solid engineering and design principles to develop world-class, highly available services.
+
+We are still at an early stage and an entrepreneurial, fast-paced mentality is critical for success in this position: a passionate can-do attitude, exceptional communication skills, and the ability to collaborate while acting, as a thought leader in your area of expertise will serve you well on Oracle's Cloud Infrastructure Team. Does this sound like a challenge you're ready for?
+As a service leader, you will:
+Manage the design, development, and operations of a team within our object storage group.
+Collaborate with your team, peers, and senior leadership to identify requirements, coordinate delivery, and integrate solutions for new features and functionality.
+Help define service strategy and roadmap.
+Provide technical expertise and leadership.
+Recruit and continue to build out a capable and cohesive engineering team.
+Qualifications:
+
+10 years experience designing, delivering, and operating large scale distributed systems in production environments.
+3 years experience managing or leading the design, delivery, and operation of large scale distributed systems.
+Dmonstrable success mentoring and growing junior engineers to senior levels.
+Strong knowledge of Linux/Unix fundamentals.
+Strong knowledge of operating systems, databases, and distributed systems fundamentals.
+Experience with build automation, continuous integration and continuous deployment tools.",0.0
+27,"We are looking for a Senior Software Development Manager of Software Engineering to build a top-tier software organization that will help design and implement next gen architecture. In this role, you will mentor other engineers, scale the team and can act as a lead on projects. You will drive positive change in the work environment with a consistent track record of delivering on commitments. You will communicate proactively and effectively to different kinds of audiences, including executives and non-technical stakeholders.
+
+This position will report to Director/Senior Director of Engineering. We are currently looking for Senior Software Development Managers to manage Front-end, Back-end or FullStack teams.
+
+Our team focuses on distributed decision making that rewards ownership, transparency, and collaboration.
+
+Job Responsibilities Include:
+Technical leader:
+Guide and mentor team members regarding architecture and best practices
+Review and coach team on project designs for design review presentations
+Ensure all projects that affect the live site are presented in design review
+Ensure all projects that have a system impact undergo a deployment review
+Influence technical direction of the group
+Initiates, leads and delivers significant improvements in the effectiveness of engineers across multiple teams
+Brings teams together, finds and promotes solutions when issues inhibit effectiveness of multiple teams
+Able to completely run the team as if it's a small startup in a bigger ecosystem with broad cross-team focus.
+Product leader:
+Analyze feature sets for market effectiveness: facilitate appropriate feedback and discussions with Product and Design
+Analyze feature sets for implementation efficiency and performance: facilitates feedback and discussions with Product and Design
+Forge strong partnership with product management and other key areas of the business
+Communicate proactively and often with peers, executives and team members
+Quality Champion:
+Ensure projects are fully tested before being deployed
+Ensure projects have an appropriate amount of automated and manual tests
+Deployment plans are well considered and include appropriate scalability and load tests.
+Deployments are monitored to ensure success
+Features are properly monitored and maintained after they go live.
+Resource manager:
+Resources are being deployed appropriately and efficiently with regard to product management objectives
+Resource usage, changes, and schedules are kept up to date and are communicated effectively
+Actively participate in recruiting
+Requirements:
+10+ years software development experience
+5+ years previous management experience
+Experience building highly scalable, high available customer facing applications
+Experience building teams including, recruiting and retention
+Strong problem solving and troubleshooting skills
+Excellent written and verbal communication skills
+Ability to work independently in a fast-paced environment with frequent production releases
+Familiarity with Agile/Scrum methodologies
+Legally eligible to work in the U.S. on an ongoing basis
+Nice to haves:
+Familiarity with SaaS apps (Google Docs, Office365, Salesforce, etc.)
+MySQL database experience (performance, scalability, availability)
+Experience with AWS technologies
+Experience developing, documenting, and supporting REST APIs",0.0
+28,"Placed is the market leader in location-driven insights and ad intelligence. We're a fast-growing organization headquartered in downtown Seattle, focusing on connecting the physical and digital worlds to give brands, agencies, publishers, and ad networks the ability to target location at scale, measure the offline impact of ads and deliver actionable insights into consumer behavior.
+
+We’re looking for a Senior Software Engineer to join Placed, a subsidiary of Snap Inc! As a member of our web product team, you will design and develop our customer-facing applications which provide advanced location and advertising analytics to many of the world's biggest brands and retailers. Working from our Seattle, WA headquarters, you’ll partner with product, data science, and other engineering teams to develop clean and intuitive visualizations that provide meaningful and accessible insights from immense data sets.
+
+What you’ll do:
+Partner with product owners, engineering leadership and other stakeholders to identify development priorities
+Work closely with UX/UI designers and product managers to consistently improve customer experiences
+Partner with other engineers to develop roadmaps for full stack architectural changes in support of long term goals
+Build secure interfaces which protect sensitive user and customer data
+Mentor junior engineering staff
+What we’re looking for:
+BS degree in computer science or related technical field
+7+ years of software development experience on enterprise or consumer web applications
+Experience designing and building RESTful APIs
+Experience building data visualizations (ex. D3.js)
+Production experience with Angular, React, or Ember
+Experience writing tests with front-end testing frameworks (i.e. Mocha, Chai)
+Excellent communication skills, including the ability to identify and communicate data-driven insights
+At Placed, a subsidiary of Snap, Inc., we believe that having a team of diverse backgrounds and voices working together will enable us to create innovative products that improve the way people live and communicate. Placed is proud to be an equal opportunity employer, and committed to providing employment opportunities regardless of race, religious creed, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, pregnancy, childbirth and breastfeeding, age, sexual orientation, military or veteran status, or any other protected classification, in accordance with applicable federal, state, and local laws. If you have a disability or special need that requires accommodation, please don’t be shy and contact us at accommodations-ext@snap.com.",0.0
+29,"IMDb is the worlds most popular and authoritative source for movie, TV and celebrity content. The IMDb consumer site (www.imdb.com) is the #1 movie website in the world with a combined web and mobile audience of more than 250 million unique monthly visitors. At IMDb, you'll be joining a team of seasoned leaders who value execution and decision making at the speed of startups, but with the backing and resources of Amazon.
+You will be given an opportunity to own and drive initiatives through the entire software stack -- from customer facing features and data innovations to cross-team collaboration on advertising platform services. You will be a senior lead in the development of features that drive revenue to the #1 entertainment site in the world. You love challenging problems, collaborating with stakeholder teams, defining roadmaps, design creative technical solutions, and mentoring more junior engineers.
+Impact: As a senior software development engineer, you own one or more key initiatives in IMDb Advertising and have the freedom to drive the architecture and development of complex advertising products collaborating across IMDb consumer, app, and the entire vertical of Amazon Advertising Platform teams. You influence strategic changes in the Amazon Advertising Platform that will benefit both IMDb and other third-party publishers thus feeding the Amazon flywheel.
+We solve advertising problems across diverse international regions and build solutions of massive scale across desktop and mobile platforms. We support a culture of innovation through experimentation and directly partner with Sales and Marketing to build successful products for our business that our customers love. We have high technical standards and support you to lead the team to reach for new engineering excellence. You will set the standard for engineering, testing, and operational excellence, drive best practices across organization.
+Data and analytics there is an almost overwhelming amount of data available and we need to determine which signals are likely to have impact on our clients and how best to retain client interest in our business through data offerings. We're building platforms to automate the generation, validation, and publishing of models that incorporate all available data to predict any measurable signal.
+IMDb employees enjoy the benefits of working for Amazon with the autonomy of working on a small, nimble team.",0.0
+30,"About the teamAre you an expert developer who cares deeply about details and the quality of your work? Do you enjoy creating well-tested solutions with strong technical designs and top-tier user experiences? In this role, you will be focused on the customer-facing billing portal and the backend billing platform used across the company.
+
+This is a highly visible role where:
+You will get to work alongside driven engineers and be a technical leader on the team.
+You will use new technologies including Python, React and AWS to build software that is flexible, scalable and secure.
+You will work with other product teams, Finance, Sales, IT, and Operations to craft software that benefits our customers and directly impacts our bottom line.About the role
+
+The Billing Development team creates billing solutions for teams that want to sell products to their customers. We are designing and building a new billing ecosystem that will support over 50 monetizing products across Zillow Group's brands. We adapt quickly to provide elegant solutions to complex problems, and our product innovations result in millions of dollars of revenue.
+
+Who you are
+You have five years of experience writing high-quality code in Python, Java or another object-oriented language
+You have three years of professional development experience working in a high-precision environment
+You have a phenomenal code aesthetic
+You cultivate collaborative and inclusive team environments
+You have outstanding communication skills
+You are passionate about mentoring and junior engineers
+Get to know usZillow Group houses a portfolio of the largest and most vibrant real estate and home-related brands on the web and mobile. Our mission is to build the largest, most trusted and vibrant home-related marketplace in the world.
+
+Zillow Group is owned, fueled and grown by innovators who help people make better, smarter decisions around all things home. We encourage one another at every level, and our efforts are supported by employee-driven, world-class benefits that enable us to enjoy our lives outside the office while building fulfilling careers that impact millions of individuals every day.
+
+Zillow Group is an equal opportunity employer committed to fostering an inclusive, innovative environment with the best employees. Therefore, we provide employment opportunities without regard to age, race, color, ancestry, national origin, religion, disability, sex, gender identity or expression, sexual orientation, or any other protected status in accordance with applicable law. If there are preparations we can make to help ensure you have a comfortable and positive interview experience, please let us know.",0.0
+31,"Placed is the market leader in location-driven insights and ad
+intelligence. We're a fast-growing organization headquartered in
+downtown Seattle, focusing on connecting the physical and digital
+worlds to give brands, agencies, publishers, and ad networks the
+ability to target location at scale, measure the offline impact of
+ads, and deliver actionable insights into consumer behavior.
+We re looking for a Senior Software Engineer to join Placed, a
+subsidiary of Snap Inc! As a member of our Data Engineering team, you
+will own critical pieces of the machine learning and analytics
+platforms, which power all product offerings within the organization.
+You will build data processing infrastructure which operates across
+multiple cloud providers. Working from our Seattle, WA headquarters,
+you ll collaborate with Product, Engineering, and Inference teams to
+create tools and processes to bring research and machine learning
+models to production.
+What you ll do:
+Influence key decisions on architecture and implementation of
+scalable data processing and analytics structure
+Work with the Data Science team to bring machine learning models
+into production
+Build Hadoop MapReduce and Spark processing pipelines using Java,
+Python, and Ruby
+Build REST APIs for data access by systems across our
+infrastructure
+Focus on performance, throughput, and latency, and drive these
+throughout our architecture
+Write test automation, conduct code reviews, and take end-to-end
+ownership of deployments to production
+Mentor junior engineering staff
+What we re looking for:
+BS/BA in a technical field such as computer science or equivalent
+experience
+7+ years of software development experience
+Proficiency in Python, Java, C#, and/or Ruby
+3+ years of experience with Hadoop MapReduce and/or Spark data
+processing pipelines, analytics systems (e.g. OLAP, BI tools), and
+machine learning technologies
+Experience operating systems in AWS or GCP
+Excellent communication skills, including the ability to identify
+and communicate data-driven insights
+At Placed, a subsidiary of Snap, Inc., we believe that having a team
+of diverse backgrounds and voices working together will enable us to
+create innovative products that improve the way people live and
+communicate. Placed is proud to be an equal opportunity employer, and
+committed to providing employment opportunities regardless of race,
+religious creed, color, national origin, ancestry, physical
+disability, mental disability, medical condition, genetic information,
+marital status, sex, gender, gender identity, gender expression,
+pregnancy, childbirth and breastfeeding, age, sexual orientation,
+military or veteran status, or any other protected classification, in
+accordance with applicable federal, state, and local laws. If you have
+a disability or special need that requires accommodation, please don t
+be shy and contact us at ***************************.",0.0
+32,"Job Description
+Have you ever thought about what it takes to detect and prevent fraudulent purchases among hundreds of millions of eCommerce transactions in over a dozen countries? What would you do to create a trusted marketplace where millions of buyers and sellers can safely transact online? What kinds of processes and systems would you build to maximize customer satisfaction?
+
+Our mission in Transaction Risk Management Services (""TRMS"") is to make Amazon.com the safest place to shop online. The TRMS team safeguards the order pipelines; monitoring, tracking, and managing risk to ensure long-term buyer satisfaction. TRMS group designs and builds the software systems, risk models and operational processes that minimize risk and maximize trust in Amazon.com. Not only do we protect all aspects of the Amazon shopping experience, we also deliver our services to large and small merchants hosted on the Amazon platform. And, we evaluate new business opportunities from across the company to determine how we can minimize the risk associated with these launches.
+
+We are searching for a leader to set the vision and drive the execution of Amazon.com TRMS Operations Analytics. This is a highly visible and impacting role within the group as well as across the department. You should thrive and have demonstrated success in an environment that offers ambiguously defined problems, big challenges, and quick changes. You will be expected to balance strategic thinking with detailed execution and solid cross-functional collaborative results. This is a fast paced environment where every day brings new challenges and new opportunities. This global team is responsible for building a robust set of operational and business metrics, working with cross-functional teams to design, build, deploy the reporting systems, utilize metrics to determine improvement opportunities, and providing business analysis and actionable insights to the various teams.
+
+You play a leadership role in your team – they look to you for advice on analytical and business issues facing them. You are right, a lot. You get a lot done. You work very efficiently and routinely deliver the right things. You have a department-wide view of the analytical solutions that you build, and you consistently think in terms of automating or expanding the results company-wide. You have performed multiple large, complex, and business critical analyses that serve major parts of the business. Your work and your approach to work are exemplary – you drive best practices and set standards for your team. Other analytical individuals in your department regard you as an expert in one or more analytical areas. You are a key influencer in your team’s strategy and contribute significantly to team planning. You show good judgment making technical trade-offs between your group’s short-term and long-term business needs, and the needs of the company as a whole. When confronted with discordant views, you find the best way forward and convince your team. You proactively contribute to knowledge sharing across the Amazon analytical community. You demonstrate resilience and navigate difficult situations with composure and tact.
+Responsibilities:
+· Set the vision, direction and culture of the team by managing individual and team performance expectations and goals, driving innovation and raising the performance across the operations team.
+· Leading high priority (i.e. cross functional, high impact) projects to improve operations performance. Collaborate with managers and functional teams to create and evaluate recommendations to improve process design.
+· Perform business analysis and data queries using MS Excel, MS Access, SQL, and SAS. Act as the liaison between operations, engineering, and analytics teams.
+· Investigate control and risk mitigation opportunities utilizing various root cause analysis and problem solving techniques, and facilitate cross-functional initiatives.
+· Work with engineering teams that support core processes to identify and implement technical and operational improvements. Oversee the writing and prioritization of clear product requirements and functional specifications to guide software development teams.
+· Provide standard project control documentation such as schedules, status reports, budgets, risk mitigation and communication plans. Identify, forecast and manage project resources necessary for project completion.
+
+Basic Qualifications
+· Bachelor’s Degree
+· Proven experience in a financial risk management or fraud prevention environment
+· Demonstrated experience managing a technical team
+· Proven experience in implementing technical projects
+· Demonstrated experience working with databases, and SQL in a business environment
+· Proven experience with Java, C or C++ (Mason, Perl and/or JavaScript experience, a plus)
+· Demonstrated experience designing and delivering technical and user training
+
+Preferred Qualifications
+· Prior experience of managing a global team
+· Analytical Mindset and ability to see the big picture and persuade others to see the same
+· Detail-oriented and must have an aptitude for solving unstructured problems. The role will require the ability to extract data from various sources & to design/construct/execute complex analyses to finally come up with data/reports that help solve the business problem
+· Ability to thrive in a fast-paced and ever changing technical environment
+· Experience in working with large datasets
+· Experience developing and maintaining highly available, accurate, automated, real time and offline metrics that are used 24X7 by Operations teams across different time zones.
+· Routinely engage in analysis on many non-standard and unique business problems and use creative-problem solving to deliver actionable output
+· Ability to support the team products operationally. Ability to help debug and troubleshoot any operational production problems.
+· Experience in providing reporting solutions to solve business needs by leveraging data warehouse data.
+· Experience providing technical leadership to the team and user support
+
+
+
+
+
+Apply Now at Amazon",0.0
+33,"Job Description
+As the Sr. Software Development Manager for Amazon.com’s site and app performance team, you will be responsible for delivering software solutions that keep the Amazon customer experience fast, responsive, and frustration-free for our customers. You will need good interpersonal skills in this role, as you will connect across multiple website and application teams to gather and share best practices, follow up on commitments from these partner teams, and present to senior leadership across Amazon.com.
+
+The software your team produces will serve both internal and external customers. For internal customers, your product will be depended upon for performance tracking and reporting, as well as providing tools for investigations and easier development. For external customers, your team will research, explore, and experiment ways to improve the performance and customer satisfaction.
+
+In addition to building and mentoring your core, cross-functional team, you will also be building a community of performance excellence for application and website developers. You will have opportunities for training, and then be responsible for creating internal training opportunities, to ensure performance is built into everything we do.
+Basic Qualifications
+· Bachelor's degree in computer science, related technical field, or equivalent experience building software
+· 10+ years of software experience (development or management)
+· 3+ years of experience in building and managing software teams
+· Experience running your own projects, and good understanding of the software development life cycle
+· Great interpersonal skills, with strong verbal and written communication
+Preferred Qualifications
+§ Proven ability to influence senior leadership (Director, VP) level
+§ Strong communication (verbal and written) skills
+§ Excellent analytical and interpersonal skills, with ability to work successfully across all engineering disciplines
+§ Resourceful - able to deliver results with minimal direction.
+§ Ability to communicate clearly and effectively with developers, business owners, and senior business leaders
+§ Solid understanding of developer tools and cloud technologies
+§ Experience working on frameworks or platforms consumed by a large developer audience
+
+Amazon is an Equal Opportunity-Affirmative Action Employer – Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation
+
+
+Apply Now at Amazon",0.0
+34,"Job Description
+Alexa is the Amazon cloud service that powers Echo, the groundbreaking Amazon device designed around your voice. We believe voice is the most natural user interface for interacting with the home and is fundamental to enabling the dream of the smart home.
+We're seeking a Software Development Manager for the Alexa Smart Device Services team to lead the development of highly-visible core infrastructure.
+Some info about this opportunity and our team:
+
+The changes we make directly impact the customer experience usage of smart devices.
+
+This is a highly visible role, operating with many technical leaders and product managers across Amazon Alexa – with stakeholders at all levels of the organization, including senior leadership.
+
+You will drive project execution, recruit, hire, and develop the industry’s top engineering talent.
+
+This is a great position for someone who likes backend development, Amazon Web Services, and Service-Oriented Architecture.
+
+We’re looking for candidates that have acted as a technical leader and built high-performance, scalable and robust systems in a complex, multi-tiered, distributed environment.
+
+
+The Software Development Manager will:
+
+Own development of their product end-to-end
+
+Provide technical direction within your team
+
+Establish and execute short and long-term architectural roadmaps for the business
+
+Continue to innovate on the framework to support controlling smart devices worldwide
+
+Manage a development team focused on creating the complex back-end infrastructure
+
+Drive continual improvements to the efficiency and flexibility of the business platform while keeping an extremely high bar for customer trust, performance, and availability.
+
+
+The ideal candidate has a track record of launching projects with Java/C#, C++, Perl, and distributed computing technologies on a Linux platform.
+Basic Qualifications
+
+Basic Qualifications:
+5+ years of professional experience in software development/engineering
+3+ years of engineering management experience
+Computer Science fundamentals in object-oriented design
+Computer Science fundamentals in data structures
+Computer Science fundamentals in algorithm design, problem solving, and complexity analysis
+Experience with distributed computing and enterprise-wide systems
+Experience recruiting, hiring, and managing a team
+Bachelor’s Degree in Computer Science or related field
+Preferred Qualifications
+Preferred Qualifications:
+Experience taking a leading role in building complex software systems that have been successfully delivered to customers
+Knowledge of professional software engineering practices & best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations
+Experience communicating with users, other technical teams, and senior management to collect requirements, describe software product features, technical designs, and product strategy
+Experience mentoring junior software engineers to improve their skills and make them more effective product software engineers
+Experience influencing software engineers’ best practices within your team
+Hands-on expertise in many disparate technologies, ranging from front-end user interfaces through to back-end systems and all points in between
+Experience working backwards from the customer and delivering innovative, simple solutions
+Master's Degree/PhD in Computer Science or related field
+
+Amazon.com is an Equal Opportunity-Affirmative Action Employer – Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation
+
+
+
+
+Apply Now at Amazon",0.0
+35,"Job Description
+Our vision at Amazon Comprehend (https://aws.amazon.com/comprehend) is to simplify Natural Language Processing (NLP), especially, text analysis. We do that by offering capabilities that helps customers find insights and relationships in text using highly available and scalable machine learning. We have just started and there is just so much to do. Are you interested in shaping the future of this field? Come and be part of the Amazon AWS Artificial Intelligence organization!
+
+To learn more what we have recently delivered and how customers are using Amazon Comprehend, please refer to various blogs here: https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-comprehend/
+
+In this role you will join Amazon Comprehend which is trend setting in NLP and ML field. This is an area that requires solving the hardest engineering challenges in the intersection of machine learning and distributed systems at massive scale. As a tier zero AWS service our solutions have to be super solid, scalable, efficient, and extremely fault tolerant.
+
+In the larger scope of the role, you will be responsible for rethinking the assumptions behind how traditional services were built and thinking how to build services best suited for intelligent applications in the cloud. You will own the design, development, testing and deployment of these services. You will draw from a deep and broad technical expertise to mentor engineers, complete hands-on technical work and provide leadership on complex technical issues. You will manage and be responsible for delivering some of our most strategic technical projects, deliver large scalable systems, design new software systems at the cutting edge of distributed database technology and have a significant bottom-line impact on our business and competitive position.
+
+As an engineering leader in AWS, you will part of the larger technical leadership community that forms the backbone of the company, plays a critical role in the broad business planning, working closely with senior executives, influences our long-term technical and business strategy, helps us hire talented team of engineers and ultimately enables us to deliver innovative new solutions rapidly.
+
+This position within AWS AI organization presents a unique and rare opportunity to get in on the ground floor within a fast growing business and help shape the technology, product and the business. A successful candidate will bring deep technical and software expertise, strong business acumen and judgment, an ability to define visionary, ground breaking products, ability to hire and lead a team, desire to have an industry wide impact and ability to work within a fast moving, startup environment in a large company to rapidly deliver services that have a broad business impact.
+Basic Qualifications
+Bachelor's Degree in Computer Science or Engineering
+10+ years of software development experience and 2+ years of experience managing engineering team(s)
+2+ years of distributed systems experience
+2+ years of machine learning experience
+Preferred Qualifications
+Masters or PhD in Computer Science
+10+ years of relevant software development and engineering management experience
+Experience with database systems will be a big plus
+
+
+Apply Now at Amazon",0.0
+36,"Job Description
+
+Come and be part of the AWS Supply Chain team and build systems that enable AWS to rapidly grow and continue to be the pioneer and widely recognized leader in Cloud Computing, and have direct and immediate impact on the hundreds of thousands developers and businesses around the world who use AWS every day.
+
+Supply Chain Management (SCM) systems are at heart of ensuring that we can provide our customers with the right computing services, in the right region, at the right time! The SCM team is responsible for building inventory and warehouse management systems that enable control of our global footprint for our hyper-growth cloud and automate the orchestration required to ensure physical and financial control of inventory.
+
+As a software development engineer on the team, you will be responsible guiding your team through the design, development, testing, and deployment of a range of products. In addition, you will help build the roadmaps for software teams, developing cutting edge experiences. You will have sound technical acumen, excellent project management skills, great communication skills, and hire, build, and develop your team. You are a true owner - you are deeply interested in product design and you innovate relentlessly on behalf of our customers. We have a very flat team structure and offer a unique opportunity for technical leaders who want to work closely with the business in defining, designing, building and operating products that are used by millions of customers.
+
+
+
+Key Responsibilities:
+
+
+
+Apply Now at Amazon",0.0
+37,"Manage a team that designs, develops, troubleshoots and debugs software programs for databases, applications, tools, networks etc.
+
+As a manager of the software engineering division, you will apply your knowledge of software architecture to manage software development tasks associated with developing, debugging or designing software applications, operating systems and databases according to provided design specifications. Build enhancements within an existing software architecture and suggest improvements to the architecture.
+
+Manages and controls activities in multi-functional areas of sections. Ensures appropriate operational planning is effectively executed to meet Corporate specifications. Demonstrated leadership and people management skills. Strong communication skills, analytical skills, thorough understanding of product development. BS or MS degree or equivalent experience relevant to functional area. 4 years of software engineering or related experience.
+Oracle is an Equal Employment Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.*
+Overview:*
+Oracle Hospitality is developing this era s most exciting cloud-based, mobileenabled, next generation hotel management enterprise application OPERA Cloud - to enable our customers in the hospitality industry to provide superior service and experience to their guests anywhere. The application is using Oracle s leading edged Fusion Middleware and Database technologies. We are rapidly growing and hence seeking the BEST talent in the industry to join our Oracle Innovation Award winning talented team!
+
+We re looking for hands-on leader with strong management experience to come lead and build a team responsible for building a Cloud native enterprise application. If this is you, at Oracle you can design and build innovative new systems from the ground up. These are exciting times in our space - we are growing fast, still at an early stage, and working on ambitious new initiatives.
+
+As a Sr. Software Dev Manager you will own and manage a team of software engineers responsible for the software architecture and development for major components of Oracle s Cloud based SaaS software. You should be comfortable to be able to dive deep into any part of the stack and higher level system interactions. You should value simplicity and scale, work comfortably in a collaborative, agile environment, and be excited to learn.
+
+Come build the state of the art SaaS application starting from the ground floor.
+*
+Basic Qualifications:*
+Bachelors in computer science and Engineering or related engineering fields
+3 years of management experience
+7 years of Industry Experience with applications development with 2 years in Cloud based Software Development
+Proficient in Java Programming
+Preferred Qualifications:*
+10 years of experience
+Prior experience of developing a full lifecycle, Cloud native application
+Prior experience of working in an Agile model
+Degree in Business Administration or equivalent
+*Job:** **Product Development*
+*Organization:** **Oracle*
+*Title:** *Software Development Senior Manager*
+*Location:** *MD,Maryland-Columbia*
+*Requisition ID:** *18001FJ1*
+*Other Locations:** *US-Virginia, US-District of Columbia, US-Maryland, United States, US-FL,Florida-Naples*",0.0
+38,"Job Description
+
+The AWS Commerce Platform provides the back and front-end services that enable AWS customers to purchase AWS services and understand and manage their infrastructure costs. Our teams tackle some of the hardest scalability, performance, and distributed computing challenges the world. We process trillions of events per month using stream processing techniques (Kinesis), process billions of line items via map reduce (EMR), and manage artifacts through the latest in database technologies (DynamoDB and Aurora). We process big data and provide tools for customers to interactively understand their bills. We also provide the analytics that let customers manage billions of dollars of IT usage and spending. Because we sit at the nexus of all AWS services and interact directly with end-customers, we also work closely across all AWS teams to ensure that we offer a great customer experience.
+Help shape the future of AWS Commerce Platform: We are looking for a senior software development leader to drive key initiatives in the Platform Reliability Engineering.
+
+
+Key responsibilities:
+
+
+
+Apply Now at Amazon",0.0
+39,"We are now looking for a Senior Software Engineer for Robotics Research:
+
+Robotic systems are some of the most complex and interconnected hardware and software systems the world has ever seen. Technology is advancing fast, especially driven by recent progress in control, perception, simulation, and learning, quickly making new applications in manufacturing, logistics, healthcare, and homes plausible. But many of these tools, techniques, algorithms, and ideas are inaccessible to the numerous entrepreneurs, engineers, artists, business leaders, or healthcare professionals eager to take aim and transform these real-world problems.
+
+At Nvidia we’re dedicated to the democratization of this technology through high-performance and rigorously engineered robotics system components to enable a new generation of entrepreneurs and researchers to build future robotics applications. To achieve this, our new Isaac SDK and Simulation teams in the Nvidia headquarters in Santa Clara and in Toronto, the advanced robotics R&D teams in Pittsburgh and Zurich, and the robotics research lab in Seattle are seeking world-class talent in rigorous software, hardware, and research engineering.
+
+Robotics is highly interdisciplinary, so at Nvidia we want to learn from the best in the field across a wide range of areas. For our engineering positions, experience in areas like manipulation, vision, deep learning, navigation, localization, mapping, motion generation, control, etc. is a significant plus, but not critical. We’re seeking professional expertise in core software engineering areas such as high-performance systems design, hybrid systems, deep learning tools, real-time constraints, large-scale linear algebra and optimization, inter-process communication, low-latency multiprocessing, etc. You should have deep and professional expertise in systems development and skills that complement and augment our team of robotics researchers. Engineers will work closely with roboticists to design, develop, and rigorously test systems, so the ability to learn quickly on the job is a requirement, as is the ability to lucidly communicate engineering constraints and methodologies to interdisciplinary teams.
+
+
+
+What you’ll be doing:
+You will be coordinating with researchers to distill the state-of-the-art into a suite of software tools to support lab research; designing, developing, testing, and demoing end-to-end robotic systems integrating the latest research from subgroups in perception, planning, control, higher-level cognition, etc.
+Designing frameworks and tools for component isolation and controlled experimentation leading to publication in top tier robotics, vision, and learning conferences.
+Coordinating company-wide to productionize software components for integration into Nvidia’s Isaac SDK for broader commercial use.
+Building demos to showcase research, especially emphasizing utility and impact in commercial settings such as collaborative manufacturing/assembly, logistics, healthcare, and emerging home applications.
+What we need to see:
+You have at least 4+ years professional software engineering experience.
+Masters/PhD in Robotics, Computer Science, Computer Engineering or related field.
+Deep knowledge of C++, CUDA, and/or Python, and familiarity with deep learning tools such as TensorFlow and Torch.
+Substantial experience designing and developing performance-critical software for systems such as simulation, games, autonomous vehicles, vision, control, sensor processing, etc.
+You have knowledge of robotics or a related area and/or a demonstrated ability to learn and apply complex technical background quickly along with a strong desire to build some of the world’s most sophisticated robotic systems.
+With competitive salaries and a generous benefits package, Nvidia is widely considered to be one of the technology world’s most desirable employers. We have some of the most brilliant people in the world and our research and engineering teams are growing at an unprecedented rate. We have ambitious plans for the future of robotics, and we need your help. Are you eager to work with some of the world’s best robotics researchers and engineers to enable a new wave of robotics applications? If so, we want to hear from you.
+
+
+
+NVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression , sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.#deeplearning",0.0
+40,"The Allen Institute for Artificial Intelligence is looking for an experienced software engineer to help drive world class engineering and product development on Semantic Scholar, a fast-growing search engine and research tool powered by artificial intelligence. As a senior software engineer you will help identify, design and develop critical features and services that drive Semantic Scholar forward as a leader in academic search. World class communication, engineering, and leadership skills are essential in this role. As a technical leader, you will partner in scaling a consumer product, identifying and alleviating engineering bottlenecks, driving feature development on key initiatives, and establishing best practices.
+
+Responsibilities
+Support and iterate upon the entire software development lifecycle; starting with ideation and design through deployment and operational support at scale.
+Scale our systems in a cost effective and sustainable manner and be a driving force behind continuous improvements in reliability and automation.
+Generate impact and team velocity through efforts in but not limited to: software design and feature development, platform and framework development, capacity planning, and deployment tooling and infrastructure.
+Help set and maintain best practices in how we measure, monitor, and respond to system availability, latency, and general application health.
+Mentor engineers on the team in both technical and non-technical skills.
+Qualifications
+
+Minimum qualifications:
+BS degree in Computer Science or related technical field where software development is a key component, or equivalent industry experience.
+Experience in algorithm design, data structures, complexity and risk analysis, and software architecture.
+Experience in one or more of the following (or similar) languages:
+Python, Java, Scala, C, C++, Go, Ruby, Javascript
+Preferred qualifications:
+Experience designing, scaling and troubleshooting large-scale distributed systems and/or consumer web applications.
+Experience with AWS (or similar) standard deployment frameworks and services.
+Experience leading the definition and implementation of user facing features.
+Heightened sense of ownership for the performance and stability of services that provide value to millions of users.
+Ability to think systematically about improving the process of developing and supporting software and the skills to translate these concerns into outcomes for our users and team.
+About AI2
+
+The Allen Institute for Artificial Intelligence is a non-profit research institute in Seattle founded by Paul Allen and headed by Professor Oren Etzioni. The core mission of AI2 is to contribute to humanity through high-impact research in artificial intelligence.
+
+Why AI2
+
+In addition to AI2's core mission, we also aim to contribute to humanity through how we treat each member of the AI2 Team! Some highlights are:
+We are a learning organization because everything AI2 does is ground-breaking, we are learning every day. Similarly, through weekly AI2 Academy lectures, a wide variety of world-class AI experts as guest speakers, and our commitment to your personal on-going education, AI2 is place where you will have opportunities to continue learning right alongside us;
+We value diversity - We seek to hire, support, and promote people from all genders, ethnicities, and all levels of experience regardless of age. We particularly encourage applications from women, non-binary individuals, people of color, members of the LGBTQA+ community, and people with disabilities of any kind.
+We value inclusion - We understand the value that people's individual experiences and perspectives can bring to an organization, and we are building a culture in which all voices are heard, respected and considered.
+We emphasize a healthy work/life balance we believe our team members are happiest and most productive when their work/life balance is optimized. While we value powerful research results which drive our mission forward, we also value dinner with family, weekend time, and vacation time. We offer generous paid vacation and sick leave as well as family leave;
+We are collaborative and transparent we consider ourselves a team, all moving with a common purpose. We are quick to cheer our successes, and even quicker to share and jointly problem solve our failures;
+We are in Seattle and our office is on the water! We have mountains, we have lakes, we have four seasons, we bike to work, we have a vibrant theater scene, and we have so much else. We even have kayaks for you to paddle right outside our front door;
+We welcome interest from applicants from outside of the United States;
+We are friendly chances are you will like every one of the 70+ (and growing!) people who work here. We do!
+AI2 is proud to be an Equal Opportunity employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics.
+
+If you need assistance or an accommodation due to a disability, you may contact us at hr@allenai.org or you may call us at 206-548-5600.",0.0
+41,"At Remitly, we help immigrant communities around the world send over $6 billion a year to their loved ones. Sending money is faster, easier, and costs less with our all-digital money transfer platform. Our vision is to transform the lives of immigrants and their families by providing the most trusted financial service products on the planet. At Remitly, your work has a direct and positive impact on people around the globe. Your work matters, every day.
+
+As an Engineering Manager at Remitly, you are a builder and a leader, responsible for taking on complex technical and customer problems and creating great products backed by great systems. We use cutting edge languages, tools, and frameworks to build applications and services on top of a scalable cloud architecture. Our startup work environment is fast-paced, mission-driven, and growing quickly.
+
+A successful Engineering Manager will use their experience and vision to hire and develop a diverse engineering team, coaching the team to grow in their careers and have an impact for our customers. As an empathetic partner, they will mentor peer leaders and other Sr. technologists to model Remitly cultural values and to translate these values into their day-to-day work. Examples of high impact results from this leadership will be simple and well defined plans for both (a) our company-wide technical architecture and (b) how we deliver towards that vision.
+
+The Engineering Manager will be responsible for all aspects of software development for a broad business function, working to define the best technical roadmap to simultaneously accomplish company goals, improve existing systems, and reduce technical debt. They will demonstrate a high level of partnership with Product Management, Senior Engineering Management, and other company stakeholders, influencing strategy by representing technical options and tradeoffs from a customer centric viewpoint. They will delegate and empower employees to operate autonomously and make independent decisions, creating frameworks for these decisions where appropriate; entrusting their team of tech leads and engineers with important aspects of the team's roadmap.
+
+The Engineering Manager for our Destination Experience (DEX) team is responsible for the systems that unlock and enable new destination regional expansion. The DEX team is a fundamental driver of Remitly's ability to reach international customers and provide a diverse set of disbursement methods such as bank deposit, cash pickup and home delivery. The mission of this team is to create reliable, defensible, global disbursement networks and delight our customers with personal destination experiences to support international remittance expansion. From the quality of integrations to the customer facing personal experiences we build, the DEX team directly impacts the Remitly experience.
+
+Some examples of current interesting problems include:
+Building APIs, services, mobile, and web applications for our next-generation customer experience
+Designing a robust system to provide timely and cost-effective customer support across a variety of modern communication channels
+Building a scalable platform for integrating with diverse bank APIs around the globe to collect, manage, track, and disburse funds
+Integrating online machine learning and predictive analytics models with our transactional systems to predict customer demand and prevent fraud
+You should posses:
+Typically 10+ years of experience
+Typically 1-3 years of experience in a technical leadership role
+Typically 1-3 years experience leading core engineering efforts / technical teams
+Experience defining and influencing technical designs and processes across a team
+A deep understanding of software development practices, system design, software design patterns, and algorithms
+Expertise in one or more general purpose languages like Java, JavaScript, Go, PHP, Python, or Ruby
+Strong ability to mentor and influence other engineers
+Excellent verbal and written communication skills
+Who we are:
+
+Remitly is an independent digital remittance company that transfers over $6 billion in annualized volume through its proprietary global money transfer network across Africa, Asia, Central, and South America. Its reliable and easy-to-use mobile app makes the process of sending money faster, easier, more transparent and less costly by eliminating the forms, codes, agents, extra time and fees typical of the traditional, century-old money transfer process. Remitly is backed by industry-leading investors, World Bank's International Finance Corporation (IFC), Naspers' PayU, Silicon Valley Bank, Stripes Group, DFJ, DN Capital, QED Investors, Trilogy Equity Partners, Bezos Expeditions, Founders' Co-Op, and TomorrowVentures. The company is headquartered in Seattle, with additional offices in London, the Philippines, and Nicaragua. For more information, visit remitly.com.
+
+Remitly is an Equal Opportunity Employer. Individuals seeking employment at Remitly are considered without regard to race, color, religion, national origin, age, sex, marital status, ancestry, physical or mental disability, veteran status, or sexual orientation.
+
+Remitly is an eVerify Employer.",0.0
+42,"Voice-driven AI experiences are finally becoming a reality and Amazons Alexa voice cloud service and Echo devices are at the forefront of this latest technology wave. We deliver world-class products on aggressive schedules that are used every day, by people you know, in and about their homes. At the same time, we obsess about customer trust and ensure that we build products in a manner that maintains our high bar for customer privacy. We are looking for an experienced and entrepreneurial, Senior Development Manager who can drive innovation to build products and services that enhance customers trust in Alexa. As a Senior Development Manager for Alexa Privacy, you will have an enormous opportunity to impact the customer experience, design, architecture, and implementation of cutting-edge products and services.
+
+A successful candidate will have an established background in driving clarity in highly ambiguous technical and product environments, developing long-term technical roadmaps, a strong technical ability to guide and coach, excellent project management skills, great communication skills, and a motivation to achieve results in a fast paced environment. You are a seasoned technical leader who can lead a team of software engineers in the design, development, testing, deployment, and operation of full-stack, consumer or developer-facing APIs. You hire and develop highly-motivated engineers, building leaders in your division. You take ownership of the architecture, quality, performance, and operational excellence of the product your team produces. You are a strong advocate for customers and feel strongly about protecting customers.
+
+You will be responsible for building, maintaining, and organizing your teams, defining the technical strategy and product road map for your organization, as well as defining, measuring, and reporting on your organizations key performance metrics.
+
+Key Responsibilities:
+· Development of long-term strategies and influencing leadership decisions
+· Overall systems development life cycle
+· Management and execution against project plans and delivery commitments; Management of the day-to-day activities of the engineering team within an Agile/Scrum environment
+· Management of departmental resources, staffing, mentoring, and enhancing and maintaining a best-of-class engineering organization
+· Development of the best technical design and approach
+· Report on status of development, quality, operations, and system performance to leadership and peers
+If you have an entrepreneurial spirit, know how to deliver, are deeply technical, highly innovative and long for the opportunity to build pioneering solutions to challenging problems, we want to talk to you.",0.0
+43,"Job Description
+Amazon’s Cloud Enablement group is looking for a passionate, results-oriented, inventive and influential technical leader to lead our worldwide efforts to define and drive a secure, cloud-embracing enterprise development environment for the tens of thousands of developers that build technology for Amazon's retail customers.
+
+As the technical director for the Consumer Application Services group, you will collaborate closely with other technical leaders across both AWS and our Consumer business, driving enterprise requirements into AWS services. As AWS' largest customer, You will help them build business cases for new public-facing capabilities, and in some cases, build those AWS technologies yourself. You will build enterprise cloud technologies that extend AWS primitives in ways that can be later adopted by AWS and their other enterprise customers as needed.
+The Consumer Application Services group is also responsible for a range of critical, software development frameworks that form the very foundation of Amazon's distributed web-services architecture, used by tens of thousands of remote services that comprise our Retail businesses, as well as forming the foundation of many of the largest and most visible public AWS services. Almost every corner of Amazon's technology stack, from subsidiaries like Audible and Zappos, to our Consumer Retail Websites around the world (www.amazon.*), Kindle and AWS itself all depend (knowingly or not), on our technology in one way or another to build their software and run their business.
+
+In addition to building the technology extensions to AWS and your own extensive portfolio of proprietary technologies, as the Director of Software Development for Consumer Application Services, you will form a pivotal role in driving a new cultural and technology direction for our consumer business, moving the larger engineering community for Amazon's consumer business away from proprietary service based technology implementations and towards embracing those native AWS solutions such as Lambda and ECS and making other AWS services easier to use and thus a more natural choice for components like security, storage, deployment etc. In Collaboration with our engineering excellence group, you will develop training and best-practice documentation for our engineering community and follow that up with tooling improvements that codify those best practices. You will build on your relationships with the engineering and leadership community to get important feedback that will enable you to continuously improve both your own tooling as well as helping your partners in AWS to improve.
+
+You will have experience leading a diverse, large, primarily technical organization, managing large-scale distributed technical architecture/cultural changes, hiring and growing engineering and leadership talent at all levels and roles, and defining engineering best practices as it relates to the secure adoption of and migration to AWS technologies.
+
+You will need to be able to communicate clearly with senior executive leaders across the company as easily as you can convey key technical ideas and directions to engineers at all levels. You will have strong bias for action and a history of delivering the right results, a critical asset to ensure that Amazon will be able to continue to leverage new cloud technologies as they become available and to keep abreast of other innovation that's happening across our businesses outside of AWS.
+
+
+Basic Qualifications
+BS in Computer Science (or equivalent) with at least 10 years of industry experience.
+At least 10 years of experience managing enterprise software engineering teams.
+Technically credible to lead a team of world class software engineers and development managers and be able to deliver the right product with a scalable engineering design.
+The ability to achieve results in a fast-paced, high-pressure environment is critical.
+A passion for people management and mentorship; hiring and developing great people
+Able to balance technical leadership with sound business judgment
+Proven results oriented person with a delivery focus.
+Ability to work well with people and be both highly motivated and motivating
+Proven ability to architect and operate at large scale .
+High attention to detail including precise and effective customer communications.
+Ability to manage multiple, competing priorities simultaneously.
+Ability to understand and discuss technical concepts, schedule tradeoffs and opportunistic new ideas with technical employees.
+Ability to think strategically and execute methodically and tactically.
+Superior verbal and written communications skills.
+Ability to work in a fast-paced environment where continuous innovation is a way of life.
+Composed, poised and professional demeanor.
+History of teamwork and willingness to roll up sleeves to get the job done.
+Preferred Qualifications
+MS in Computer Science (or equivalent)
+Experience with analytics and handling large data sets
+Experience with security technologies
+Experience with large distributed systems
+Has passion and convictions and the innate ability to inspire passion in others
+Experience of working with or directly managing diverse and globally distributed software development teams
+
+
+Apply Now at Amazon",0.0
+44,"**Description:**
+
+**The Digital Innovation Group (DIG)** at Providence St. Joseph Health is a small but mighty product development and incubation team that is building next-gen tools that give patients convenient and easy access to healthcare virtually anywhere, anytime.
+
+We are seeking a **Senior Software Engineer II** in **Seattle, WA** to join a dedicated team of brilliant developers to help develop robust, scalable APIs for our platforms and services. These APIs support numerous applications and server backends and in this role, you?ll be responsible for the development and delivery of services supporting these APIs and integrations. API Team members have a strong background in Java, hands-on development experience building integrations utilizing a variety of integration products, tools, protocols, technologies, and patterns.
+
+**In this position you will have the following responsibilities:**
+
++ Learn DIGs integrated product frameworks, APIs, and code base
+
++ Own and drive development and delivery of features in the API. Specifically support Electronic Health Records (EHR) features. This includes building new features and enhancements. Participate in technical design of new and existing features
+
++ Investigate, troubleshoot, and implement fixes for bugs across all systems and tiers
+
++ Assisting in any technical needs that arise related to API design & performance
+
++ Develop testing strategies for APIs and implement solutions that solve problems
+
++ Continuously improve and simplify integration processes, time, and data quality
+
++ Evaluate existing systems and components to determine integration requirements to ensure final solutions meet the organizational needs
+
++ Troubleshoot complex integration failures and testing of interconnected systems
+
++ Encourage good engineering practice with emphasis on code quality, supportability, scalability, and performance
+
+**Qualifications:**
+
+**Required qualifications for this position include:**
+
++ Bachelor?s degree in Computer Science or equivalent combination of education and relevant experience (based on 3 years of work experience for every year of education)
+
++ 6 years professional experience in software development
+
++ In-depth knowledge of core library development for a widely used programming language.
+
++ Computer Science fundamentals in object-oriented design, data structures, and performance analysis.
+
++ Proficiency in at least two programming languages such as programming languages such as C, C , C#, Java, JavaScript, Python, or Ruby (Or any of your favorite functional languages).
+
+**Preferred qualifications for this position include:**
+
++ Master?s degree or higher in Computer Science or related field
+
++ Experience contributing to open source projects, preferably contributing to a runtime, or widely used library
+
++ Practice of modern software engineering, including coding standard, code reviews, source control management, build processes, testing, and releasing
+
++ Experience in communicating with users and other technical teams to collect requirements and technical designs
+
+**We offer:**
+
++ A small but growing team - we?re good at what we do and enjoy working together.
+
++ Autonomy and respect from day one
+
++ An environment that is scrappy, flexible, and values tenacity
+
++ Great pay
+
++ Generous vacation, benefits, flexible work, and matched 403b
+
++ The best tools money can buy
+
+**What else:**
+
+You?ll be surrounded by a team of people who have transformed industries and have come to Providence to transform health care delivery. You will have the best of both worlds- the exhilaration of an incubation organization paired with the resources and security of an industry healthcare leader.
+
+**What drives us:**
+
+As employees of the Providence Digital Innovation Group, we passionately serve the people of our community. We are dedicated to removing obstacles that limit access to quality health care and enabling people to live healthier lives.
+
+**We offer a full comprehensive range of benefits - see our website for details**
+
+http://www.providenceiscalling.jobs/rewards-benefits/
+
+**Our Mission**
+
+As expressions of God?s healing love, witnessed through the ministry of Jesus, we are steadfast in serving all, especially those who are poor and vulnerable.
+
+**About Us**
+
+Providence Health & Services is a not-for-profit Catholic network of hospitals, care centers, health plans, physicians, clinics, home health care and services guided by a Mission of caring the Sisters of Providence began over 160 years ago. Providence is proud to be an Equal Opportunity Employer. Providence does not discriminate on the basis of race, color, gender, disability, veteran, military status, religion, age, creed, national origin, sexual identity or expression, sexual orientation, marital status, genetic information, or any other basis prohibited by local, state, or federal law.
+
+**Schedule:** Full-time
+
+**Shift:** Day
+
+**Job Category:** Information Technology
+
+**Location:** Washington-Seattle
+
+**Req ID:** 181462",0.0
+45,"Does the challenge and ownership that comes from leading and owning critical, cross-organizational projects and platforms for one of the largest online marketplaces excite you? Do you enjoy working in an entrepreneurial environment solving complex technical problems and delivering innovative solutions?
+
+The Content Systems team mission is to build, own, and manage Amazon's Content Systems for use across retail, devices (e.g. FireTV, Kindle), and AWS to name a few. We focus on content management tools, back-end delivery, optimization systems, and CDNs for hundreds of Amazon teams and we are looking for a Software Development Manager who can help us tackle the challenge of developing, improving, and managing the content systems that power Amazon.
+
+In this high impact leadership role, youll lead a talented team of software engineers to deliver innovative solutions to ambiguous, complex problems. And, you will work closely with other senior Amazon leaders as your platform is used to launch new, and expand existing Amazon businesses.
+
+Responsibilities
+· Hire and develop great people
+· Create a world-class Content Management System
+· Ownership of the feature roadmap and schedule.
+· Drive a culture innovation and iteration.
+· Collaborate with other senior leaders across our service-oriented architecture.
+· Define, measure, and improve Key Performance Indicators for the team.
+· Report on the status of development, quality, and operations to senior management.
+· Deep-dive on architecture and system design to ensure they meet our business objectives
+If you thrive in an entrepreneurial environment and are undaunted by ambiguity or competing priorities then you may be our candidate.",0.0
+46,"Location: Bellevue
+Job type: Permanent
+Sector: IT & Communications
+Category: Office Jobs
+
+Analytics & Information Management Services (AIMS) organization is seeking a Software Development Manager to lead a team of Software Engineers, user experience and user interface professionals in support of the enterprise-level Information & Analytics initiative and the Boeing AnalytX suite of products in Bellevue, Washington!
+
+You will partner with stakeholders across the Information Technology & Data Analytics organization and all business units to develop business solutions by leveraging agile development, methods, tools and techniques.
+You will develop and execute integrated plans, policies, and procedures from people management, project management, and portfolio management perspectives. You must quickly earn the respect of a highly skilled team with a global footprint and be able to lead them to generate quantifiable business value.
+
+We focus on people: It is critical to have the ability and credibility to lead a team of highly technical and motivated application developers. You must demonstrate competence and knowledge of modern development technologies, as well as previous success in leading a highly-functional and agile team.
+
+We are like a start-up: You must excel at operating in a high-paced, rapidly changing environment with optimism and a can-do attitude. Our global organization will continue to grow and evolve rapidly, and you are responsible for coaching your team and peers alike, implementing positive changes, and leading by example.
+
+We are in the business of product development: We will apply fundamental principles like business case evaluation, strategic alignment, capability and feature roadmap development, customer relationship management, network building, budget and resource management, team skills development and career management, etc. You will be responsible for application solution delivery.
+
+Manager Software Development is accountable for program operations, communications, and workforce productivity in support of product development.
+
+You will drive a healthy business and culture within the analytics product development organization. You must have a strong passion for building people-focused organizations and know how to define, de-risk and execute against the program's vision. Your team will be responsible to deploy via CI/CD in a compliance driven landscape with multiple stakeholders. You will contribute to the strategic plans for AIMS while working with Product Managers to develop tactical execution plans for data science and machine learning products.
+
+You must be able to engage customer's management and stakeholders with discussions about methodologies, culture, and best practices. Ultimately, you are responsible for the development of product and delivering customer value.
+
+Responsibilities:
+Lead and manage a team of software engineers, and application developers.
+Set up teams so they can operate with a high degree of autonomy and self-organization.
+Work with Product Managers and Technical Leaders (such as the Chief Data Scientist) to manage expectations of customers and stakeholders.
+Responsible for advancement of employee skills and functional excellence
+Contribute to the technical approach, opportunity identification, and value realization of products.
+Contribute to the strategic approach to the identification, recruitment, and retention of software development talent.
+Evangelize the principles of AIMS methodologies, processes, tools, and culture to drive transformational change.
+Own the measurement, tracking, and execution of Program KPIs. Stay updated and communicate project and program health. Actively ensuring projects stay healthy by fixing or escalating issues. Track additional metrics that are not directly related to product development such as resource utilization rates, active engagements, total business case achieved, people developed, etc.
+Implement and sustain the product development culture by ensuring high morale on the product development team and a best place to work.
+Boeing is the world's largest aerospace company and leading manufacturer of commercial airplanes and defense, space and security systems. We are engineers and technicians. Skilled scientists and thinkers. Bold innovators and dreamers. Join us, and you can build something better for yourself, for our customers and for the world.
+
+Division
+
+CIO, Information & Analytics
+
+Relocation Assistance Available
+
+No. Relocation assistance is not a negotiable benefit.
+
+Qualifications
+
+Required Qualifications
+This position must meet Export Control compliance requirements, therefore a US Person as defined by 22 C.F.R. 120.15 is required. ""US Person"" includes US Citizen, lawful permanent resident, refugee, or asylee.
+Technical Bachelors degree or higher
+Minimum of 3 years experience in a leadership role (team lead, project manager)
+Minimum of 5 years experience with software development
+Minimum of 1 year experience working within a development environment using Agile methodologies
+Preferred Qualifications:
+Demonstrated knowledge of cloud, web, mobile, and/or data analytics experience
+Computer Science: Programming fundamentals (data structures, algorithm theory, learning theory), software development experience (at least 2 of the following programming languages: Python, Scala, Ruby, Java, C#, C++). Java preferred.
+Basic knowledge in SQL programming, NoSQL databases, relational database management systems, data warehouse (e.g., Teradata), big data technologies (Hadoop/Spark ecosystem), distributed computing, and parallel processing
+Domain Knowledge: Curious about data, creative problem solving skills, systems thinking, hacker mindset, collaborative and sharing mentality, rapid and adversarial experimentation, understanding of software engineering life cycle, ability to quickly acquire business/functional knowledge in aviation and supply chain.
+Communication and Visualization: Ability to engage with senior management and communicate data science work to software engineers, data engineers, and business intelligence analysts, story-telling skills, knowledge of visualizations packages in R and Python, participation in industry conferences/events.
+Performance Management: Ability to identify the right skills for the right projects, experience with working closely with HR and Recruiting to grow and develop a highly functional team, ability to train the team on data science processes, tools, and technologies, interest in encouraging development and sharing of data science work and internal best practices and foster cross-departmental collaboration. Managing a global team across different time zone is required.
+Experience Level
+
+Manager with Direct Reports
+
+Job Type
+
+Standard
+
+Travel
+
+Yes, 10 % of the Time
+
+Contingent Upon Program Award
+
+No
+
+Union
+
+No
+
+Job Code
+
+BAUYMK
+
+Analytics & Information Management Services (AIMS) organization is seeking a Software Development Manager to lead a team of Software Engineers, user experience and user interface professionals in support of the enterprise-level Information & Analytics initiative and the Boeing AnalytX suite of products in Bellevue, Washington!
+
+You will partner with stakeholders across the Information Technology & Data Analytics organization and all business units to develop business solutions by leveraging agile development, methods, tools and techniques.
+You will develop and execute integrated plans, policies, and procedures from people management, project management, and portfolio management perspectives. You must quickly earn the respect of a highly skilled team with a global footprint and be able to lead them to generate quantifiable business value.
+
+We focus on people: It is critical to have the ability and credibility to lead a team of highly technical and motivated application developers. You must demonstrate competence and knowledge of modern development technologies, as well as previous success in leading a highly-functional and agile team.
+
+We are like a start-up: You must excel at operating in a high-paced, rapidly changing environment with optimism and a can-do attitude. Our global organization will continue to grow and evolve rapidly, and you are responsible for coaching your team and peers alike, implementing positive changes, and leading by example.
+
+We are in the business of product development: We will apply fundamental principles like business case evaluation, strategic alignment, capability and feature roadmap development, customer relationship management, network building, budget and resource management, team skills development and career management, etc. You will be responsible for application solution delivery.
+
+Manager Software Development is accountable for program operations, communications, and workforce productivity in support of product development.
+
+You will drive a healthy business and culture within the analytics product development organization. You must have a strong passion for building people-focused organizations and know how to define, de-risk and execute against the program's vision. Your team will be responsible to deploy via CI/CD in a compliance driven landscape with multiple stakeholders. You will contribute to the strategic plans for AIMS while working with Product Managers to develop tactical execution plans for data science and machine learning products.
+
+You must be able to engage customer's management and stakeholders with discussions about methodologies, culture, and best practices. Ultimately, you are responsible for the development of product and delivering customer value.
+
+Responsibilities:
+Lead and manage a team of software engineers, and application developers.
+Set up teams so they can operate with a high degree of autonomy and self-organization.
+Work with Product Managers and Technical Leaders (such as the Chief Data Scientist) to manage expectations of customers and stakeholders.
+Responsible for advancement of employee skills and functional excellence
+Contribute to the technical approach, opportunity identification, and value realization of products.
+Contribute to the strategic approach to the identification, recruitment, and retention of software development talent.
+Evangelize the principles of AIMS methodologies, processes, tools, and culture to drive transformational change.
+Own the measurement, tracking, and execution of Program KPIs. Stay updated and communicate project and program health. Actively ensuring projects stay healthy by fixing or escalating issues. Track additional metrics that are not directly related to product development such as resource utilization rates, active engagements, total business case achieved, people developed, etc.
+Implement and sustain the product development culture by ensuring high morale on the product development team and a best place to work.
+Boeing is the world's largest aerospace company and leading manufacturer of commercial airplanes and defense, space and security systems. We are engineers and technicians. Skilled scientists and thinkers. Bold innovators and dreamers. Join us, and you can build something better for yourself, for our customers and for the world.
+
+Division
+
+CIO, Information & Analytics
+
+Relocation Assistance Available
+
+No. Relocation assistance is not a negotiable benefit.
+
+Qualifications
+
+Required Qualifications
+This position must meet Export Control compliance requirements, therefore a US Person as defined by 22 C.F.R. 120.15 is required. ""US Person"" includes US Citizen, lawful permanent resident, refugee, or asylee.
+Technical Bachelors degree or higher
+Minimum of 3 years experience in a leadership role (team lead, project manager)
+Minimum of 5 years experience with software development
+Minimum of 1 year experience working within a development environment using Agile methodologies
+Preferred Qualifications:
+Demonstrated knowledge of cloud, web, mobile, and/or data analytics experience
+Computer Science: Programming fundamentals (data structures, algorithm theory, learning theory), software development experience (at least 2 of the following programming languages: Python, Scala, Ruby, Java, C#, C++). Java preferred.
+Basic knowledge in SQL programming, NoSQL databases, relational database management systems, data warehouse (e.g., Teradata), big data technologies (Hadoop/Spark ecosystem), distributed computing, and parallel processing
+Domain Knowledge: Curious about data, creative problem solving skills, systems thinking, hacker mindset, collaborative and sharing mentality, rapid and adversarial experimentation, understanding of software engineering life cycle, ability to quickly acquire business/functional knowledge in aviation and supply chain.
+Communication and Visualization: Ability to engage with senior management and communicate data science work to software engineers, data engineers, and business intelligence analysts, story-telling skills, knowledge of visualizations packages in R and Python, participation in industry conferences/events.
+Performance Management: Ability to identify the right skills for the right projects, experience with working closely with HR and Recruiting to grow and develop a highly functional team, ability to train the team on data science processes, tools, and technologies, interest in encouraging development and sharing of data science work and internal best practices and foster cross-departmental collaboration. Managing a global team across different time zone is required.
+Experience Level
+
+Manager with Direct Reports
+
+Job Type
+
+Standard
+
+Travel
+
+Yes, 10 % of the Time
+
+Contingent Upon Program Award
+
+No
+
+Union
+
+No
+
+Job Code
+
+BAUYMK
+
+Email me newest jobs similar to this one",0.0
+47,"Coupangis one of the largest and fastest growing e-commerce platforms on the planet. We are on a mission to revolutionize everyday lives for our customers, employees and partners. We solve problems no one has solved before to create a world where people ask, ""How did we ever live without Coupang?""
+
+Coupangis a global company with offices in Beijing, Los Angeles, Seattle, Seoul, Shanghai, and Silicon Valley.
+
+Job Overview:
+
+As a software development manager for Coupang media group, you will be responsible to lead one of the core teams, hire and develop the team.
+
+Our group is responsible for advertising brands and products inside our ecommerce website. To get an idea of how valuable that is, Alibaba makes 56% of its profits from advertising. This is an opportunity to be part of building up a new development organization with strong revenue potential inside a successful company. We're building full-stack engineering teams to handle large scale advertising problems, including real-time behavioral targeting, auctioning and bidding systems and search based advertising.
+
+We're looking for experienced hands-on leaders that care about their team members and about helping team members reach their full potential.
+
+Key technologies you will work with are node.js, express.js, react.js, Postgres, AWS.
+
+Key Responsibilities:
+Effectively build, lead and mentor the software development team
+Communicate clearly and concisely with team members, peers and management
+Design and propose components of Coupang Media Group systems
+Implement full-stack, high-scale production systems with fault-tolerance and monitoring
+Qualifications:
+5+ years of experience building web based products
+2+ years' experience leading software development teams
+Hands on leader with great people skills
+Proficiency in JavaScript
+Experience with one or more of node.js, express.js or react.js
+Self-starter and innovator who likes to solve complex problems
+Proven track record of taking ownership and successfully delivering results
+Ability to clearly and concisely communicate with technical and non-technical stakeholders across all levels of the organization
+Ability to deal with ambiguity in business and technology
+Ability to work in multi-cultural, cross functional team
+Preferred:
+Experience with advertising systems
+Full-stack engineering experience
+Understanding of performance tradeoffs, load balancing and operational issues
+Experience with service-oriented architecture and web application/services development
+Experience working with AWS (Amazon web services)
+Bilingual in Korean and English
+Experience working in startups.
+Perks:
+Autonomy to make decisions in a rapidly growing company
+Free medical, dental, and vision insurance
+18 days PTO + 12 national holidays off
+401K matching
+Pre-IPO stock options
+Mobile & fitness reimbursement
+Flexible working hours
+Coupang is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex or gender (including pregnancy, gender identity, gender expression, sexual orientation, transgender status), national origin, age, disability, medical condition, HIV/AIDS or Hepatitis C status, marital status, military or veteran status, use of a trained dog guide or service animal, political activities, affiliations, citizenship, or any other characteristic or class protected by the laws or regulations in the locations where we operate.
+
+If you need assistance and/or a reasonable accommodation in the application or recruiting process due to a disability, please contact us at usrecruiting@coupang.com.",0.0
