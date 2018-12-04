@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from scipy import spatial
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from selenium.webdriver import Firefox
 import time
 import random
@@ -493,6 +494,73 @@ class Predict():
             self.find_next_best(df)
         except ValueError:
             return self.convert_to_csv()
+
+class PruneForest():
+    def __init__(self, param=None):
+        self.param = param
+
+    def get_feature_importances(self, model):
+        feature_importances = model.feature_importances_
+        idxs = np.nonzero(feature_importances)[0]
+        return idxs
+    
+    def get_reverse_term_dict(self, vectorizer):
+        word_dict = vectorizer.vocabulary_
+        reverse_dict = {value: key for key, value in word_dict.items()}
+        return reverse_dict
+    
+    def get_word_list(self, reverse_dict, idxs):
+        word_list = [reverse_dict[key] for key in list(idxs)]
+        return word_list
+    
+    def get_vocabulary(self, model, vectorizer):
+        indices = self.get_feature_importances(model)
+        reverse_dict = self.get_reverse_term_dict(vectorizer)
+        word_list = self.get_word_list(reverse_dict, indices)
+        return word_list
+
+class FitModel():
+    def __init__(self):
+        self.vectorizer = TfidfVectorizer(stop_words=CUSTOM_STOP)
+        self.forest = RandomForestClassifier(n_estimators=2000, criterion='entropy', n_jobs=-1)
+        self.grad_boost = GradientBoostingClassifier(learning_rate=0.001, n_estimators=500, subsample=0.5)
+        self.pruned_forest = PruneForest()
+    
+    def get_Xy(self, name):
+        df = pd.read_csv(name, index_col=0)
+        culled_df = df[df.labels != 0.0]
+        X = culled_df.iloc[1:, 1]
+        y = culled_df.iloc[1:, 2]
+        return X, y
+    
+    def fit_primary(self, X, y):
+        self.vectorizer.fit(X)
+        transformed_matrix = self.vectorizer.transform(X)
+        tfidf_df = pd.DataFrame(transformed_matrix.toarray())
+        self.forest.fit(tfidf_df, y)
+        return self.forest, self.vectorizer 
+    
+    def prune_forest(self, forest, vectorizer):
+        vocabulary = self.pruned_forest.get_vocabulary(forest, vectorizer)
+        return vocabulary
+    
+    def improve(self, X, vocabulary):
+        imp_vectorizer = TfidfVectorizer(stop_words=CUSTOM_STOP, vocabulary=vocabulary)
+        imp_vectorizer.fit(X)
+        transformed_matrix = imp_vectorizer.transform(X)
+        tfidf_df = pd.DataFrame(transformed_matrix.toarray())
+        return tfidf_df
+    
+    def fit_secondary(self, X, y):
+        return self.grad_boost.fit(X, y)
+        
+    def transform(self, name):
+        X, y = self.get_Xy(name)
+        forest, vectorizer = self.fit_primary(X, y)
+        vocabulary = self.prune_forest(forest, vectorizer)
+        tfidf_df = self.improve(X, vocabulary)
+        return self.fit_secondary(tfidf_df, y)
+
 
 
 if __name__ == '__main__':
