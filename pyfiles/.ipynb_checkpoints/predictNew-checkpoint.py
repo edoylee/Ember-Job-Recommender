@@ -321,7 +321,7 @@ class ScrapeGlass():
     def search(self, query):
         """ This method goes to the url, and searchs for the query"""
         
-        self.browser.get('https://www.glassdoor.com/')
+        self.browser.get('https://www.glassdoor.com')
         self.sleep()
         keyword_search = self.browser.find_element_by_css_selector('#KeywordSearch')
         keyword_search.click()
@@ -560,6 +560,24 @@ class FitModel():
         vocabulary = self.prune_forest(forest, vectorizer)
         tfidf_df = self.improve(X, vocabulary)
         return self.fit_secondary(tfidf_df, y)
+
+class Main():
+    def __init__(self, param=None):
+        self.param = param
+    
+    def transform(self):
+        li = LinkedinScraper()
+        li.transform()
+        glass = ScrapeGlass()
+        query = input('Enter Job Field: ')
+        glass.transform(query)
+        data = PreprocessData()
+        total_df = data.transform('../data/PIPETEST.csv', '../data/LINKTEST.csv')
+        prediction = Predict(total_df)
+        complete_df = prediction.transform(total_df)
+        fit_model = FitModel()
+        model = fit_model.transform('../data/LABELEDTEST.csv')
+        return model
 
 
 
