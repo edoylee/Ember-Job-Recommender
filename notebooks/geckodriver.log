@@ -3972,3 +3972,188 @@ console.error: BroadcastService:
 1543631904524	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
 1543631904525	Marionette	INFO	Stopped listening on port 62853
 1543631904525	Marionette	DEBUG	Remote service is inactive
+1543879869157	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m8/n3y22b7d6wb2_j481xc_cf3c0000gn/T/rust_mozprofile.j5uuvSdBaAiT"
+1543879870027	Marionette	DEBUG	Received observer notification profile-after-change
+1543879870142	Marionette	DEBUG	Received observer notification command-line-startup
+1543879870142	Marionette	DEBUG	Received observer notification nsPref:changed
+1543879870142	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1543879870310	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1543879871478	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1543879871478	Marionette	DEBUG	Waiting for delayed startup...
+1543879871669	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1543879871669	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1543879871669	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1543879871670	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1543879871671	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1543879871671	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1543879871671	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1543879871671	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1543879871671	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1543879871672	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1543879871672	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1543879871672	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1543879871672	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1543879871673	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1543879871673	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1543879871673	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1543879871673	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1543879871673	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1543879871673	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1543879871674	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1543879871674	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1543879871674	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1543879871674	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1543879871674	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1543879871674	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1543879871711	Marionette	INFO	Listening on port 49823
+1543879871711	Marionette	DEBUG	Remote service is active
+1543879871738	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:49851
+1543879871744	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1543879871745	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543879871791	Marionette	DEBUG	[4294967297] Frame script loaded
+1543879871818	Marionette	DEBUG	[4294967297] Frame script registered
+1543879871828	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"add151d4-1c6b-1848-a4c6-0947f4bdc21e","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... 2_j481xc_cf3c0000gn/T/rust_mozprofile.j5uuvSdBaAiT","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1543879906739	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.linkedin.com"}]
+1543879906755	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1543879907219	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1543879907466	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.linkedin.com/
+1543879907569	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.linkedin.com/
+1543879907571	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+JavaScript warning: https://static.licdn.com/sc/h/br/28d2iyi1jgcdokgb45tem6awx, line 5884: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1543881714294	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElement",{"using":"css selector","value":".education-section"}]
+1543881714300	Marionette	TRACE	0 <- [1,3,{"error":"no such element","message":"Unable to locate element: .education-section","stacktrace":"WebDriverError@chrome: ... entError@chrome://marionette/content/error.js:388:5\nelement.find/</<@chrome://marionette/content/element.js:339:16\n"},null]
+1543881743337	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":".education-section"}]
+1543881743348	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"582218a9-3888-a441-9d39-66409773d30b"}}]
+1543881751895	Marionette	TRACE	0 -> [0,5,"WebDriver:GetElementText",{"id":"582218a9-3888-a441-9d39-66409773d30b"}]
+1543881752060	Marionette	TRACE	0 <- [1,5,null,{"value":"Education\nAdd new education\nEdit education Colorado State University\nColorado State University\nDegree ... Field Of Study\nEconomics\nDates attended or expected graduation\n2014 – 2018\nGalvanize Inc\nField Of Study\nData Science"}]
+1543881828257	Marionette	DEBUG	Closed connection 0
+1543881828334	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1543881828334	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1543881828334	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1543881828334	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1543881828335	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1543881828335	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1543881828335	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1543881828335	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1543881828335	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1543881828336	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1543881828336	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1543881828336	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1543881828337	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1543881828337	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1543881828337	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1543881828337	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1543881828337	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1543881828337	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1543881828339	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1543881828339	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1543881828339	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1543881828339	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1543881828340	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1543881828340	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1543881828340	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1543881828340	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1543881828340	Marionette	INFO	Stopped listening on port 49823
+1543881828340	Marionette	DEBUG	Remote service is inactive
+1543884654725	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m8/n3y22b7d6wb2_j481xc_cf3c0000gn/T/rust_mozprofile.y98f20ZgXjxu"
+1543884655535	Marionette	DEBUG	Received observer notification profile-after-change
+1543884655662	Marionette	DEBUG	Received observer notification command-line-startup
+1543884655662	Marionette	DEBUG	Received observer notification nsPref:changed
+1543884655662	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1543884655829	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1543884656850	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1543884656850	Marionette	DEBUG	Waiting for delayed startup...
+1543884656939	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1543884656939	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1543884656940	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1543884656940	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1543884656941	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1543884656941	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1543884656942	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1543884656942	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1543884656942	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1543884656942	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1543884656942	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1543884656943	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1543884656943	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1543884656943	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1543884656943	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1543884656943	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1543884656944	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1543884656944	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1543884656944	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1543884656944	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1543884656944	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1543884656944	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1543884656944	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1543884656945	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1543884656945	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1543884656987	Marionette	INFO	Listening on port 54232
+1543884656987	Marionette	DEBUG	Remote service is active
+1543884657082	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54259
+1543884657084	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1543884657085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1543884657135	Marionette	DEBUG	[4294967297] Frame script loaded
+1543884657143	Marionette	DEBUG	[4294967297] Frame script registered
+1543884657150	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"fad1bdeb-7773-d347-8188-85c16dae74ae","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... 2_j481xc_cf3c0000gn/T/rust_mozprofile.y98f20ZgXjxu","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+1543884664356	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.yelp.com"}]
+1543884664369	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1543884665148	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1543884667215	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.yelp.com/
+JavaScript error: https://www.yelp.com/ylz-bzftqtyryytzvyczsffsve.js, line 1: NS_ERROR_FAILURE: 
+1543884669235	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.yelp.com/
+1543884669236	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1543884798707	Marionette	TRACE	0 -> [0,3,"WebDriver:FindElements",{"using":"css selector","value":".review"}]
+1543884798720	Marionette	TRACE	0 <- [1,3,null,[{"element-6066-11e4-a52e-4f735466cecf":"0ee35367-6bbf-5e40-b809-115db141eaf1"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"24415479-dfe9-c642-8192-ccdafa6fca4c"},{"element-6066-11e4-a52e-4f735466cecf":"916d97fe-918b-9945-a2cf-dcced6d64488"}]]
+1543884810410	Marionette	TRACE	0 -> [0,4,"WebDriver:GetElementText",{"id":"0ee35367-6bbf-5e40-b809-115db141eaf1"}]
+1543884810474	Marionette	TRACE	0 <- [1,4,null,{"value":"Start your review of Amazon Go."}]
+1543884817710	Marionette	TRACE	0 -> [0,5,"WebDriver:GetElementText",{"id":"21b2d444-b97c-604e-bc45-e19da8322bb3"}]
+1543884817912	Marionette	TRACE	0 <- [1,5,null,{"value":"Heather N.\nLas Vegas, NV\n368 friends\n535 reviews\n1854 photos\nElite ’18\n11/14/2018\n1 check-in\nSo c ... a few things and the lines weren't worth the wait.\nLloyd M. and 2 others voted for this review\nUseful 3\nFunny 3\nCool 3"}]
+1543884824897	Marionette	TRACE	0 -> [0,6,"WebDriver:GetElementText",{"id":"5ccad25a-8f4e-ed42-8f58-f37dd58091ce"}]
+1543884825073	Marionette	TRACE	0 <- [1,6,null,{"value":"Jessica B.\nSeattle, WA\n39 friends\n6 reviews\n11/24/2018\nseattleeatsblog.com/blog… for all my pictures ... f you're in a rush, I could see this being a handy option to have.\nCara L. voted for this review\nUseful 1\nFunny\nCool 1"}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+console.error: "Tried to send a 'tabDetached' event on an already destroyed actor 'frameTarget'"
+1543944215031	Marionette	DEBUG	Closed connection 0
+1543944215382	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1543944215382	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1543944215382	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1543944215383	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1543944215383	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1543944215383	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1543944215383	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1543944215384	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1543944215384	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1543944215385	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1543944215385	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1543944215386	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1543944215386	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1543944215386	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1543944215387	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1543944215387	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1543944215387	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1543944215387	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1543944215388	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1543944215388	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1543944215388	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1543944215388	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1543944215388	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1543944215388	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1543944215389	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1543944215389	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1543944215389	Marionette	INFO	Stopped listening on port 54232
+1543944215389	Marionette	DEBUG	Remote service is inactive

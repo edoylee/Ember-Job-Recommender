@@ -25,12 +25,20 @@ class TrainX():
             elif label == 'no':
                 self.filled_df.iat[i,1] = -1.0
             elif label == 'quit':
-                return self.filled_df
-        return self.filled_df
+                return self.convert_to_string(self.filled_df)
+        return self.convert_to_string(self.filled_df)
+    
+    def convert_to_string(self, df):
+        for i in range(df.shape[0]):
+            total_string = ''
+            for chunk in df.iloc[i,0]:
+                total_string += chunk
+                df.iat[i,0] = total_string
+        return df
     
     def transform(self):
         try:
             final_df = self.assign_labels()
         except:
-            return self.filled_df
-        return final_df
+            return self.convert_to_string(self.filled_df)
+        return self.convert_to_string(final_df)

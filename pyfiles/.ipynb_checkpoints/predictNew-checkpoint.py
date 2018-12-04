@@ -5,6 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from selenium.webdriver import Firefox
 import time
 import random
+import getpass
 
 CUSTOM_STOP = [
     "a", "about", "above", "across", "after", "afterwards", "again", "against",
@@ -76,8 +77,25 @@ class LinkedinScraper():
         self.browser = Firefox()
         self.browser.get('https://www.linkedin.com')
     
-    def sleep(start=5, end=15):
-        return time.sleep(random.randint(5, 15))
+    def sleep(self, start=5, end=15):
+        return time.sleep(random.randint(start, end))
+    
+    def go_to_profile(self):
+        email = input('Please Enter Email ')
+        password = getpass.getpass('Please Enter Password ')
+        login_email = self.browser.find_element_by_class_name('login-email')
+        login_email.click()
+        login_email.send_keys(email)
+        self.sleep(start=2, end=5)
+        login_password = self.browser.find_element_by_class_name('login-password')
+        login_password.click()
+        login_password.send_keys(password)
+        submit_button = self.browser.find_element_by_class_name('submit-button')
+        submit_button.click()
+        self.sleep(start=2, end=5)
+        profile_button = self.browser.find_element_by_class_name('tap-target')
+        profile_button.click()
+        self.sleep()
     
     def find_profile(self, name):
         search_bar = self.browser.find_element_by_css_selector('#ember41 > input:nth-child(1)')
@@ -130,11 +148,15 @@ class LinkedinScraper():
                 sleep()
         except:
             pass
+        
     def second_expand_page(self):
         summary_section = self.browser.find_element_by_class_name('pv-top-card-section__summary')
         summary_section.location_once_scrolled_into_view
-        showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
-        showmores[0].click()
+        try:
+            showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
+            showmores[0].click()
+        except:
+            pass
         self.sleep()
         experience_section = self.browser.find_element_by_class_name('experience-section')
         experience_section.location_once_scrolled_into_view
@@ -151,8 +173,11 @@ class LinkedinScraper():
         skills_section = self.browser.find_element_by_class_name('pv-skill-categories-section')
         skills_section.location_once_scrolled_into_view
         self.sleep()
-        showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
-        showmores[1].click()
+        try:
+            showmores = self.browser.find_elements_by_class_name('pv-profile-section__card-action-bar')
+            showmores[1].click()
+        except IndexError:
+            showmores[0].click()
         try:
             self.sleep()
             rec = self.browser.find_elements_by_class_name('pv-profile-section__see-more-inline')
@@ -173,6 +198,13 @@ class LinkedinScraper():
             experience.append(find_experience.text)
         except:
             experience.append('')
+        education = []    
+        try:
+            self.sleep()
+            find_education = self.browser.find_element_by_class_name('education-section')
+            find_education.append(education.text)
+        except:
+            education.append('')
         skills = []
         try:
             find_skills = self.browser.find_element_by_class_name('pv-skill-categories-section')
@@ -187,6 +219,7 @@ class LinkedinScraper():
             recommendations.append('')
         profile_df = pd.DataFrame({'summary': summary,
                                    'experience': experience, 
+                                   'education': education,
                                    'skills': skills, 
                                    'recommendations': recommendations})
         return profile_df
@@ -203,13 +236,21 @@ class LinkedinScraper():
             total_string += self.concat_strings(df[column])
         return [total_string]
     
-    def transform(self, name):
-        self.find_profile(name)
+    def convert_to_csv(self, df):
+        check_variable = input('Proceed? (yes / no)')
+        if check_variable == 'yes':
+            name = input('Enter name: ')
+            df.to_csv('../data/%s.csv' % name)
+        else:
+            return df
+    
+    def transform(self):
+        self.go_to_profile()
         self.second_expand_page()
         profile_df = self.scrape_page()
         consolidated_df = self.get_consolidated_profile(profile_df, profile_df.columns)
         final_df = pd.DataFrame({'profile': consolidated_df})
-        return final_df
+        return self.convert_to_csv(final_df)
 
 class ScrapeGlass():
     """ ScrapeGlass is used to scrape job postings from Glassdoor.
@@ -276,10 +317,10 @@ class ScrapeGlass():
     def sleep(start=5, end=15):
         return time.sleep(random.randint(5, 15))
         
-    def search(self, url, query):
+    def search(self, query):
         """ This method goes to the url, and searchs for the query"""
         
-        self.browser.get(url)
+        self.browser.get('https://www.glassdoor.com/')
         self.sleep()
         keyword_search = self.browser.find_element_by_css_selector('#KeywordSearch')
         keyword_search.click()
@@ -328,10 +369,10 @@ class ScrapeGlass():
         final_txdf['labels'] = np.zeros(final_txdf.shape[0])
         final_txdf.to_csv(name)
     
-    def transform(self, url, query):
+    def transform(self, query):
         """ This method takes the url, and query as inputs and outputs either
         an exported csv file or a list of jobs"""
-        self.search(url, query)
+        self.search(query)
         self.click_wait()
         try:
             self.loop_pages()
@@ -432,12 +473,26 @@ class Predict():
             yes_remains = self.improve_yes(adjusted_df)
             no_remains = self.improve_no(adjusted_df)
         except TypeError:
-            return self.df
+            return self.convert_to_csv()
         total_distance = yes_remains.distances + yes_remains.distances_from_yes - no_remains.distances_from_no
         remains = yes_remains.copy()
         remains['total_distance'] = total_distance
         next_best_index = remains.total_distance.idxmin()
         return self.find_next_best(remains, next_best_index)
+    
+    def convert_to_csv(self):
+        check_variable = input('Proceed? (yes / no)')
+        if check_variable == 'yes':
+            name = input('Enter name: ')
+            self.df.to_csv('../data/%s.csv' % name)
+        else:
+            return self.df
+    
+    def transform(self, df):
+        try:
+            self.find_next_best(df)
+        except ValueError:
+            return self.convert_to_csv()
 
 
 if __name__ == '__main__':
