@@ -7,10 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script type="text/javascript" src="brython.js"></script>
-		<script type="text/javascript" src="brython_stdlib.js"></script>
 
-    <title>Ember</title>
+    <title>Blog Home - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -18,21 +16,9 @@
     <!-- Custom styles for this template -->
     <link href="css/blog-home.css" rel="stylesheet">
 
-    <script type="text/python3">
-      from browser import document, ajax
-
-      def get_next_best(ev):
-          req = ajax.ajax()
-          req.open('POST', '/next_best', True)
-          req.send()
-
-
-      document["yes_button"].bind("click", get_next_best)
-    </script>
-
   </head>
 
-  <body onload="brython(1)">
+  <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -70,21 +56,17 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
 
-          <h1 class="my-4">Ember Jobs
-            <small>Find The Right Job for You</small>
+          <h1 class="my-4">Page Heading
+            <small>Secondary Text</small>
           </h1>
 
           <!-- Blog Post -->
           <div class="card mb-4">
-            <img class="card-img-top" src="ember_thankyou_page.png" alt="Card image cap">
+            <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
             <div class="card-body">
               <h2 class="card-title">Post Title</h2>
-              <p class="card-text">
-                  {{job_desc}}
-                </p>
-
-              <button id="yes_button">Yes</button>
-              <button id="no_button">No</button>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
+              <a href="#" class="btn btn-primary">Read More &rarr;</a>
             </div>
             <div class="card-footer text-muted">
               Posted on January 1, 2017 by
