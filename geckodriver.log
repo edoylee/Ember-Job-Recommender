@@ -19932,3 +19932,450 @@ console.error: BroadcastService:
 JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js, line 202: TypeError: this.win is null
 1544130139172	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
 1544130139174	Marionette	TRACE	0 <- [1,4,null,{"value":null}]
+1544130849861	Marionette	DEBUG	Closed connection 0
+1544130849968	Marionette	DEBUG	Received observer notification xpcom-will-shutdown
+1544130849968	Marionette	DEBUG	Resetting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer
+1544130849968	Marionette	DEBUG	Resetting recommended pref apz.content_response_timeout
+1544130849968	Marionette	DEBUG	Resetting recommended pref browser.download.panel.shown
+1544130849969	Marionette	DEBUG	Resetting recommended pref browser.pagethumbnails.capturing_disabled
+1544130849969	Marionette	DEBUG	Resetting recommended pref browser.search.update
+1544130849969	Marionette	DEBUG	Resetting recommended pref toolkit.cosmeticAnimations.enabled
+1544130849969	Marionette	DEBUG	Resetting recommended pref browser.tabs.disableBackgroundZombification
+1544130849969	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnCloseOtherTabs
+1544130849970	Marionette	DEBUG	Resetting recommended pref browser.tabs.warnOnOpen
+1544130849970	Marionette	DEBUG	Resetting recommended pref browser.usedOnWindows10.introURL
+1544130849970	Marionette	DEBUG	Resetting recommended pref browser.urlbar.suggest.searches
+1544130849971	Marionette	DEBUG	Resetting recommended pref datareporting.policy.dataSubmissionPolicyAccepted
+1544130849971	Marionette	DEBUG	Resetting recommended pref dom.disable_beforeunload
+1544130849971	Marionette	DEBUG	Resetting recommended pref dom.disable_open_during_load
+1544130849971	Marionette	DEBUG	Resetting recommended pref dom.file.createInChild
+1544130849971	Marionette	DEBUG	Resetting recommended pref dom.max_chrome_script_run_time
+1544130849971	Marionette	DEBUG	Resetting recommended pref dom.max_script_run_time
+1544130849971	Marionette	DEBUG	Resetting recommended pref extensions.getAddons.cache.enabled
+1544130849971	Marionette	DEBUG	Resetting recommended pref extensions.webservice.discoverURL
+1544130849971	Marionette	DEBUG	Resetting recommended pref network.http.prompt-temp-redirect
+1544130849971	Marionette	DEBUG	Resetting recommended pref network.http.speculative-parallel-limit
+1544130849972	Marionette	DEBUG	Resetting recommended pref security.fileuri.strict_origin_policy
+1544130849972	Marionette	DEBUG	Resetting recommended pref security.notification_enable_delay
+1544130849972	Marionette	DEBUG	Resetting recommended pref signon.autofillForms
+1544130849972	Marionette	DEBUG	Resetting recommended pref signon.rememberSignons
+1544130849972	Marionette	INFO	Stopped listening on port 56524
+1544130849972	Marionette	DEBUG	Remote service is inactive
+1544130852995	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/m8/n3y22b7d6wb2_j481xc_cf3c0000gn/T/rust_mozprofile.ZkO1QhNdGrQK"
+1544130853829	Marionette	DEBUG	Received observer notification profile-after-change
+1544130853967	Marionette	DEBUG	Received observer notification command-line-startup
+1544130853967	Marionette	DEBUG	Received observer notification nsPref:changed
+1544130853967	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1544130854192	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1544130855155	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1544130855155	Marionette	DEBUG	Waiting for delayed startup...
+1544130855220	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1544130855221	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1544130855221	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1544130855221	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1544130855222	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1544130855222	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1544130855223	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1544130855223	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1544130855223	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1544130855223	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1544130855224	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1544130855224	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1544130855224	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1544130855224	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1544130855224	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1544130855225	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1544130855225	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1544130855225	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1544130855225	Marionette	DEBUG	Setting recommended pref extensions.webservice.discoverURL to http://%(server)s/dummy/discoveryURL
+1544130855225	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1544130855225	Marionette	DEBUG	Setting recommended pref network.http.speculative-parallel-limit to 0
+1544130855225	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1544130855226	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1544130855226	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1544130855226	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1544130855268	Marionette	INFO	Listening on port 56805
+1544130855268	Marionette	DEBUG	Remote service is active
+1544130855357	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:56831
+1544130855360	Marionette	TRACE	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox"}]
+1544130855361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544130855414	Marionette	DEBUG	[4294967297] Frame script loaded
+1544130855416	Marionette	DEBUG	[4294967297] Frame script registered
+1544130855420	Marionette	TRACE	0 <- [1,1,null,{"sessionId":"fd550f66-3968-6546-a4a5-d91948f23a14","capabilities":{"browserName":"firefox","browserVersion":"63.0. ... 2_j481xc_cf3c0000gn/T/rust_mozprofile.ZkO1QhNdGrQK","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true}}]
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:721:13
+
+1544130900402	Marionette	TRACE	0 -> [0,2,"WebDriver:Navigate",{"url":"https://www.glassdoor.com"}]
+1544130900418	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for about:blank
+1544130900800	Marionette	DEBUG	[4294967297] Received DOM event pagehide for about:blank
+1544130901586	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.glassdoor.com/index.htm
+1544130907322	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130907784	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130907908	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.glassdoor.com/index.htm
+1544130907910	Marionette	TRACE	0 <- [1,2,null,{"value":null}]
+1544130959167	Marionette	TRACE	0 -> [0,3,"WebDriver:Navigate",{"url":"https://www.glassdoor.com"}]
+1544130959181	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.glassdoor.com/index.htm
+1544130959422	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.glassdoor.com/index.htm
+1544130959428	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.glassdoor.com/index.htm
+1544130959726	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.glassdoor.com/index.htm
+1544130959738	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130959739	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130959739	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130959740	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130961923	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.glassdoor.com/index.htm
+1544130961924	Marionette	TRACE	0 <- [1,3,null,{"value":null}]
+1544130968930	Marionette	TRACE	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"#KeywordSearch"}]
+1544130968936	Marionette	TRACE	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d671a4b7-87f0-7748-a428-4b3cc72c8097"}}]
+1544130968939	Marionette	TRACE	0 -> [0,5,"WebDriver:ElementClick",{"id":"d671a4b7-87f0-7748-a428-4b3cc72c8097"}]
+1544130969194	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544130969195	Marionette	TRACE	0 <- [1,5,null,{"value":null}]
+1544130969198	Marionette	TRACE	0 -> [0,6,"WebDriver:ElementSendKeys",{"id":"d671a4b7-87f0-7748-a428-4b3cc72c8097","text":"Data Scientist","value":["D","a","t","a"," ","S","c","i","e","n","t","i","s","t"]}]
+1544130969243	Marionette	TRACE	0 <- [1,6,null,{"value":null}]
+1544130969245	Marionette	TRACE	0 -> [0,7,"WebDriver:FindElement",{"using":"css selector","value":"#HeroSearchButton"}]
+1544130969250	Marionette	TRACE	0 <- [1,7,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2b77fe29-6a1f-3747-abd2-dab1244645e9"}}]
+1544130969254	Marionette	TRACE	0 -> [0,8,"WebDriver:ElementClick",{"id":"2b77fe29-6a1f-3747-abd2-dab1244645e9"}]
+1544130969296	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.glassdoor.com/index.htm
+1544130969982	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.glassdoor.com/index.htm
+1544130969984	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.glassdoor.com/index.htm
+1544130970375	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1544130970388	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130970388	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130970389	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130970389	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130970389	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130973878	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130973885	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130973885	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130973886	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130973933	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130975414	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1544130975417	Marionette	TRACE	0 <- [1,8,null,{"value":null}]
+1544130975422	Marionette	TRACE	0 -> [0,9,"WebDriver:FindElements",{"using":"css selector","value":".jl"}]
+1544130975486	Marionette	TRACE	0 <- [1,9,null,[{"element-6066-11e4-a52e-4f735466cecf":"a851f9c9-fc19-034a-9e23-4b76048d4c6e"},{"element-6066-11e4-a52e-4f735466ce ... ecf":"b98dbf9f-3d33-5549-877e-c56aabf7e96a"},{"element-6066-11e4-a52e-4f735466cecf":"fbbf6fd2-c316-084c-8d32-40812db60fc7"}]]
+1544130975489	Marionette	TRACE	0 -> [0,10,"WebDriver:ElementClick",{"id":"fc26486c-0809-b546-90e4-19fa6f86c033"}]
+1544130975688	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544130976406	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544130976406	Marionette	TRACE	0 <- [1,10,null,{"value":null}]
+1544130976410	Marionette	TRACE	0 -> [0,11,"WebDriver:FindElement",{"using":"css selector","value":".xBtn"}]
+1544130977035	Marionette	TRACE	0 <- [1,11,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d34f1cd1-b9ad-bf4d-a5fe-280d69ce8974"}}]
+1544130977038	Marionette	TRACE	0 -> [0,12,"WebDriver:ElementClick",{"id":"d34f1cd1-b9ad-bf4d-a5fe-280d69ce8974"}]
+1544130978307	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544130978308	Marionette	TRACE	0 <- [1,12,null,{"value":null}]
+1544130978312	Marionette	TRACE	0 -> [0,13,"WebDriver:FindElements",{"using":"css selector","value":".page"}]
+1544130978956	Marionette	TRACE	0 <- [1,13,null,[{"element-6066-11e4-a52e-4f735466cecf":"cde2c312-7b5e-b44b-945d-b3d622f6c638"},{"element-6066-11e4-a52e-4f735466c ... ecf":"f7dc97c2-311b-6644-9918-737c0c36e94c"},{"element-6066-11e4-a52e-4f735466cecf":"17eb5c48-9a08-f348-87cd-27c181e8c996"}]]
+1544130978960	Marionette	TRACE	0 -> [0,14,"WebDriver:FindElements",{"using":"css selector","value":".hotListing"}]
+1544130978979	Marionette	TRACE	0 <- [1,14,null,[{"element-6066-11e4-a52e-4f735466cecf":"262b9b55-92a6-3546-a274-042922284690"},{"element-6066-11e4-a52e-4f735466c ... ecf":"a24e29b5-c3e0-1a46-810a-ec33080193e3"},{"element-6066-11e4-a52e-4f735466cecf":"cbce5f87-52d0-124f-8465-5da27f13990c"}]]
+1544130986985	Marionette	TRACE	0 -> [0,15,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"262b9b55-92a6-3546-a274-042922284690","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544130986992	Marionette	TRACE	0 <- [1,15,null,{"value":{"x":418.01666259765625,"y":34.94999694824219,"width":77.98333740234375,"height":22,"top":34.94999694824219,"right":496,"bottom":56.94999694824219,"left":418.01666259765625}}]
+1544130986995	Marionette	TRACE	0 -> [0,16,"WebDriver:ElementClick",{"id":"262b9b55-92a6-3546-a274-042922284690"}]
+1544130987504	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544130987505	Marionette	TRACE	0 <- [1,16,null,{"value":null}]
+1544130994513	Marionette	TRACE	0 -> [0,17,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544130994517	Marionette	TRACE	0 <- [1,17,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d725237e-169c-4c40-bef4-f31e3bfca20e"}}]
+1544130994520	Marionette	TRACE	0 -> [0,18,"WebDriver:GetElementText",{"id":"d725237e-169c-4c40-bef4-f31e3bfca20e"}]
+1544130994545	Marionette	TRACE	0 <- [1,18,null,{"value":"Data Scientist, Sr."}]
+1544130994548	Marionette	TRACE	0 -> [0,19,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544130994550	Marionette	TRACE	0 <- [1,19,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fa2894c0-481a-e94a-965f-4e71b87fc4ae"}}]
+1544130994553	Marionette	TRACE	0 -> [0,20,"WebDriver:GetElementText",{"id":"fa2894c0-481a-e94a-965f-4e71b87fc4ae"}]
+1544130994566	Marionette	TRACE	0 <- [1,20,null,{"value":"3.7 ★Seattle Children's Hospital– Seattle, WA"}]
+1544130994568	Marionette	TRACE	0 -> [0,21,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544130994571	Marionette	TRACE	0 <- [1,21,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f0f05a26-65b2-3448-93a5-46bd87286d07"}}]
+1544130994573	Marionette	TRACE	0 -> [0,22,"WebDriver:GetElementText",{"id":"f0f05a26-65b2-3448-93a5-46bd87286d07"}]
+1544130994617	Marionette	TRACE	0 <- [1,22,null,{"value":"Join our Bioinformatics Delivery Team! Using traditional bioinformatics applications combined with moder ... a member of a delivery team supporting integrated data science products and solutions for a wide range of customer groups."}]
+1544131003626	Marionette	TRACE	0 -> [0,23,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"d3dadff9-b13a-8747-9ee4-8f9d6fe15f30","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131003632	Marionette	TRACE	0 <- [1,23,null,{"value":{"x":472.41668701171875,"y":34.649993896484375,"width":23.583328247070312,"height":22,"top":34.649993896484375,"right":496.00001525878906,"bottom":56.649993896484375,"left":472.41668701171875}}]
+1544131003635	Marionette	TRACE	0 -> [0,24,"WebDriver:ElementClick",{"id":"d3dadff9-b13a-8747-9ee4-8f9d6fe15f30"}]
+1544131004108	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131004108	Marionette	TRACE	0 <- [1,24,null,{"value":null}]
+1544131019118	Marionette	TRACE	0 -> [0,25,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131019122	Marionette	TRACE	0 <- [1,25,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f61ccb76-bdb7-d24d-a722-d1c43fe9da99"}}]
+1544131019125	Marionette	TRACE	0 -> [0,26,"WebDriver:GetElementText",{"id":"f61ccb76-bdb7-d24d-a722-d1c43fe9da99"}]
+1544131019137	Marionette	TRACE	0 <- [1,26,null,{"value":"Data Scientist"}]
+1544131019140	Marionette	TRACE	0 -> [0,27,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131019142	Marionette	TRACE	0 <- [1,27,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"78bf886b-9bfd-864e-bbc5-fbdb092cfbd7"}}]
+1544131019144	Marionette	TRACE	0 -> [0,28,"WebDriver:GetElementText",{"id":"78bf886b-9bfd-864e-bbc5-fbdb092cfbd7"}]
+1544131019156	Marionette	TRACE	0 <- [1,28,null,{"value":"3.1 ★EagleView Technologies– Bellevue, WA"}]
+1544131019158	Marionette	TRACE	0 -> [0,29,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131019161	Marionette	TRACE	0 <- [1,29,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"c31d819b-c03c-1a4e-8b6e-d106df2d8d6b"}}]
+1544131019163	Marionette	TRACE	0 -> [0,30,"WebDriver:GetElementText",{"id":"c31d819b-c03c-1a4e-8b6e-d106df2d8d6b"}]
+1544131019219	Marionette	TRACE	0 <- [1,30,null,{"value":"We are looking for talented Data Scientists to join the Machine Learning & Artificial Intelligence (ML/A ... verse workforce to create great opportunities for our business and our people. EOE/AA. Minority/Female/Disability/Veteran."}]
+1544131029228	Marionette	TRACE	0 -> [0,31,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"613f94ed-e954-2e4d-8174-63422f0f4159","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131029234	Marionette	TRACE	0 <- [1,31,null,{"value":{"x":418.01666259765625,"y":34.350006103515625,"width":77.98333740234375,"height":22,"top":34.350006103515625,"right":496,"bottom":56.350006103515625,"left":418.01666259765625}}]
+1544131029237	Marionette	TRACE	0 -> [0,32,"WebDriver:ElementClick",{"id":"613f94ed-e954-2e4d-8174-63422f0f4159"}]
+1544131029715	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131029735	Marionette	TRACE	0 <- [1,32,null,{"value":null}]
+1544131042740	Marionette	TRACE	0 -> [0,33,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131042743	Marionette	TRACE	0 <- [1,33,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1370e164-8ad2-fa44-92c9-a04c28e90dab"}}]
+1544131042745	Marionette	TRACE	0 -> [0,34,"WebDriver:GetElementText",{"id":"1370e164-8ad2-fa44-92c9-a04c28e90dab"}]
+1544131042756	Marionette	TRACE	0 <- [1,34,null,{"value":"Senior Data Scientist"}]
+1544131042758	Marionette	TRACE	0 -> [0,35,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131042760	Marionette	TRACE	0 <- [1,35,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d1cecfaf-de7f-9043-95ac-62b6d0b34e55"}}]
+1544131042762	Marionette	TRACE	0 -> [0,36,"WebDriver:GetElementText",{"id":"d1cecfaf-de7f-9043-95ac-62b6d0b34e55"}]
+1544131042774	Marionette	TRACE	0 <- [1,36,null,{"value":"5.0 ★Suplari– Seattle, WA"}]
+1544131042776	Marionette	TRACE	0 -> [0,37,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131042778	Marionette	TRACE	0 <- [1,37,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6be7139a-35c5-3a4a-9ea3-c7d69b77c6d4"}}]
+1544131042780	Marionette	TRACE	0 -> [0,38,"WebDriver:GetElementText",{"id":"6be7139a-35c5-3a4a-9ea3-c7d69b77c6d4"}]
+1544131042890	Marionette	TRACE	0 <- [1,38,null,{"value":"Our mission at Suplari is to shine the light on waste so that companies can invest in growth, innovation ...  in the Seattle area.\nWe are not interviewing remote employees at this time.\n\nSuplari is an Equal Opportunity Employer!"}]
+1544131042892	Marionette	TRACE	0 -> [0,39,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131042897	Marionette	TRACE	0 <- [1,39,null,[{"element-6066-11e4-a52e-4f735466cecf":"0ba3e175-f32d-5341-8b55-cc2e9e93e8e6"},{"element-6066-11e4-a52e-4f735466c ... ecf":"d7246e23-e677-6345-8ef6-fe9d2e92097c"},{"element-6066-11e4-a52e-4f735466cecf":"4ec3add7-e5b8-8d4d-9efa-4c0569b319f0"}]]
+1544131042899	Marionette	TRACE	0 -> [0,40,"WebDriver:ElementClick",{"id":"7b7c0d12-cc57-a245-ba4d-2a291505a8ed"}]
+1544131043357	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131043358	Marionette	TRACE	0 <- [1,40,null,{"value":null}]
+1544131048364	Marionette	TRACE	0 -> [0,41,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"64b21600-e8b2-0944-9886-0a63c43b58c3","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131048371	Marionette	TRACE	0 <- [1,41,null,{"value":{"x":472.41668701171875,"y":34.350006103515625,"width":23.583328247070312,"height":22,"top":34.350006103515625,"right":496.00001525878906,"bottom":56.350006103515625,"left":472.41668701171875}}]
+1544131048373	Marionette	TRACE	0 -> [0,42,"WebDriver:ElementClick",{"id":"64b21600-e8b2-0944-9886-0a63c43b58c3"}]
+1544131048884	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131048884	Marionette	TRACE	0 <- [1,42,null,{"value":null}]
+1544131056890	Marionette	TRACE	0 -> [0,43,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131056894	Marionette	TRACE	0 <- [1,43,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"04bfec75-e836-b84d-af92-b19ff35cab7d"}}]
+1544131056897	Marionette	TRACE	0 -> [0,44,"WebDriver:GetElementText",{"id":"04bfec75-e836-b84d-af92-b19ff35cab7d"}]
+1544131056909	Marionette	TRACE	0 <- [1,44,null,{"value":"Data Scientist"}]
+1544131056911	Marionette	TRACE	0 -> [0,45,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131056913	Marionette	TRACE	0 <- [1,45,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"383c4fa5-6285-244f-8945-f4fcf5217731"}}]
+1544131056915	Marionette	TRACE	0 -> [0,46,"WebDriver:GetElementText",{"id":"383c4fa5-6285-244f-8945-f4fcf5217731"}]
+1544131056928	Marionette	TRACE	0 <- [1,46,null,{"value":"3.6 ★TIBCO Software– Seattle, WA, US"}]
+1544131056930	Marionette	TRACE	0 -> [0,47,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131056932	Marionette	TRACE	0 <- [1,47,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"569acf25-2001-db43-acda-367bdbffdbda"}}]
+1544131056934	Marionette	TRACE	0 -> [0,48,"WebDriver:GetElementText",{"id":"569acf25-2001-db43-acda-367bdbffdbda"}]
+1544131056967	Marionette	TRACE	0 <- [1,48,null,{"value":"Our Data Science team are central to our global strategy. Their work enables our clients to quickly crea ...  for the TIBCO user community.\nRepresent the team as a speaker or instructor in industry events and external conferences."}]
+1544131056969	Marionette	TRACE	0 -> [0,49,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131056975	Marionette	TRACE	0 <- [1,49,null,[{"element-6066-11e4-a52e-4f735466cecf":"75ef57be-198d-a248-815d-db4556be3e6e"},{"element-6066-11e4-a52e-4f735466c ... ecf":"0bc89dfc-5c01-5f42-b1ba-020dffde2771"},{"element-6066-11e4-a52e-4f735466cecf":"bc077826-0c58-dc4b-9a46-1aa47c312ae2"}]]
+1544131056977	Marionette	TRACE	0 -> [0,50,"WebDriver:ElementClick",{"id":"1a6f31e7-d54b-9e4d-a612-3dfda5a73c41"}]
+1544131057415	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131057416	Marionette	TRACE	0 <- [1,50,null,{"value":null}]
+1544131071424	Marionette	TRACE	0 -> [0,51,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"4d1fea6b-a073-a74e-ac37-9ce889d987d7","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131071430	Marionette	TRACE	0 <- [1,51,null,{"value":{"x":472.41668701171875,"y":34.05000305175781,"width":23.583328247070312,"height":22,"top":34.05000305175781,"right":496.00001525878906,"bottom":56.05000305175781,"left":472.41668701171875}}]
+1544131071433	Marionette	TRACE	0 -> [0,52,"WebDriver:ElementClick",{"id":"4d1fea6b-a073-a74e-ac37-9ce889d987d7"}]
+1544131072221	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131072222	Marionette	TRACE	0 <- [1,52,null,{"value":null}]
+1544131081233	Marionette	TRACE	0 -> [0,53,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131081237	Marionette	TRACE	0 <- [1,53,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"85356ef1-6995-0643-87c7-1641acb18cff"}}]
+1544131081240	Marionette	TRACE	0 -> [0,54,"WebDriver:GetElementText",{"id":"85356ef1-6995-0643-87c7-1641acb18cff"}]
+1544131081251	Marionette	TRACE	0 <- [1,54,null,{"value":"Associate Data Scientist"}]
+1544131081253	Marionette	TRACE	0 -> [0,55,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131081256	Marionette	TRACE	0 <- [1,55,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2807ba29-75bd-264f-a197-38f554bd851f"}}]
+1544131081258	Marionette	TRACE	0 -> [0,56,"WebDriver:GetElementText",{"id":"2807ba29-75bd-264f-a197-38f554bd851f"}]
+1544131081269	Marionette	TRACE	0 <- [1,56,null,{"value":"4.1 ★ExtraHop Networks, Inc.– Seattle, WA, United States"}]
+1544131081272	Marionette	TRACE	0 -> [0,57,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131081274	Marionette	TRACE	0 <- [1,57,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6b875fd4-e739-0947-8a60-7ec3e1d0dcc6"}}]
+1544131081276	Marionette	TRACE	0 -> [0,58,"WebDriver:GetElementText",{"id":"6b875fd4-e739-0947-8a60-7ec3e1d0dcc6"}]
+1544131081345	Marionette	TRACE	0 <- [1,58,null,{"value":"The ExtraHop platform is a novel approach to processing vast amounts of wire data in real-time. Want to  ... , military status, or national origin or any other characteristic protected under federal, state, or applicable local law."}]
+1544131081347	Marionette	TRACE	0 -> [0,59,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131081353	Marionette	TRACE	0 <- [1,59,null,[{"element-6066-11e4-a52e-4f735466cecf":"b5bdca75-3abf-db49-a039-147d355c786b"},{"element-6066-11e4-a52e-4f735466c ... ecf":"26abf6ea-595a-6446-9bcd-6fe28ce642ef"},{"element-6066-11e4-a52e-4f735466cecf":"5dd3c2e1-25a9-b349-ab15-6316500b42c2"}]]
+1544131081356	Marionette	TRACE	0 -> [0,60,"WebDriver:ElementClick",{"id":"6c05c5c3-0be2-2641-999d-19a116670dab"}]
+1544131081792	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131081793	Marionette	TRACE	0 <- [1,60,null,{"value":null}]
+1544131089798	Marionette	TRACE	0 -> [0,61,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"18f2a450-7791-c64f-8f22-14bb71219669","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131089804	Marionette	TRACE	0 <- [1,61,null,{"value":{"x":418.01666259765625,"y":34.05000305175781,"width":77.98333740234375,"height":22,"top":34.05000305175781,"right":496,"bottom":56.05000305175781,"left":418.01666259765625}}]
+1544131089808	Marionette	TRACE	0 -> [0,62,"WebDriver:ElementClick",{"id":"18f2a450-7791-c64f-8f22-14bb71219669"}]
+1544131090304	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131090304	Marionette	TRACE	0 <- [1,62,null,{"value":null}]
+1544131100311	Marionette	TRACE	0 -> [0,63,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131100315	Marionette	TRACE	0 <- [1,63,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"b5d51963-80c4-ed42-9f19-2d822767d79a"}}]
+1544131100318	Marionette	TRACE	0 -> [0,64,"WebDriver:GetElementText",{"id":"b5d51963-80c4-ed42-9f19-2d822767d79a"}]
+1544131100326	Marionette	TRACE	0 <- [1,64,null,{"value":"Scientist, Formulations, Viral Vector Process Development"}]
+1544131100328	Marionette	TRACE	0 -> [0,65,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131100330	Marionette	TRACE	0 <- [1,65,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6d207c4f-1034-a54e-807f-ff331e59c6ff"}}]
+1544131100333	Marionette	TRACE	0 -> [0,66,"WebDriver:GetElementText",{"id":"6d207c4f-1034-a54e-807f-ff331e59c6ff"}]
+1544131100343	Marionette	TRACE	0 <- [1,66,null,{"value":"4.0 ★Juno Therapeutics– Seattle, WA, United States"}]
+1544131100345	Marionette	TRACE	0 -> [0,67,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131100347	Marionette	TRACE	0 <- [1,67,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"201621c2-66bf-d341-88fc-c433dd8048e3"}}]
+1544131100349	Marionette	TRACE	0 -> [0,68,"WebDriver:GetElementText",{"id":"201621c2-66bf-d341-88fc-c433dd8048e3"}]
+1544131100404	Marionette	TRACE	0 <- [1,68,null,{"value":"Juno is seeking an enthusiastic, self-driven individual to join the viral vector and gene editing team t ... n track record of high-quality external presentations and peer-reviewed publications\nKnowledge of immunotherapy preferred"}]
+1544131106413	Marionette	TRACE	0 -> [0,69,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"bcb1cf8e-8aae-cc4a-b180-d15d93fc7527","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131106417	Marionette	TRACE	0 <- [1,69,null,{"value":{"x":472.41668701171875,"y":34.75,"width":23.583328247070312,"height":22,"top":34.75,"right":496.00001525878906,"bottom":56.75,"left":472.41668701171875}}]
+1544131106420	Marionette	TRACE	0 -> [0,70,"WebDriver:ElementClick",{"id":"bcb1cf8e-8aae-cc4a-b180-d15d93fc7527"}]
+1544131106900	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131106901	Marionette	TRACE	0 <- [1,70,null,{"value":null}]
+1544131115907	Marionette	TRACE	0 -> [0,71,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131115912	Marionette	TRACE	0 <- [1,71,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"a86eb81d-3f95-654c-8ae7-db5f45744cdf"}}]
+1544131115915	Marionette	TRACE	0 -> [0,72,"WebDriver:GetElementText",{"id":"a86eb81d-3f95-654c-8ae7-db5f45744cdf"}]
+1544131115927	Marionette	TRACE	0 <- [1,72,null,{"value":"Machine Learning Scientist"}]
+1544131115929	Marionette	TRACE	0 -> [0,73,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131115931	Marionette	TRACE	0 <- [1,73,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f8857c5a-232f-e94b-ad3c-098dd009d9ed"}}]
+1544131115933	Marionette	TRACE	0 -> [0,74,"WebDriver:GetElementText",{"id":"f8857c5a-232f-e94b-ad3c-098dd009d9ed"}]
+1544131115945	Marionette	TRACE	0 <- [1,74,null,{"value":"3.9 ★Versive– Seattle, WA"}]
+1544131115947	Marionette	TRACE	0 -> [0,75,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131115949	Marionette	TRACE	0 <- [1,75,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0021f856-d009-934a-9057-e6a1f9c52fab"}}]
+1544131115951	Marionette	TRACE	0 -> [0,76,"WebDriver:GetElementText",{"id":"0021f856-d009-934a-9057-e6a1f9c52fab"}]
+1544131116061	Marionette	TRACE	0 <- [1,76,null,{"value":"The Role:\n\nAt Versive, we want to cut through the hype and overblown claims surrounding AI and ML and  ... nder, sexual orientation, age, marital status, veteran status, or disability status.\n\nRecruiters, please do not contact."}]
+1544131116063	Marionette	TRACE	0 -> [0,77,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131116075	Marionette	TRACE	0 <- [1,77,null,[{"element-6066-11e4-a52e-4f735466cecf":"01d920f9-c807-9345-bca6-7a210ca3644c"},{"element-6066-11e4-a52e-4f735466c ... ecf":"64662022-e594-9141-9095-1e18011df3fa"},{"element-6066-11e4-a52e-4f735466cecf":"bd0debaf-a0f4-314a-9d17-48609dd7c9db"}]]
+1544131116078	Marionette	TRACE	0 -> [0,78,"WebDriver:ElementClick",{"id":"58f70724-7d0a-3e43-8cda-0cd5356efe49"}]
+1544131116546	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131116547	Marionette	TRACE	0 <- [1,78,null,{"value":null}]
+1544131130557	Marionette	TRACE	0 -> [0,79,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"e239d246-091a-7248-af10-4ef9a452b09e","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131130564	Marionette	TRACE	0 <- [1,79,null,{"value":{"x":418.01666259765625,"y":34.44999694824219,"width":77.98333740234375,"height":22,"top":34.44999694824219,"right":496,"bottom":56.44999694824219,"left":418.01666259765625}}]
+1544131130566	Marionette	TRACE	0 -> [0,80,"WebDriver:ElementClick",{"id":"e239d246-091a-7248-af10-4ef9a452b09e"}]
+1544131131374	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131131374	Marionette	TRACE	0 <- [1,80,null,{"value":null}]
+1544131146383	Marionette	TRACE	0 -> [0,81,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131146387	Marionette	TRACE	0 <- [1,81,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"85a80291-70ed-f147-b90e-1752df73db98"}}]
+1544131146390	Marionette	TRACE	0 -> [0,82,"WebDriver:GetElementText",{"id":"85a80291-70ed-f147-b90e-1752df73db98"}]
+1544131146401	Marionette	TRACE	0 <- [1,82,null,{"value":"Data Scientist I"}]
+1544131146403	Marionette	TRACE	0 -> [0,83,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131146405	Marionette	TRACE	0 <- [1,83,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d8c29343-7558-3148-8b46-143782416714"}}]
+1544131146407	Marionette	TRACE	0 -> [0,84,"WebDriver:GetElementText",{"id":"d8c29343-7558-3148-8b46-143782416714"}]
+1544131146419	Marionette	TRACE	0 <- [1,84,null,{"value":"4.5 ★PagerDuty– Seattle"}]
+1544131146421	Marionette	TRACE	0 -> [0,85,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131146424	Marionette	TRACE	0 <- [1,85,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e007ba61-c43f-504c-ba66-19151b507e9b"}}]
+1544131146426	Marionette	TRACE	0 -> [0,86,"WebDriver:GetElementText",{"id":"e007ba61-c43f-504c-ba66-19151b507e9b"}]
+1544131146545	Marionette	TRACE	0 <- [1,86,null,{"value":"At PagerDuty, we believe that people do their best in a culture that fosters inclusion, innovation, and  ... e requirements of the San Francisco Fair Chance Ordinance.\n\nPagerDuty uses the E-Verify employment verification program."}]
+1544131152549	Marionette	TRACE	0 -> [0,87,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"4c8e060f-53d3-d241-a7fb-e3e6ff94d4ed","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131152554	Marionette	TRACE	0 <- [1,87,null,{"value":{"x":467.3666687011719,"y":34.899993896484375,"width":28.633331298828125,"height":22,"top":34.899993896484375,"right":496,"bottom":56.899993896484375,"left":467.3666687011719}}]
+1544131152557	Marionette	TRACE	0 -> [0,88,"WebDriver:ElementClick",{"id":"4c8e060f-53d3-d241-a7fb-e3e6ff94d4ed"}]
+1544131153361	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131153364	Marionette	TRACE	0 <- [1,88,null,{"value":null}]
+1544131158370	Marionette	TRACE	0 -> [0,89,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131158385	Marionette	TRACE	0 <- [1,89,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"be7fc354-0b15-024c-b0af-f11018e66ece"}}]
+1544131158388	Marionette	TRACE	0 -> [0,90,"WebDriver:GetElementText",{"id":"be7fc354-0b15-024c-b0af-f11018e66ece"}]
+1544131158395	Marionette	TRACE	0 <- [1,90,null,{"value":"Data Scientist"}]
+1544131158397	Marionette	TRACE	0 -> [0,91,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131158400	Marionette	TRACE	0 <- [1,91,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"41e538bd-5a7e-c843-aad9-edb5997993fe"}}]
+1544131158402	Marionette	TRACE	0 -> [0,92,"WebDriver:GetElementText",{"id":"41e538bd-5a7e-c843-aad9-edb5997993fe"}]
+1544131158411	Marionette	TRACE	0 <- [1,92,null,{"value":"4.5 ★H10 Capital– Seattle, WA"}]
+1544131158414	Marionette	TRACE	0 -> [0,93,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131158416	Marionette	TRACE	0 <- [1,93,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"98aa53ad-618b-1a42-9123-6b54dd0c310b"}}]
+1544131158418	Marionette	TRACE	0 -> [0,94,"WebDriver:GetElementText",{"id":"98aa53ad-618b-1a42-9123-6b54dd0c310b"}]
+1544131158460	Marionette	TRACE	0 <- [1,94,null,{"value":"Job Description\nOur Telecommunications client is looking for a qualified candidate for the following ro ... ir resumes go into this void and they never get contacted. Come work with us and we'll help you get that foot in the door!"}]
+1544131158462	Marionette	TRACE	0 -> [0,95,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131158468	Marionette	TRACE	0 <- [1,95,null,[{"element-6066-11e4-a52e-4f735466cecf":"61ea4c3f-a113-464d-9ab2-4b9abfc1e1bd"},{"element-6066-11e4-a52e-4f735466c ... ecf":"db4f3244-8ebf-c142-a323-b4a241bdba56"},{"element-6066-11e4-a52e-4f735466cecf":"4e701ea3-c898-da4d-8dbc-1215cc6c9a4e"}]]
+1544131158470	Marionette	TRACE	0 -> [0,96,"WebDriver:ElementClick",{"id":"573d9694-a10c-7c45-a513-de206307c154"}]
+1544131158899	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131158900	Marionette	TRACE	0 <- [1,96,null,{"value":null}]
+1544131172904	Marionette	TRACE	0 -> [0,97,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"a24e29b5-c3e0-1a46-810a-ec33080193e3","element-6066-11e4-a52e-4f735466ce ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131172908	Marionette	TRACE	0 <- [1,97,null,{"value":{"x":467.3666687011719,"y":34.133331298828125,"width":28.633331298828125,"height":22,"top":34.133331298828125,"right":496,"bottom":56.133331298828125,"left":467.3666687011719}}]
+1544131172911	Marionette	TRACE	0 -> [0,98,"WebDriver:ElementClick",{"id":"a24e29b5-c3e0-1a46-810a-ec33080193e3"}]
+1544131173388	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131173388	Marionette	TRACE	0 <- [1,98,null,{"value":null}]
+1544131181395	Marionette	TRACE	0 -> [0,99,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131181398	Marionette	TRACE	0 <- [1,99,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"3362be05-15b6-9443-abd9-8a89530212bc"}}]
+1544131181401	Marionette	TRACE	0 -> [0,100,"WebDriver:GetElementText",{"id":"3362be05-15b6-9443-abd9-8a89530212bc"}]
+1544131181409	Marionette	TRACE	0 <- [1,100,null,{"value":"Data Scientist"}]
+1544131181411	Marionette	TRACE	0 -> [0,101,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131181413	Marionette	TRACE	0 <- [1,101,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7d6f9085-fbe0-324d-a89a-7974f49911e9"}}]
+1544131181415	Marionette	TRACE	0 -> [0,102,"WebDriver:GetElementText",{"id":"7d6f9085-fbe0-324d-a89a-7974f49911e9"}]
+1544131181425	Marionette	TRACE	0 <- [1,102,null,{"value":"2.7 ★Rakuten– Seattle"}]
+1544131181426	Marionette	TRACE	0 -> [0,103,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131181429	Marionette	TRACE	0 <- [1,103,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"896fdce1-deb4-fa49-b49b-d6ff7a1a44d6"}}]
+1544131181431	Marionette	TRACE	0 -> [0,104,"WebDriver:GetElementText",{"id":"896fdce1-deb4-fa49-b49b-d6ff7a1a44d6"}]
+1544131181502	Marionette	TRACE	0 <- [1,104,null,{"value":"We are looking for an experienced data scientist to help extend the capabilities of our product catalog ... lization tools, such as D3.js, GGplot, or matplotlib etc.\n• Good scripting and programming skills Java or Scala preferred"}]
+1544131181504	Marionette	TRACE	0 -> [0,105,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131181509	Marionette	TRACE	0 <- [1,105,null,[{"element-6066-11e4-a52e-4f735466cecf":"43a1ad8d-9650-4446-9083-1ac3549a41a0"},{"element-6066-11e4-a52e-4f735466 ... ecf":"9db3bffd-0f7c-ef4e-a3cf-17c30b8db7b0"},{"element-6066-11e4-a52e-4f735466cecf":"11eda216-3fdc-b54a-95a8-c70b023441d5"}]]
+1544131181511	Marionette	TRACE	0 -> [0,106,"WebDriver:ElementClick",{"id":"2b7ece4a-b256-ce48-a226-720c5c52651b"}]
+1544131181933	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131181934	Marionette	TRACE	0 <- [1,106,null,{"value":null}]
+1544131187943	Marionette	TRACE	0 -> [0,107,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"cbce5f87-52d0-124f-8465-5da27f13990c","element-6066-11e4-a52e-4f735466c ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131187950	Marionette	TRACE	0 <- [1,107,null,{"value":{"x":467.3666687011719,"y":34.55000305175781,"width":28.633331298828125,"height":22,"top":34.55000305175781,"right":496,"bottom":56.55000305175781,"left":467.3666687011719}}]
+1544131187953	Marionette	TRACE	0 -> [0,108,"WebDriver:ElementClick",{"id":"cbce5f87-52d0-124f-8465-5da27f13990c"}]
+1544131188446	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131188447	Marionette	TRACE	0 <- [1,108,null,{"value":null}]
+1544131202456	Marionette	TRACE	0 -> [0,109,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131202461	Marionette	TRACE	0 <- [1,109,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"77bfc8e1-66b3-f54b-8a66-48996e0c9788"}}]
+1544131202463	Marionette	TRACE	0 -> [0,110,"WebDriver:GetElementText",{"id":"77bfc8e1-66b3-f54b-8a66-48996e0c9788"}]
+1544131202476	Marionette	TRACE	0 <- [1,110,null,{"value":"Siri - Data Scientist (Machine Learning & Natural Language)"}]
+1544131202478	Marionette	TRACE	0 -> [0,111,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131202480	Marionette	TRACE	0 <- [1,111,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f11f517b-b473-7743-80bc-f23551c70508"}}]
+1544131202482	Marionette	TRACE	0 -> [0,112,"WebDriver:GetElementText",{"id":"f11f517b-b473-7743-80bc-f23551c70508"}]
+1544131202494	Marionette	TRACE	0 <- [1,112,null,{"value":"4.0 ★Apple– Seattle, Washington"}]
+1544131202496	Marionette	TRACE	0 -> [0,113,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131202499	Marionette	TRACE	0 <- [1,113,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d19c49fd-49fe-6148-a070-32448fa719b6"}}]
+1544131202500	Marionette	TRACE	0 -> [0,114,"WebDriver:GetElementText",{"id":"d19c49fd-49fe-6148-a070-32448fa719b6"}]
+1544131202508	Marionette	TRACE	0 <- [1,114,null,{"value":"Summary\nPlay a part in the ongoing revolution in human-computer interaction. Give to a product that is ... ata science and machine learning, and your work will have a huge impact on hundreds of millions of users across the globe."}]
+1544131202511	Marionette	TRACE	0 -> [0,115,"WebDriver:FindElements",{"using":"css selector","value":".tabLabel"}]
+1544131202518	Marionette	TRACE	0 <- [1,115,null,[{"element-6066-11e4-a52e-4f735466cecf":"523491d1-0889-654f-a4ab-dbef840ad03d"},{"element-6066-11e4-a52e-4f735466 ... ecf":"cc8eb7a4-eb7e-bb46-a785-5b856320d6e0"},{"element-6066-11e4-a52e-4f735466cecf":"57a09d8a-828a-2644-a383-046bf52d828b"}]]
+1544131202520	Marionette	TRACE	0 -> [0,116,"WebDriver:ElementClick",{"id":"30d0dce8-f53b-804c-90d9-7ccd8590cfbb"}]
+1544131202968	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131202968	Marionette	TRACE	0 <- [1,116,null,{"value":null}]
+1544131214978	Marionette	TRACE	0 -> [0,117,"WebDriver:FindElement",{"using":"css selector","value":".next"}]
+1544131214981	Marionette	TRACE	0 <- [1,117,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e41d7139-abd7-0a40-a743-b10e098761ab"}}]
+1544131214984	Marionette	TRACE	0 -> [0,118,"WebDriver:ElementClick",{"id":"e41d7139-abd7-0a40-a743-b10e098761ab"}]
+1544131215068	Marionette	DEBUG	[4294967297] Received DOM event beforeunload for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1544131215780	Marionette	DEBUG	[4294967297] Received DOM event pagehide for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1544131215783	Marionette	DEBUG	[4294967297] Received DOM event unload for https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=Data+Scientist&sc.keyword=Data+Scientist&locT=C&locId=1150505&jobType=
+1544131216170	Marionette	DEBUG	[4294967297] Received DOM event DOMContentLoaded for https://www.glassdoor.com/Job/seattle-data-scientist-jobs-SRCH_IL.0,7_IC1150505_KO8,22_IP2.htm
+1544131216184	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216184	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216184	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216185	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216185	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216185	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216186	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216186	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216186	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216186	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216188	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216188	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216188	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216188	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216188	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216188	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216189	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216189	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216189	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216189	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216189	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216190	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216190	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216190	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216190	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216191	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216191	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216191	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216191	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216192	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216192	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216192	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216192	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216192	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216192	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216194	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131216194	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131219187	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131219193	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131219310	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131219311	Marionette	DEBUG	[4294967297] Received observer notification outer-window-destroyed
+1544131220778	Marionette	DEBUG	[4294967297] Received DOM event pageshow for https://www.glassdoor.com/Job/seattle-data-scientist-jobs-SRCH_IL.0,7_IC1150505_KO8,22_IP2.htm
+1544131220780	Marionette	TRACE	0 <- [1,118,null,{"value":null}]
+1544131231789	Marionette	TRACE	0 -> [0,119,"WebDriver:FindElements",{"using":"css selector","value":".hotListing"}]
+1544131231799	Marionette	TRACE	0 <- [1,119,null,[{"element-6066-11e4-a52e-4f735466cecf":"c1a29150-4520-db42-8221-263e2873f65c"},{"element-6066-11e4-a52e-4f735466 ... ecf":"bede3996-3bb4-4744-acec-9a5c8b100421"},{"element-6066-11e4-a52e-4f735466cecf":"358eb1e3-0cc7-cf46-af90-717d620a6ecb"}]]
+1544131244806	Marionette	TRACE	0 -> [0,120,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"c1a29150-4520-db42-8221-263e2873f65c","element-6066-11e4-a52e-4f735466c ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131244811	Marionette	TRACE	0 <- [1,120,null,{"value":{"x":418.01666259765625,"y":34.53334045410156,"width":77.98333740234375,"height":22,"top":34.53334045410156,"right":496,"bottom":56.53334045410156,"left":418.01666259765625}}]
+1544131244813	Marionette	TRACE	0 -> [0,121,"WebDriver:ElementClick",{"id":"c1a29150-4520-db42-8221-263e2873f65c"}]
+1544131245311	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131245312	Marionette	TRACE	0 <- [1,121,null,{"value":null}]
+1544131253321	Marionette	TRACE	0 -> [0,122,"WebDriver:FindElement",{"using":"css selector","value":".header"}]
+1544131253333	Marionette	TRACE	0 <- [1,122,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"f6f8c1c8-e6ab-c546-acbc-999f319b3c79"}}]
+1544131253336	Marionette	TRACE	0 -> [0,123,"WebDriver:GetElementText",{"id":"f6f8c1c8-e6ab-c546-acbc-999f319b3c79"}]
+1544131253349	Marionette	TRACE	0 <- [1,123,null,{"value":"Data Engineer"}]
+1544131253350	Marionette	TRACE	0 -> [0,124,"WebDriver:FindElement",{"using":"css selector","value":".compInfo"}]
+1544131253352	Marionette	TRACE	0 <- [1,124,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"d20df8e7-15a4-4d4f-8110-7fbaeb40e6c5"}}]
+1544131253354	Marionette	TRACE	0 -> [0,125,"WebDriver:GetElementText",{"id":"d20df8e7-15a4-4d4f-8110-7fbaeb40e6c5"}]
+1544131253366	Marionette	TRACE	0 <- [1,125,null,{"value":"3.8 ★Amazon– Seattle, WA"}]
+1544131253369	Marionette	TRACE	0 -> [0,126,"WebDriver:FindElement",{"using":"css selector","value":".jobDescriptionContent"}]
+1544131253371	Marionette	TRACE	0 <- [1,126,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"7bb5f168-38b9-2348-be5d-6bda832c9c3a"}}]
+1544131253373	Marionette	TRACE	0 -> [0,127,"WebDriver:GetElementText",{"id":"7bb5f168-38b9-2348-be5d-6bda832c9c3a"}]
+1544131253475	Marionette	TRACE	0 <- [1,127,null,{"value":"Job Description\nDo you want to build a cutting-edge highly scalable data platform using AWS technologi ... sters or PhD in computer science, mathematics, statistics, economics, or other quantitative field\n\n\nApply Now at Amazon"}]
+1544131262480	Marionette	TRACE	0 -> [0,128,"WebDriver:ExecuteScript",{"args":[{"ELEMENT":"4300b77a-ba04-4740-aaa8-95465a3c525b","element-6066-11e4-a52e-4f735466c ... "arguments[0].scrollIntoView(true); return arguments[0].getBoundingClientRect()","scriptTimeout":null,"specialPowers":false}]
+1544131262487	Marionette	TRACE	0 <- [1,128,null,{"value":{"x":467.3666687011719,"y":34.23333740234375,"width":28.633331298828125,"height":22,"top":34.23333740234375,"right":496,"bottom":56.23333740234375,"left":467.3666687011719}}]
+1544131262489	Marionette	TRACE	0 -> [0,129,"WebDriver:ElementClick",{"id":"4300b77a-ba04-4740-aaa8-95465a3c525b"}]
+1544131262961	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1544131262961	Marionette	TRACE	0 <- [1,129,null,{"value":null}]
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown

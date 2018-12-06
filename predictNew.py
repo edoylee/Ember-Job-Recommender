@@ -398,6 +398,111 @@ class ScrapeGlass():
             return self.return_job_descriptions()
         self.return_job_descriptions()
 
+class ScrapeGlassHot():
+    """ ScrapeGlassHot is used to scrape new job postings from Glassdoor in
+    that are labeled as 'hot', or 'new', to be used for test data.
+
+    """
+
+    def __init__(self, param=None):
+        self.browser = Firefox()
+        self.titles = []
+        self.companies = []
+        self.job_descriptions = []
+
+    def click_wait(self):
+        """ This method triggers the automatic pop-up window and exits out of it."""
+
+        listings = self.browser.find_elements_by_class_name('jl')
+        listings[1].click()
+        x_button = self.browser.find_element_by_class_name('xBtn')
+        x_button.click()
+
+    def return_job_descriptions(self):
+        """ This method prompts the user whether or not to convert to csv"""
+
+        print(len(self.titles), len(self.companies), len(self.job_descriptions))
+        check_variable = input('\nProceed? (yes / no) ')
+        if check_variable == 'yes':
+            name = input('Enter name of data')
+            self.convert_to_csv(self.titles,
+                                self.companies,
+                                self.job_descriptions,
+                                ('~/galvanize/capstone/Ember-Job-Recommender/data/%s.csv' % name))
+        else:
+            return self.job_descriptions
+
+    def sleep(self, start=5, end=15):
+        return time.sleep(random.randint(5, 15))
+
+    def search(self, query):
+        """ This method goes to the url, and searchs for the query"""
+
+        self.browser.get('https://www.glassdoor.com')
+        self.sleep()
+        keyword_search = self.browser.find_element_by_css_selector('#KeywordSearch')
+        keyword_search.click()
+        keyword_search.send_keys(query)
+        start_search = self.browser.find_element_by_css_selector('#HeroSearchButton')
+        start_search.click()
+
+    def loop_pages(self):
+        """ This method iterates through all available pages"""
+
+        pages = self.browser.find_elements_by_class_name('page')
+        while len(pages) == 5:
+            self.get_job_postings()
+            next_button = self.browser.find_element_by_class_name('next')
+            next_button.click()
+            self.sleep()
+        return self.return_job_descriptions()
+
+    def get_job_postings(self):
+        """ This method iterates through all of the listings and appends
+        them to the class variable self.job_descriptions"""
+
+        hot_listings = self.browser.find_elements_by_class_name('hotListing')
+        self.sleep()
+        for hot in hot_listings:
+            hot.location_once_scrolled_into_view
+            hot.click()
+            self.sleep()
+            title = self.browser.find_element_by_class_name('header')
+            self.titles.append(title.text)
+            company = self.browser.find_element_by_class_name('compInfo')
+            self.companies.append(company.text)
+            content = self.browser.find_element_by_class_name('jobDescriptionContent')
+            self.job_descriptions.append(content.text)
+            choice = random.randint(1,3)
+            if choice == 2:
+                tabs = self.browser.find_elements_by_class_name('tabLabel')
+                try:
+                    tabs[random.randint(1,2)].click()
+                except IndexError:
+                    pass
+            self.sleep()
+        return self.job_descriptions
+
+    def convert_to_csv(self, titles, companies, final_content, name):
+        """ This method converts the list final_content into a pandas
+        dataframe and adds a 'lables' column of zeros"""
+
+        final_txdf = pd.DataFrame({'titles': titles,
+                                    'companies': companies,
+                                    'jobs': final_content})
+        final_txdf.to_csv(name)
+
+    def transform(self, query):
+        """ This method takes the url, and query as inputs and outputs either
+        an exported csv file or a list of jobs"""
+        self.search(query)
+        self.click_wait()
+        try:
+            self.loop_pages()
+        except:
+            return self.return_job_descriptions()
+        self.return_job_descriptions()
+
 class PreprocessData():
 
     def __init__(self, param=None):
@@ -582,6 +687,7 @@ class FitModel():
 
 data = PreprocessData()
 total_df = data.transform('data/GLASSTEST.csv', 'data/ETHANTEST.csv')
+test_num = 0
 index = 1
 recommended_posting = pd.DataFrame(total_df.iloc[index, :]).T
 prediction = Predict(total_df)
@@ -671,17 +777,33 @@ def predict():
     global job_company
     global job_desc
     global pred
+    global test_num
     model = FitModel()
     grad_model, vocabulary = model.transform('~/galvanize/capstone/Ember-Job-Recommender/data/labeled_data.csv')
-    X_test = [total_df.iloc[1,1]]
+    final_jobs = remove_dups('data/GLASSTEST.csv', 'data/HOTTEST.csv')
+    job_title = final_jobs.iloc[test_num, 0]
+    job_company = final_jobs.iloc[test_num,1]
+    job_desc = final_jobs.iloc[test_num, 2]
+    X_test = [final_jobs.iloc[test_num, 2]]
     X_tfidf = model.improve(X_test, vocabulary)
     pred = grad_model.predict_proba(X_tfidf)
     formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
+    test_num += 1
     return render_template('index.html',
                             job_title = job_title,
                             job_company=job_company,
                             job_desc=job_desc,
                             prediction=formated_string)
+
+def remove_dups(train, test):
+    train_df = pd.read_csv(train, index_col=0)
+    test_df = pd.read_csv(test, index_col=0)
+    final_jobs = test_df.copy()
+    for test_job in test_df.jobs.values:
+        for train_job in train_df.jobs.values:
+            if test_job == train_job:
+                final_jobs.drop(index=final_jobs[final_jobs.jobs == test_job].index[0], inplace=True)
+    return final_jobs
 
 
 class Main():
