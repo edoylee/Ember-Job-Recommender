@@ -88,6 +88,9 @@
               <form class="form-inline d-flex" method="POST" action="/handle_no">
                   <button type="submit" value="Submit" class="btn btn-primary mx-auto">No</button>
               </form>
+              <form class="form-inline d-flex" method="POST" action="/convert_to_csv">
+                  <button type="submit" value="Submit" class="btn btn-primary mx-auto">Quit</button>
+              </form>
             </div>
             <div class="card-footer text-muted">
               Posted on January 1, 2017 by
@@ -96,7 +99,7 @@
           </div>
 
           <!-- Blog Post -->
-          <div class="card mb-4">
+          <!-- <div class="card mb-4">
             <img class="card-img-top" src="ember_thankyou_page.png" alt="Card image cap">
             <div class="card-body">
               <h2 class="card-title">Post Title</h2>
@@ -109,10 +112,10 @@
               Posted on January 1, 2017 by
               <a href="#">Start Bootstrap</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Blog Post -->
-          <div class="card mb-4">
+          <!-- <div class="card mb-4">
             <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
             <div class="card-body">
               <h2 class="card-title">Post Title</h2>
@@ -123,7 +126,7 @@
               Posted on January 1, 2017 by
               <a href="#">Start Bootstrap</a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Pagination -->
           <ul class="pagination justify-content-center mb-4">
@@ -142,12 +145,14 @@
 
           <!-- Search Widget -->
           <div class="card my-4">
-            <h5 class="card-header">Search</h5>
+            <h5 class="card-header">Predict</h5>
             <div class="card-body">
               <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
                 <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="button">Go!</button>
+                  {{prediction}}
+                  <form class="form-inline d-flex" method="POST" action="/predict">
+                      <button type="submit" value="Submit" class="btn btn-primary mx-auto">Go</button>
+                  </form>
                 </span>
               </div>
             </div>

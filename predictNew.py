@@ -562,7 +562,7 @@ class FitModel():
         forest, vectorizer = self.fit_primary(X, y)
         vocabulary = self.prune_forest(forest, vectorizer)
         tfidf_df = self.improve(X, vocabulary)
-        return self.fit_secondary(tfidf_df, y)
+        return self.fit_secondary(tfidf_df, y), vocabulary
 
 
 
@@ -573,30 +573,39 @@ total_df = data.transform('data/dsjobs_training_culled.csv',
 index = 1
 recommended_posting = pd.DataFrame(total_df.iloc[index, :]).T
 prediction = Predict(total_df)
+job_desc = recommended_posting.iloc[0,1]
+pred = '...'
 
 @app.route('/')
 def index():
-    job_desc = recommended_posting.iloc[0,1]
-    return render_template('index.html', job_desc=job_desc)
+    global job_desc
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
 @app.route('/handle_yes', methods=['POST'])
 def handle_yes():
-    global index
+    global total_df
+    global recommended_posting
+    global job_desc
     original_index = int(recommended_posting['indices'])
     label_index = total_df[total_df['indices'] == original_index].index[0]
     total_df.iat[label_index,2] = 1.0
     remains, next_best_index = find_next_best()
-    index = next_best_index
+    recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
     job_desc = remains.iloc[next_best_index, 1]
-    return render_template('index.html', job_desc=job_desc)
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
 @app.route('/handle_no', methods=['POST'])
 def handle_no():
+    global total_df
+    global recommended_posting
+    global job_desc
     original_index = int(recommended_posting['indices'])
     label_index = total_df[total_df['indices'] == original_index].index[0]
     total_df.iat[label_index,2] = -1.0
-    job_desc2 = total_df.iloc[3,1]
-    return render_template('index.html', job_desc=job_desc2)
+    remains, next_best_index = find_next_best()
+    recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
+    job_desc = remains.iloc[next_best_index, 1]
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
 def find_next_best():
     try:
@@ -610,7 +619,23 @@ def find_next_best():
     next_best_index = remains.total_distance.idxmin()
     return remains, next_best_index
 
+@app.route('/convert_to_csv', methods=['POST'])
+def convert_to_csv():
+    global total_df
+    total_df.to_csv('~/galvanize/capstone/Ember-Job-Recommender/data/labeled_data.csv')
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
+@app.route('/predict', methods=['POST'])
+def predict():
+    global total_df
+    global job_desc
+    global pred
+    model = FitModel()
+    grad_model, vocabulary = model.transform('~/galvanize/capstone/Ember-Job-Recommender/data/labeled_data.csv')
+    X_test = [total_df.iloc[1,1]]
+    X_tfidf = model.improve(X_test, vocabulary)
+    pred = grad_model.predict_proba(X_tfidf)
+    return render_template('index.html', job_desc=job_desc, prediction=pred[0][0])
 
 
 

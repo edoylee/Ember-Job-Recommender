@@ -18891,3 +18891,4 @@ console.error: BroadcastService:
 1544046265150	Marionette	TRACE	0 <- [1,37,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"6810d89e-21f7-ec4a-8f36-4e008254627c"}}]
 1544046265152	Marionette	TRACE	0 -> [0,38,"WebDriver:GetElementText",{"id":"6810d89e-21f7-ec4a-8f36-4e008254627c"}]
 1544046265170	Marionette	TRACE	0 <- [1,38,null,{"value":""}]
+1544058385969	Marionette	DEBUG	Closed connection 0
