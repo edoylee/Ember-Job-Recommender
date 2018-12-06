@@ -8,8 +8,8 @@ import time
 import random
 import getpass
 from flask import Flask, render_template
-
 app = Flask(__name__, static_url_path="")
+
 
 CUSTOM_STOP = [
     "a", "about", "above", "across", "after", "afterwards", "again", "against",
@@ -564,17 +564,57 @@ class FitModel():
         tfidf_df = self.improve(X, vocabulary)
         return self.fit_secondary(tfidf_df, y)
 
+
+
+
+data = PreprocessData()
+total_df = data.transform('data/dsjobs_training_culled.csv',
+'data/ethan_profile.csv')
+index = 1
+recommended_posting = pd.DataFrame(total_df.iloc[index, :]).T
+prediction = Predict(total_df)
+
 @app.route('/')
 def index():
-    data = PreprocessData()
-    total_df = data.transform('data/dsjobs_training_culled.csv',
-    'data/ethan_profile.csv')
-    print(total_df.iloc[0,1])
-    return render_template('index.html')
+    job_desc = recommended_posting.iloc[0,1]
+    return render_template('index.html', job_desc=job_desc)
 
 @app.route('/handle_yes', methods=['POST'])
 def handle_yes():
-    pass
+    global index
+    original_index = int(recommended_posting['indices'])
+    label_index = total_df[total_df['indices'] == original_index].index[0]
+    total_df.iat[label_index,2] = 1.0
+    remains, next_best_index = find_next_best()
+    index = next_best_index
+    job_desc = remains.iloc[next_best_index, 1]
+    return render_template('index.html', job_desc=job_desc)
+
+@app.route('/handle_no', methods=['POST'])
+def handle_no():
+    original_index = int(recommended_posting['indices'])
+    label_index = total_df[total_df['indices'] == original_index].index[0]
+    total_df.iat[label_index,2] = -1.0
+    job_desc2 = total_df.iloc[3,1]
+    return render_template('index.html', job_desc=job_desc2)
+
+def find_next_best():
+    try:
+        yes_remains = prediction.improve_yes(total_df)
+        no_remains = prediction.improve_no(total_df)
+    except TypeError:
+        return prediction.convert_to_csv()
+    total_distance = yes_remains.distances + yes_remains.distances_from_yes - no_remains.distances_from_no
+    remains = yes_remains.copy()
+    remains['total_distance'] = total_distance
+    next_best_index = remains.total_distance.idxmin()
+    return remains, next_best_index
+
+
+
+
+
+
 
 
 class Main():
