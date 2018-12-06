@@ -253,11 +253,7 @@ class LinkedinScraper():
         self.second_expand_page()
         profile_df = self.scrape_page()
         consolidated_df = self.get_consolidated_profile(profile_df, profile_df.columns)
-        titles = ''
-        companies = ''
-        final_df = pd.DataFrame({'titles': titles,
-                                    'companies': companies,
-                                    'jobs': consolidated_df})
+        final_df = pd.DataFrame({'profile': consolidated_df})
         return self.convert_to_csv(final_df)
 
 class ScrapeGlass():
@@ -301,8 +297,6 @@ class ScrapeGlass():
 
     def __init__(self, param=None):
         self.browser = Firefox()
-        self.titles = []
-        self.companies = []
         self.job_descriptions = []
 
     def click_wait(self):
@@ -316,18 +310,15 @@ class ScrapeGlass():
     def return_job_descriptions(self):
         """ This method prompts the user whether or not to convert to csv"""
 
-        print(len(self.titles), len(self.companies), len(self.job_descriptions))
+        print(len(self.job_descriptions))
         check_variable = input('\nProceed? (yes / no) ')
         if check_variable == 'yes':
             name = input('Enter name of data')
-            self.convert_to_csv(self.titles,
-                                self.companies,
-                                self.job_descriptions,
-                                ('~/galvanize/capstone/Ember-Job-Recommender/data/%s.csv' % name))
+            self.convert_to_csv(self.job_descriptions, ('~/galvanize/capstone/Ember-Job-Recommender/data/%s.csv' % name))
         else:
             return self.job_descriptions
 
-    def sleep(self, start=5, end=15):
+    def sleep(start=5, end=15):
         return time.sleep(random.randint(5, 15))
 
     def search(self, query):
@@ -362,10 +353,6 @@ class ScrapeGlass():
             job.location_once_scrolled_into_view
             job.click()
             self.sleep()
-            title = self.browser.find_element_by_class_name('header')
-            self.titles.append(title.text)
-            company = self.browser.find_element_by_class_name('compInfo')
-            self.companies.append(company.text)
             content = self.browser.find_element_by_class_name('jobDescriptionContent')
             self.job_descriptions.append(content.text)
             choice = random.randint(1,3)
@@ -378,13 +365,12 @@ class ScrapeGlass():
             self.sleep()
         return self.job_descriptions
 
-    def convert_to_csv(self, titles, companies, final_content, name):
+    def convert_to_csv(self, final_content, name):
         """ This method converts the list final_content into a pandas
         dataframe and adds a 'lables' column of zeros"""
 
-        final_txdf = pd.DataFrame({'titles': titles,
-                                    'companies': companies,
-                                    'jobs': final_content})
+        final_txdf = pd.DataFrame({'jobs': final_content})
+        final_txdf['labels'] = np.zeros(final_txdf.shape[0])
         final_txdf.to_csv(name)
 
     def transform(self, query):
@@ -407,13 +393,14 @@ class PreprocessData():
 
     def bring_in_data(self, X, y):
         df = pd.read_csv(X, index_col=0)
+        df = df.dropna()
         y_vector = pd.read_csv(y, index_col=0)
-        full_df = y_vector.append(df, ignore_index=True)
+        full_df = y_vector['profile'].append(df['jobs'])
         return full_df
 
     def get_tfidf(self, df):
-        self.vectorizer.fit(df['jobs'])
-        transformed_model = self.vectorizer.transform(df['jobs'])
+        self.vectorizer.fit(df)
+        transformed_model = self.vectorizer.transform(df)
         tfidf_df = pd.DataFrame(transformed_model.toarray())
         return tfidf_df
 
@@ -429,11 +416,11 @@ class PreprocessData():
     def get_total_df(self, indices, full_df, sorted_distances, tfidf_df):
         indices_df = pd.DataFrame({'indices': indices})
         sorted_distances_df = pd.DataFrame({'distances': sorted_distances})
-        sorted_df = pd.DataFrame(full_df.iloc[indices]).set_index(np.arange(0,full_df.shape[0]))
+        sorted_df = pd.DataFrame({'jobs': full_df.iloc[indices]}).set_index(np.arange(0,full_df.shape[0]))
         sorted_df['labels'] = np.zeros(full_df.shape[0])
         sorted_tfidf = pd.DataFrame(tfidf_df.iloc[indices]).set_index(np.arange(0,full_df.shape[0]))
         total_df = pd.concat([indices_df, sorted_df, sorted_distances_df, sorted_tfidf], axis=1)
-        total_df.iat[0,4] = 10.0
+        total_df.iat[0,2] = 10.0
         return total_df
 
     def transform(self, X, y):
@@ -581,67 +568,44 @@ class FitModel():
 
 
 data = PreprocessData()
-total_df = data.transform('data/GLASSTEST.csv', 'data/ETHANTEST.csv')
+total_df = data.transform('data/dsjobs_training_culled.csv',
+'data/ethan_profile.csv')
 index = 1
 recommended_posting = pd.DataFrame(total_df.iloc[index, :]).T
 prediction = Predict(total_df)
-job_title = recommended_posting.iloc[0,1]
-job_company = recommended_posting.iloc[0,2]
-job_desc = recommended_posting.iloc[0,3]
+job_desc = recommended_posting.iloc[0,1]
 pred = '...'
 
 @app.route('/')
 def index():
-    global job_title
-    global job_company
     global job_desc
-    return render_template('index.html',
-                            job_title = job_title,
-                            job_company=job_company,
-                            job_desc=job_desc,
-                            prediction=pred)
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
 @app.route('/handle_yes', methods=['POST'])
 def handle_yes():
     global total_df
     global recommended_posting
-    global job_title
-    global job_company
     global job_desc
     original_index = int(recommended_posting['indices'])
     label_index = total_df[total_df['indices'] == original_index].index[0]
-    total_df.iat[label_index,4] = 1.0
+    total_df.iat[label_index,2] = 1.0
     remains, next_best_index = find_next_best()
     recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
-    job_title = remains.iloc[next_best_index, 1]
-    job_company = remains.iloc[next_best_index, 2]
-    job_desc = remains.iloc[next_best_index, 3]
-    return render_template('index.html',
-                            job_title = job_title,
-                            job_company=job_company,
-                            job_desc=job_desc,
-                            prediction=pred)
+    job_desc = remains.iloc[next_best_index, 1]
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
 @app.route('/handle_no', methods=['POST'])
 def handle_no():
     global total_df
     global recommended_posting
-    global job_title
-    global job_company
     global job_desc
     original_index = int(recommended_posting['indices'])
     label_index = total_df[total_df['indices'] == original_index].index[0]
-    total_df.iat[label_index,4] = -1.0
+    total_df.iat[label_index,2] = -1.0
     remains, next_best_index = find_next_best()
     recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
-    job_title = remains.iloc[next_best_index, 1]
-    job_company = remains.iloc[next_best_index, 2]
-    job_desc = remains.iloc[next_best_index, 3]
-    return render_template('index.html',
-                            job_title = job_title,
-                            job_company=job_company,
-                            job_desc=job_desc,
-                            prediction=pred)
+    job_desc = remains.iloc[next_best_index, 1]
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
 
 def find_next_best():
     try:
@@ -659,16 +623,11 @@ def find_next_best():
 def convert_to_csv():
     global total_df
     total_df.to_csv('~/galvanize/capstone/Ember-Job-Recommender/data/labeled_data.csv')
-    return render_template('index.html',
-                            job_title = job_title,
-                            job_company=job_company,
-                            job_desc=job_desc,
-                            prediction=pred)
+    return render_template('index.html', job_desc=job_desc, prediction=pred)
+
 @app.route('/predict', methods=['POST'])
 def predict():
     global total_df
-    global job_title
-    global job_company
     global job_desc
     global pred
     model = FitModel()
@@ -676,12 +635,11 @@ def predict():
     X_test = [total_df.iloc[1,1]]
     X_tfidf = model.improve(X_test, vocabulary)
     pred = grad_model.predict_proba(X_tfidf)
-    formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
-    return render_template('index.html',
-                            job_title = job_title,
-                            job_company=job_company,
-                            job_desc=job_desc,
-                            prediction=formated_string)
+    return render_template('index.html', job_desc=job_desc, prediction=pred[0][0])
+
+
+
+
 
 
 class Main():
