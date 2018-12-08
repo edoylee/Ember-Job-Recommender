@@ -805,6 +805,10 @@ def remove_dups(train, test):
                 final_jobs.drop(index=final_jobs[final_jobs.jobs == test_job].index[0], inplace=True)
     return final_jobs
 
+@app.route('/get_linked', methods=['POST', 'GET'])
+def get_linked():
+    print("it worked")
+
 
 class Main():
     def __init__(self, param=None):

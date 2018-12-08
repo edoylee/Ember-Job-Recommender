@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000;
   text-align: left;
-  background-color: #fff;
+  background-color: #6610f2;
 }
 
 [tabindex="-1"]:focus {
@@ -221,7 +221,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #000;
   text-align: left;
   caption-side: bottom;
 }
@@ -4389,7 +4389,7 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(244, 134, 66, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
