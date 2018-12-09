@@ -149,7 +149,7 @@ class LinkedinScraper():
             experience_seemores = self.browser.find_elements_by_link_text('See more')
             for seemore in experience_seemores:
                 seemore.click()
-                sleep()
+                self.sleep()
         except:
             pass
 
@@ -694,7 +694,7 @@ prediction = Predict(total_df)
 job_title = recommended_posting.iloc[0,1]
 job_company = recommended_posting.iloc[0,2]
 job_desc = recommended_posting.iloc[0,3]
-pred = '...'
+pred = ''
 
 @app.route('/')
 def index():

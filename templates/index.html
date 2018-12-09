@@ -67,21 +67,50 @@
           <div class="card mb-4">
             <img class="card-img-top" src="ember_thankyou_page.png" alt="Card image cap">
             <div class="card-body">
-              <h2 class="card-title">{{job_title}}</h2>
+              <div class="row">
+                <h2 class="card-title">{{job_title}}</h2>
+                <div class="col"></div>
+                <div class="col-sm-1">
+                  <form class="form-inline d-flex" method="POST" action="/handle_yes">
+                      <button type="submit" value="Submit" class="btn btn-primary mx-auto">Yes</button>
+                  </form>
+                </div>
+                <div class="col-sm-1">
+                      <form class="form-inline d-flex" method="POST" action="/handle_no">
+                      <button type="submit" value="Submit" class="btn btn-primary mx-auto">No</button>
+                  </form>
+                </div>
+                <div class="col-sm-1">
+                      <form class="form-inline d-flex" method="POST" action="/convert_to_csv">
+                    <button type="submit" value="Submit" class="btn btn-primary mx-auto">Quit</button>
+                  </form>
+                </div>
+                <div class="col-sm-1"></div>
+              </div>
                   {{job_company}}
               <p class="card-text">
                   {{job_desc}}
                 </p>
-              <form class="form-inline d-flex" method="POST" action="/handle_yes">
-                  <button type="submit" value="Submit" class="btn btn-primary mx-auto">Yes</button>
-              </form>
-              <form class="form-inline d-flex" method="POST" action="/handle_no">
-                  <button type="submit" value="Submit" class="btn btn-primary mx-auto">No</button>
-              </form>
-              <form class="form-inline d-flex" method="POST" action="/convert_to_csv">
-                  <button type="submit" value="Submit" class="btn btn-primary mx-auto">Quit</button>
-              </form>
-            </div>
+              <div class="row">
+                <div class="col"></div>
+                  <div class="col-sm-1">
+                      <form class="form-inline d-flex" method="POST" action="/handle_yes">
+                          <button type="submit" value="Submit" class="btn btn-primary mx-auto">Yes</button>
+                      </form>
+                  </div>
+                  <div class="col-sm-1">
+                    <form class="form-inline d-flex" method="POST" action="/handle_no">
+                        <button type="submit" value="Submit" class="btn btn-primary mx-auto">No</button>
+                    </form>
+                  </div>
+                  <div class="col-sm-1">
+                    <form class="form-inline d-flex" method="POST" action="/convert_to_csv">
+                      <button type="submit" value="Submit" class="btn btn-primary mx-auto">Quit</button>
+                    </form>
+                  </div>
+                <div class="col"></div>
+              </div>  
+            </div>         
             <div class="card-footer text-muted">
               Posted on January 1, 2017 by
               <a href="#">Start Bootstrap</a>
