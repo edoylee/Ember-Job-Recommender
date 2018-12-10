@@ -181,14 +181,12 @@
           <div class="card my-4">
             <h5 class="card-header">Get Your Profile</h5>
             <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <form class="form-inline d-flex" method="GET" action="/get_linked">
-                    <input type="text" name="email" placeholder="Enter email"></input>
-                    <input type="text" name="password" placeholder="Enter password"></input>
-                  </form>
-                </div>
-                <div class="col-lg-6">
+                <form class="form-inline d-flex" method="POST" action="/get_linked">
+                  <input type="text" name="email" placeholder="Enter email"></input>
+                  <input type="password" name="password" placeholder="Enter password"></input>
+                  <input type="text" name="search" placeholder="Enter Job Field"></input>
+                  <button type="submit" value="Submit" class="btn btn-primary mx-auto">Get</button>
+                </form>
                 </div>
               </div>
             </div>

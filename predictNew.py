@@ -1,13 +1,13 @@
 import pandas as pd
 import numpy as np
 from scipy import spatial
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from selenium.webdriver import Firefox
 import time
 import random
 import getpass
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 app = Flask(__name__, static_url_path="")
 
 
@@ -84,9 +84,9 @@ class LinkedinScraper():
     def sleep(self, start=5, end=15):
         return time.sleep(random.randint(start, end))
 
-    def go_to_profile(self):
-        email = input('Please Enter Email ')
-        password = getpass.getpass('Please Enter Password ')
+    def go_to_profile(self, email, password):
+        # email = input('Please Enter Email ')
+        # password = getpass.getpass('Please Enter Password ')
         login_email = self.browser.find_element_by_class_name('login-email')
         login_email.click()
         login_email.send_keys(email)
@@ -171,9 +171,12 @@ class LinkedinScraper():
             self.sleep()
         experience_seemores = self.browser.find_elements_by_link_text('See more')
         self.sleep()
-        for seemore in experience_seemores:
-            seemore.click()
-            self.sleep()
+        try:
+            for seemore in experience_seemores:
+                seemore.click()
+                self.sleep()
+        except:
+            pass
         skills_section = self.browser.find_element_by_class_name('pv-skill-categories-section')
         skills_section.location_once_scrolled_into_view
         self.sleep()
@@ -241,15 +244,16 @@ class LinkedinScraper():
         return [total_string]
 
     def convert_to_csv(self, df):
-        check_variable = input('Proceed? (yes / no)')
-        if check_variable == 'yes':
-            name = input('Enter name: ')
-            df.to_csv('~/galvanize/capstone/Ember-Job-Recommender/data/%s.csv' % name)
-        else:
-            return df
+        df.to_csv('~/galvanize/capstone/Ember-Job-Recommender/data/profile.csv')
+        # check_variable = input('Proceed? (yes / no)')
+        # if check_variable == 'yes':
+        #     name = input('Enter name: ')
+        #     df.to_csv('~/galvanize/capstone/Ember-Job-Recommender/data/%s.csv' % name)
+        # else:
+        #     return df
 
-    def transform(self):
-        self.go_to_profile()
+    def transform(self, email, password):
+        self.go_to_profile(email, password)
         self.second_expand_page()
         profile_df = self.scrape_page()
         consolidated_df = self.get_consolidated_profile(profile_df, profile_df.columns)
@@ -507,18 +511,27 @@ class PreprocessData():
 
     def __init__(self, param=None):
         self.param = param
-        self.vectorizer = TfidfVectorizer(stop_words=CUSTOM_STOP)
-
+        self.cv = CountVectorizer(stop_words=CUSTOM_STOP)
+    
+    def fit_vocabulary(self, profile):
+        df = pd.read_csv(profile, index_col=0)
+        X = [df.iloc[0,2]]
+        self.cv.fit(X)
+        word_dict = self.cv.vocabulary_
+        word_list = list(word_dict.keys())
+        return word_list
 
     def bring_in_data(self, X, y):
         df = pd.read_csv(X, index_col=0)
         y_vector = pd.read_csv(y, index_col=0)
+        word_list = self.fit_vocabulary(y)
+        vectorizer = TfidfVectorizer(stop_words=CUSTOM_STOP, vocabulary=word_list)
         full_df = y_vector.append(df, ignore_index=True)
-        return full_df
+        return full_df, vectorizer
 
-    def get_tfidf(self, df):
-        self.vectorizer.fit(df['jobs'])
-        transformed_model = self.vectorizer.transform(df['jobs'])
+    def get_tfidf(self, df, vectorizer):
+        vectorizer.fit(df['jobs'])
+        transformed_model = vectorizer.transform(df['jobs'])
         tfidf_df = pd.DataFrame(transformed_model.toarray())
         return tfidf_df
 
@@ -542,8 +555,8 @@ class PreprocessData():
         return total_df
 
     def transform(self, X, y):
-        full_df = self.bring_in_data(X, y)
-        tfidf_df = self.get_tfidf(full_df)
+        full_df, vectorizer = self.bring_in_data(X, y)
+        tfidf_df = self.get_tfidf(full_df, vectorizer)
         sorted_distances, indices = self.get_distances(tfidf_df)
         total_df = self.get_total_df(indices, full_df, sorted_distances, tfidf_df)
         return total_df
@@ -606,7 +619,7 @@ class Predict():
         check_variable = input('Proceed? (yes / no)')
         if check_variable == 'yes':
             name = input('Enter name: ')
-            self.df.to_csv('/data/%s.csv' % name)
+            self.df.to_csv('data/%s.csv' % name)
         else:
             return self.df
 
@@ -650,8 +663,8 @@ class FitModel():
     def get_Xy(self, name):
         df = pd.read_csv(name, index_col=0)
         culled_df = df[df.labels != 0.0]
-        X = culled_df.iloc[1:, 1]
-        y = culled_df.iloc[1:, 2]
+        X = culled_df.iloc[1:, 3]
+        y = culled_df.iloc[1:, 4]
         return X, y
 
     def fit_primary(self, X, y):
@@ -686,7 +699,7 @@ class FitModel():
 
 
 data = PreprocessData()
-total_df = data.transform('data/GLASSTEST.csv', 'data/ETHANTEST.csv')
+total_df = data.transform('data/GLASSTEST.csv', 'data/profile.csv')
 test_num = 0
 i = 0
 j = 0
@@ -700,7 +713,10 @@ prediction = Predict(total_df)
 job_title = recommended_posting.iloc[0,1]
 job_company = recommended_posting.iloc[0,2]
 job_desc = recommended_posting.iloc[0,3]
-pred = ''
+formated_string = ''
+model = 0
+grad_model = 0
+vocabulary = ''
 
 @app.route('/')
 def index():
@@ -711,7 +727,7 @@ def index():
                             job_title = job_title,
                             job_company=job_company,
                             job_desc=job_desc,
-                            prediction=pred)
+                            prediction=formated_string)
 
 @app.route('/handle_yes', methods=['POST'])
 def handle_yes():
@@ -724,6 +740,8 @@ def handle_yes():
     global job_title
     global job_company
     global job_desc
+    global grad_model
+    global formated_string
     total_df.iat[next_best_index, 4] = 1.0
     remains_df = pd.DataFrame(total_df[total_df['labels'] == 0.0])
     yes_dist[i] = np.zeros(total_df.shape[0])
@@ -739,11 +757,18 @@ def handle_yes():
     job_title = recommended_posting.iloc[0, 1]
     job_company = recommended_posting.iloc[0, 2]
     job_desc = recommended_posting.iloc[0, 3]
+    try:
+        X_test = total_df['jobs'][1:]
+        X_tfidf = model.improve(X_test, vocabulary)
+        pred = grad_model.fit(recommended_posting.iloc[:,6:])
+        formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
+    except:
+        pass
     return render_template('index.html',
-                            job_title = job_title,
+                            job_title=job_title,
                             job_company=job_company,
                             job_desc=job_desc,
-                            prediction=pred)
+                            prediction=formated_string)
 # def handle_yes():
 #     global total_df
 #     global recommended_posting
@@ -775,6 +800,7 @@ def handle_no():
     global job_title
     global job_company
     global job_desc
+    global formated_string
     total_df.iat[next_best_index, 4] = -1.0
     remains_df = pd.DataFrame(total_df[total_df['labels'] == 0.0])
     no_dist[j] = np.zeros(total_df.shape[0])
@@ -790,11 +816,18 @@ def handle_no():
     job_title = recommended_posting.iloc[0, 1]
     job_company = recommended_posting.iloc[0, 2]
     job_desc = recommended_posting.iloc[0, 3]
+    try:
+        X_test = total_df['jobs'][1:]
+        X_tfidf = model.improve(X_test, vocabulary)
+        pred = grad_model.fit(recommended_posting.iloc[:,6:])
+        formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
+    except:
+        pass
     return render_template('index.html',
-                            job_title = job_title,
+                            job_title=job_title,
                             job_company=job_company,
                             job_desc=job_desc,
-                            prediction=pred)
+                            prediction=formated_string)
 
 # def handle_no():
 #     global total_df
@@ -847,7 +880,7 @@ def convert_to_csv():
                             job_title = job_title,
                             job_company=job_company,
                             job_desc=job_desc,
-                            prediction=pred)
+                            prediction=formated_string)
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -857,16 +890,33 @@ def predict():
     global job_desc
     global pred
     global test_num
+    global data
+    global i
+    global j
+    global yes_dist
+    global no_dist
+    global dist_df
+    global grad_model
+    global vocabulary
+    global model
+    i = 0
+    j = 0
+    next_best_index = 1
+    yes_dist = pd.DataFrame({})
+    no_dist = pd.DataFrame({})
+    dist_df = pd.DataFrame({})
     model = FitModel()
     grad_model, vocabulary = model.transform('~/galvanize/capstone/Ember-Job-Recommender/data/labeled_data.csv')
     final_jobs = remove_dups('data/GLASSTEST.csv', 'data/HOTTEST.csv')
+    final_jobs.to_csv('data/HOTDDUP.csv')
+    total_df = data.transform('data/HOTDDUP.csv', 'data/profile.csv')
     job_title = final_jobs.iloc[test_num, 0]
     job_company = final_jobs.iloc[test_num,1]
     job_desc = final_jobs.iloc[test_num, 2]
-    X_test = [final_jobs.iloc[test_num, 2]]
+    X_test = total_df['jobs'][1:]
     X_tfidf = model.improve(X_test, vocabulary)
     pred = grad_model.predict_proba(X_tfidf)
-    formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
+    formated_string = "%.2f" % (pred[test_num][1]*100) + "% Approval Prediction"
     test_num += 1
     return render_template('index.html',
                             job_title = job_title,
@@ -886,7 +936,13 @@ def remove_dups(train, test):
 
 @app.route('/get_linked', methods=['POST', 'GET'])
 def get_linked():
-    print("it worked")
+    profile = LinkedinScraper()
+    glass = ScrapeGlass()
+    email = request.form['email']
+    password = request.form['password']
+    query = request.form['search']
+    profile.transform(email, password)
+    glass.transform(query)
 
 
 class Main():
