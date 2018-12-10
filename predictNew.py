@@ -758,9 +758,9 @@ def handle_yes():
     job_company = recommended_posting.iloc[0, 2]
     job_desc = recommended_posting.iloc[0, 3]
     try:
-        X_test = total_df['jobs'][1:]
+        X_test = recommended_posting['jobs']
         X_tfidf = model.improve(X_test, vocabulary)
-        pred = grad_model.fit(recommended_posting.iloc[:,6:])
+        pred = grad_model.predict_proba(X_tfidf)
         formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
     except:
         pass
@@ -817,9 +817,9 @@ def handle_no():
     job_company = recommended_posting.iloc[0, 2]
     job_desc = recommended_posting.iloc[0, 3]
     try:
-        X_test = total_df['jobs'][1:]
+        X_test = recommended_posting['jobs']
         X_tfidf = model.improve(X_test, vocabulary)
-        pred = grad_model.fit(recommended_posting.iloc[:,6:])
+        pred = grad_model.predict_proba(X_tfidf)
         formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
     except:
         pass
@@ -899,6 +899,7 @@ def predict():
     global grad_model
     global vocabulary
     global model
+    global next_best_index
     i = 0
     j = 0
     next_best_index = 1
@@ -917,6 +918,7 @@ def predict():
     X_tfidf = model.improve(X_test, vocabulary)
     pred = grad_model.predict_proba(X_tfidf)
     formated_string = "%.2f" % (pred[test_num][1]*100) + "% Approval Prediction"
+    recommended_posting = pd.DataFrame(total_df.iloc[next_best_index, :]).T
     test_num += 1
     return render_template('index.html',
                             job_title = job_title,
