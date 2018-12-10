@@ -688,8 +688,14 @@ class FitModel():
 data = PreprocessData()
 total_df = data.transform('data/GLASSTEST.csv', 'data/ETHANTEST.csv')
 test_num = 0
-index = 1
-recommended_posting = pd.DataFrame(total_df.iloc[index, :]).T
+i = 0
+j = 0
+next_best_index = 1
+yes_dist = pd.DataFrame({})
+no_dist = pd.DataFrame({})
+dist_df = pd.DataFrame({})
+remains_df = pd.DataFrame(total_df[total_df['labels'] == 0.0])
+recommended_posting = pd.DataFrame(total_df.iloc[next_best_index, :]).T
 prediction = Predict(total_df)
 job_title = recommended_posting.iloc[0,1]
 job_company = recommended_posting.iloc[0,2]
@@ -709,57 +715,129 @@ def index():
 
 @app.route('/handle_yes', methods=['POST'])
 def handle_yes():
+    global i
+    global yes_dist
     global total_df
+    global remains_df
+    global next_best_index
     global recommended_posting
     global job_title
     global job_company
     global job_desc
-    original_index = int(recommended_posting['indices'])
-    label_index = total_df[total_df['indices'] == original_index].index[0]
-    total_df.iat[label_index,4] = 1.0
-    remains, next_best_index = find_next_best()
-    recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
-    job_title = remains.iloc[next_best_index, 1]
-    job_company = remains.iloc[next_best_index, 2]
-    job_desc = remains.iloc[next_best_index, 3]
+    total_df.iat[next_best_index, 4] = 1.0
+    remains_df = pd.DataFrame(total_df[total_df['labels'] == 0.0])
+    yes_dist[i] = np.zeros(total_df.shape[0])
+    yes_dist[i].replace(0, np.nan, inplace=True)
+    yes_df = pd.DataFrame(total_df[total_df['labels'] == 1.0])
+    yes_df = yes_df.set_index(np.arange(0, yes_df.shape[0]))
+    for k in remains_df.index:
+        yes_dist.iat[k,i] = (spatial.distance.cosine(yes_df.iloc[i,6:], remains_df.iloc[remains_df.index == k,6:]))
+    i += 1
+    update_dist()
+    print(dist_df, next_best_index)
+    recommended_posting = pd.DataFrame(total_df.iloc[next_best_index, :]).T
+    job_title = recommended_posting.iloc[0, 1]
+    job_company = recommended_posting.iloc[0, 2]
+    job_desc = recommended_posting.iloc[0, 3]
     return render_template('index.html',
                             job_title = job_title,
                             job_company=job_company,
                             job_desc=job_desc,
                             prediction=pred)
+# def handle_yes():
+#     global total_df
+#     global recommended_posting
+#     global job_title
+#     global job_company
+#     global job_desc
+#     original_index = int(recommended_posting['indices'])
+#     label_index = total_df[total_df['indices'] == original_index].index[0]
+#     total_df.iat[label_index,4] = 1.0
+#     remains, next_best_index = find_next_best()
+#     recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
+#     job_title = remains.iloc[next_best_index, 1]
+#     job_company = remains.iloc[next_best_index, 2]
+#     job_desc = remains.iloc[next_best_index, 3]
+#     return render_template('index.html',
+#                             job_title = job_title,
+#                             job_company=job_company,
+#                             job_desc=job_desc,
+#                             prediction=pred)
 
 @app.route('/handle_no', methods=['POST'])
 def handle_no():
+    global j
+    global no_dist
     global total_df
+    global remains_df
+    global next_best_index
     global recommended_posting
     global job_title
     global job_company
     global job_desc
-    original_index = int(recommended_posting['indices'])
-    label_index = total_df[total_df['indices'] == original_index].index[0]
-    total_df.iat[label_index,4] = -1.0
-    remains, next_best_index = find_next_best()
-    recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
-    job_title = remains.iloc[next_best_index, 1]
-    job_company = remains.iloc[next_best_index, 2]
-    job_desc = remains.iloc[next_best_index, 3]
+    total_df.iat[next_best_index, 4] = -1.0
+    remains_df = pd.DataFrame(total_df[total_df['labels'] == 0.0])
+    no_dist[j] = np.zeros(total_df.shape[0])
+    no_dist[j].replace(0, np.nan, inplace=True)
+    no_df = pd.DataFrame(total_df[total_df['labels'] == -1.0])
+    no_df = no_df.set_index(np.arange(0, no_df.shape[0]))
+    for k in remains_df.index:
+        no_dist.iat[k,j] = (spatial.distance.cosine(no_df.iloc[j,6:], remains_df.iloc[remains_df.index == k,6:]))
+    j += 1
+    update_dist()
+    print(dist_df, next_best_index)
+    recommended_posting = pd.DataFrame(total_df.iloc[next_best_index, :]).T
+    job_title = recommended_posting.iloc[0, 1]
+    job_company = recommended_posting.iloc[0, 2]
+    job_desc = recommended_posting.iloc[0, 3]
     return render_template('index.html',
                             job_title = job_title,
                             job_company=job_company,
                             job_desc=job_desc,
                             prediction=pred)
 
-def find_next_best():
-    try:
-        yes_remains = prediction.improve_yes(total_df)
-        no_remains = prediction.improve_no(total_df)
-    except TypeError:
-        return prediction.convert_to_csv()
-    total_distance = yes_remains.distances + yes_remains.distances_from_yes - no_remains.distances_from_no
-    remains = yes_remains.copy()
-    remains['total_distance'] = total_distance
-    next_best_index = remains.total_distance.idxmin()
-    return remains, next_best_index
+# def handle_no():
+#     global total_df
+#     global recommended_posting
+#     global job_title
+#     global job_company
+#     global job_desc
+#     original_index = int(recommended_posting['indices'])
+#     label_index = total_df[total_df['indices'] == original_index].index[0]
+#     total_df.iat[label_index,4] = -1.0
+#     remains, next_best_index = find_next_best()
+#     recommended_posting = pd.DataFrame(remains.iloc[next_best_index, :]).T
+#     job_title = remains.iloc[next_best_index, 1]
+#     job_company = remains.iloc[next_best_index, 2]
+#     job_desc = remains.iloc[next_best_index, 3]
+#     return render_template('index.html',
+#                             job_title = job_title,
+#                             job_company=job_company,
+#                             job_desc=job_desc,
+#                             prediction=pred)
+
+def update_dist():
+    global dist_df
+    global next_best_index
+    dist_df['indices'] = remains_df['indices']
+    dist_df['yes_sum'] = np.sum(yes_dist, axis=1)
+    dist_df['no_sum'] = np.sum(no_dist, axis=1)
+    dist_df = dist_df.fillna(0)
+    dist_df['total_dist'] = remains_df['distances'] + dist_df['yes_sum'] - dist_df['no_sum']
+    index_min = dist_df['indices'][dist_df['total_dist'].idxmin()]
+    next_best_index = total_df[total_df['indices'] == index_min].index[0]
+
+# def find_next_best():
+#     try:
+#         yes_remains = prediction.improve_yes(total_df)
+#         no_remains = prediction.improve_no(total_df)
+#     except TypeError:
+#         return prediction.convert_to_csv()
+#     total_distance = yes_remains.distances + yes_remains.distances_from_yes - no_remains.distances_from_no
+#     remains = yes_remains.copy()
+#     remains['total_distance'] = total_distance
+#     next_best_index = remains.total_distance.idxmin()
+#     return remains, next_best_index
 
 @app.route('/convert_to_csv', methods=['POST'])
 def convert_to_csv():
@@ -770,6 +848,7 @@ def convert_to_csv():
                             job_company=job_company,
                             job_desc=job_desc,
                             prediction=pred)
+
 @app.route('/predict', methods=['POST'])
 def predict():
     global total_df
