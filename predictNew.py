@@ -761,7 +761,7 @@ def handle_yes():
         X_test = recommended_posting['jobs']
         X_tfidf = model.improve(X_test, vocabulary)
         pred = grad_model.predict_proba(X_tfidf)
-        formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
+        formated_string = "%.2f" % (pred[0][1]*100) + "% Chance you will like this job"
     except:
         pass
     return render_template('index.html',
@@ -820,7 +820,7 @@ def handle_no():
         X_test = recommended_posting['jobs']
         X_tfidf = model.improve(X_test, vocabulary)
         pred = grad_model.predict_proba(X_tfidf)
-        formated_string = "%.2f" % (pred[0][1]*100) + "% Approval Prediction"
+        formated_string = "%.2f" % (pred[0][1]*100) + "% chance you will like this job"
     except:
         pass
     return render_template('index.html',
@@ -917,7 +917,7 @@ def predict():
     X_test = total_df['jobs'][1:]
     X_tfidf = model.improve(X_test, vocabulary)
     pred = grad_model.predict_proba(X_tfidf)
-    formated_string = "%.2f" % (pred[test_num][1]*100) + "% Approval Prediction"
+    formated_string = "%.2f" % (pred[test_num][1]*100) + "% chance you will like this job"
     recommended_posting = pd.DataFrame(total_df.iloc[next_best_index, :]).T
     test_num += 1
     return render_template('index.html',
