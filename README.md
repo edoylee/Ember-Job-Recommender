@@ -86,8 +86,8 @@
 
   Through this platform people who are searching for work can automate a frustrating and ongoing process of determining which jobs they like and intend to apply for and which ones they will discard. The data gathered for this project was from Linked In<sup>[19][linkedin]</sup>, and Glassdoor<sup>[20][glass]</sup>. A Bootstrap template was used for the front end development, combined with Flask.   
 
-[glass]: www.glassdoor.com
-[linkedin]: www.linkedin.com
+[glass]: https://www.glassdoor.com
+[linkedin]: https://www.linkedin.com
 [selenium]: https://www.seleniumhq.org/docs/03_webdriver.jsp
 [cv]:https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
 [tfidf]: https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
