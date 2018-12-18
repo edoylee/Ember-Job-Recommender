@@ -5,7 +5,9 @@
 [Overview](#overview)  
 [Methodology](#methodology)  
 [Modeling](#modeling)  
-[Technology](#technology)
+[Technology](#technology)  
+[Next Steps](#nextsteps)  
+[Conclusion](#conclusion)
 
 <a name="overview"></a>
 #### _Overview_
