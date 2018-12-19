@@ -1,0 +1,5 @@
+notebooks/
+data/chris_complete_training.csv
+data/chris_model_eval.csv
+data/chris_profile.csv
+data/chris_training.csv
